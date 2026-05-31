@@ -1,0 +1,1330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Medi-Cure is a homeopathic medicine store and clinic offering authentic remedies, prescription ordering, and consultations with Dr. Achintya Kumar Som."
+    />
+    <title>Medi-Cure Homeopathy | Clinic and Medicine Store</title>
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --ink: #16302b;
+        --muted: #66746f;
+        --line: #dbe4df;
+        --paper: #fbfaf4;
+        --white: #ffffff;
+        --mint: #e9f5eb;
+        --sage: #91b89a;
+        --teal: #0f5b50;
+        --green: #24a85f;
+        --green-dark: #158048;
+        --gold: #c99132;
+        --rose: #f3dfd6;
+        --shadow: 0 22px 60px rgba(22, 48, 43, 0.14);
+        --radius: 8px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        color: var(--ink);
+        background: var(--paper);
+        font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.55;
+      }
+
+      body.menu-open {
+        overflow: hidden;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      img {
+        display: block;
+        max-width: 100%;
+      }
+
+      button,
+      input {
+        font: inherit;
+      }
+
+      .shell {
+        width: min(1160px, calc(100% - 40px));
+        margin: 0 auto;
+      }
+
+      .site-header {
+        position: sticky;
+        top: 0;
+        z-index: 20;
+        border-bottom: 1px solid rgba(219, 228, 223, 0.82);
+        background: rgba(251, 250, 244, 0.92);
+        backdrop-filter: blur(18px);
+      }
+
+      .nav {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        align-items: center;
+        gap: 28px;
+        min-height: 76px;
+      }
+
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: 800;
+        letter-spacing: 0;
+      }
+
+      .brand-mark {
+        display: grid;
+        place-items: center;
+        width: 38px;
+        height: 38px;
+        border-radius: 8px;
+        background: var(--teal);
+        color: #e9fff0;
+        box-shadow: 0 10px 22px rgba(15, 91, 80, 0.18);
+      }
+
+      .brand small {
+        display: block;
+        color: var(--muted);
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+
+      .nav-links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+        color: #39504a;
+        font-size: 14px;
+        font-weight: 700;
+      }
+
+      .nav-links a {
+        padding: 12px 0;
+      }
+
+      .nav-links a:hover {
+        color: var(--teal);
+      }
+
+      .nav-actions {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .icon-button {
+        display: none;
+        place-items: center;
+        width: 42px;
+        height: 42px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--white);
+        color: var(--ink);
+        cursor: pointer;
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        min-height: 46px;
+        padding: 0 18px;
+        border: 1px solid transparent;
+        border-radius: 8px;
+        font-weight: 800;
+        cursor: pointer;
+        transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease;
+      }
+
+      .btn:hover {
+        transform: translateY(-1px);
+      }
+
+      .btn-primary {
+        color: #fff;
+        background: var(--green);
+        box-shadow: 0 12px 26px rgba(36, 168, 95, 0.28);
+      }
+
+      .btn-primary:hover {
+        background: var(--green-dark);
+      }
+
+      .btn-secondary {
+        color: var(--teal);
+        background: #fff;
+        border-color: var(--line);
+      }
+
+      .btn-dark {
+        color: #fff;
+        background: var(--teal);
+        box-shadow: 0 14px 30px rgba(15, 91, 80, 0.2);
+      }
+
+      .hero {
+        position: relative;
+        min-height: calc(100vh - 76px);
+        display: grid;
+        align-items: center;
+        padding: 56px 0 36px;
+        overflow: hidden;
+      }
+
+      .hero::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background:
+          linear-gradient(90deg, rgba(251, 250, 244, 0.98) 0%, rgba(251, 250, 244, 0.92) 48%, rgba(251, 250, 244, 0.18) 100%),
+          url("https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&w=2200&q=85") center right / cover;
+        z-index: -2;
+      }
+
+      .hero::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 120px;
+        background: linear-gradient(180deg, rgba(251, 250, 244, 0), var(--paper));
+        z-index: -1;
+      }
+
+      .hero-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 0.95fr) minmax(360px, 0.65fr);
+        align-items: center;
+        gap: 44px;
+      }
+
+      .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        margin: 0 0 18px;
+        color: var(--teal);
+        font-size: 13px;
+        font-weight: 800;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+
+      .eyebrow::before {
+        content: "";
+        width: 34px;
+        height: 2px;
+        background: var(--gold);
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin-top: 0;
+      }
+
+      h1 {
+        max-width: 780px;
+        margin-bottom: 22px;
+        font-family: "Instrument Serif", Georgia, serif;
+        font-size: clamp(48px, 7vw, 92px);
+        font-weight: 400;
+        line-height: 0.95;
+        letter-spacing: 0;
+      }
+
+      .hero-copy {
+        max-width: 700px;
+        color: #41564f;
+        font-size: clamp(17px, 2vw, 21px);
+      }
+
+      .hero-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+        margin: 30px 0 28px;
+      }
+
+      .hero-trust {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 12px;
+        max-width: 650px;
+      }
+
+      .mini-stat {
+        border: 1px solid rgba(219, 228, 223, 0.88);
+        border-radius: var(--radius);
+        padding: 14px;
+        background: rgba(255, 255, 255, 0.68);
+      }
+
+      .mini-stat strong {
+        display: block;
+        font-size: 20px;
+        line-height: 1.1;
+      }
+
+      .mini-stat span {
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 700;
+      }
+
+      .visual-panel {
+        align-self: stretch;
+        min-height: 580px;
+        display: grid;
+        align-content: end;
+        gap: 14px;
+      }
+
+      .photo-card {
+        position: relative;
+        overflow: hidden;
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        background: var(--mint);
+      }
+
+      .photo-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .photo-main {
+        height: 370px;
+      }
+
+      .photo-row {
+        display: grid;
+        grid-template-columns: 0.82fr 1fr;
+        gap: 14px;
+      }
+
+      .photo-small {
+        height: 174px;
+      }
+
+      .label-chip {
+        position: absolute;
+        left: 14px;
+        bottom: 14px;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 9px 12px;
+        border-radius: 8px;
+        color: #fff;
+        background: rgba(15, 91, 80, 0.86);
+        font-size: 12px;
+        font-weight: 800;
+        backdrop-filter: blur(10px);
+      }
+
+      section {
+        padding: 86px 0;
+      }
+
+      .section-head {
+        display: grid;
+        grid-template-columns: minmax(0, 0.8fr) minmax(260px, 0.45fr);
+        align-items: end;
+        gap: 30px;
+        margin-bottom: 34px;
+      }
+
+      .section-head h2 {
+        margin-bottom: 0;
+        font-family: "Instrument Serif", Georgia, serif;
+        font-size: clamp(36px, 5vw, 58px);
+        font-weight: 400;
+        line-height: 1;
+        letter-spacing: 0;
+      }
+
+      .section-head p {
+        margin-bottom: 0;
+        color: var(--muted);
+      }
+
+      .action-matrix {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+      }
+
+      .matrix-panel {
+        position: relative;
+        min-height: 330px;
+        overflow: hidden;
+        border-radius: var(--radius);
+        color: #fff;
+        background: var(--teal);
+      }
+
+      .matrix-panel::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(180deg, rgba(8, 42, 37, 0.22), rgba(8, 42, 37, 0.82));
+        z-index: 1;
+      }
+
+      .matrix-panel img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .matrix-content {
+        position: absolute;
+        inset: auto 0 0;
+        z-index: 2;
+        padding: 28px;
+      }
+
+      .matrix-content h3 {
+        margin-bottom: 8px;
+        font-family: "Instrument Serif", Georgia, serif;
+        font-size: 38px;
+        font-weight: 400;
+        line-height: 1;
+      }
+
+      .matrix-content p {
+        max-width: 500px;
+        color: rgba(255, 255, 255, 0.86);
+      }
+
+      .upload-band {
+        display: grid;
+        grid-template-columns: 0.78fr 1fr auto;
+        align-items: center;
+        gap: 22px;
+        margin-top: 18px;
+        padding: 24px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: #fff;
+        box-shadow: 0 16px 40px rgba(22, 48, 43, 0.08);
+      }
+
+      .upload-title {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+      }
+
+      .upload-icon {
+        display: grid;
+        place-items: center;
+        flex: 0 0 auto;
+        width: 52px;
+        height: 52px;
+        border-radius: 8px;
+        color: var(--teal);
+        background: var(--mint);
+      }
+
+      .upload-title h3 {
+        margin: 0;
+        font-size: 21px;
+      }
+
+      .upload-band p {
+        margin: 0;
+        color: var(--muted);
+      }
+
+      .steps {
+        background: #fff;
+      }
+
+      .step-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 18px;
+      }
+
+      .step {
+        padding: 26px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: linear-gradient(180deg, #ffffff, #f7fbf7);
+      }
+
+      .step-number {
+        display: inline-grid;
+        place-items: center;
+        width: 42px;
+        height: 42px;
+        margin-bottom: 26px;
+        border-radius: 8px;
+        color: #fff;
+        background: var(--teal);
+        font-weight: 900;
+      }
+
+      .step h3 {
+        margin-bottom: 8px;
+        font-size: 21px;
+      }
+
+      .step p {
+        margin-bottom: 0;
+        color: var(--muted);
+      }
+
+      .wiki-layout {
+        display: grid;
+        grid-template-columns: 0.82fr 1fr;
+        gap: 24px;
+        align-items: start;
+      }
+
+      .wiki-panel {
+        position: sticky;
+        top: 100px;
+      }
+
+      .search-box {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin: 18px 0;
+        padding: 0 16px;
+        min-height: 58px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: #fff;
+      }
+
+      .search-box input {
+        width: 100%;
+        border: 0;
+        outline: 0;
+        background: transparent;
+        color: var(--ink);
+      }
+
+      .tabs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .tab {
+        min-height: 38px;
+        padding: 0 13px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        color: #46615a;
+        background: #fff;
+        font-size: 13px;
+        font-weight: 800;
+        cursor: pointer;
+      }
+
+      .tab.active {
+        color: #fff;
+        border-color: var(--teal);
+        background: var(--teal);
+      }
+
+      .remedy-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+      }
+
+      .remedy-card {
+        min-height: 190px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 22px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: #fff;
+      }
+
+      .remedy-card h3 {
+        margin-bottom: 8px;
+        font-size: 20px;
+      }
+
+      .remedy-card p {
+        color: var(--muted);
+      }
+
+      .remedy-card a {
+        color: var(--green-dark);
+        font-size: 14px;
+        font-weight: 900;
+      }
+
+      .doctor {
+        position: relative;
+        overflow: hidden;
+        background: #102f2a;
+        color: #fff;
+      }
+
+      .doctor::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background:
+          linear-gradient(90deg, rgba(16, 47, 42, 0.92), rgba(16, 47, 42, 0.72)),
+          url("https://images.unsplash.com/photo-1551601651-2a8555f1a136?auto=format&fit=crop&w=1800&q=85") center / cover;
+        opacity: 0.95;
+      }
+
+      .doctor .shell {
+        position: relative;
+        z-index: 1;
+      }
+
+      .doctor-grid {
+        display: grid;
+        grid-template-columns: minmax(280px, 0.58fr) minmax(0, 1fr);
+        gap: 44px;
+        align-items: center;
+      }
+
+      .portrait {
+        overflow: hidden;
+        border-radius: var(--radius);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 24px 70px rgba(0, 0, 0, 0.25);
+      }
+
+      .portrait img {
+        width: 100%;
+        aspect-ratio: 4 / 5;
+        object-fit: cover;
+      }
+
+      .doctor h2 {
+        margin-bottom: 18px;
+        font-family: "Instrument Serif", Georgia, serif;
+        font-size: clamp(40px, 6vw, 68px);
+        font-weight: 400;
+        line-height: 1;
+      }
+
+      .doctor p {
+        color: rgba(255, 255, 255, 0.82);
+      }
+
+      .ribbon {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 22px 0 28px;
+      }
+
+      .ribbon span {
+        padding: 9px 12px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        border-radius: 8px;
+        color: #effff6;
+        background: rgba(255, 255, 255, 0.08);
+        font-size: 13px;
+        font-weight: 800;
+      }
+
+      .specialty-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 16px;
+        margin-top: 30px;
+      }
+
+      .specialty {
+        padding: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        border-radius: var(--radius);
+        background: rgba(255, 255, 255, 0.08);
+      }
+
+      .specialty h3 {
+        margin-bottom: 7px;
+        font-size: 16px;
+      }
+
+      .specialty p {
+        margin-bottom: 0;
+        font-size: 14px;
+      }
+
+      .trust-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 16px;
+      }
+
+      .trust-card {
+        min-height: 172px;
+        padding: 22px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: #fff;
+      }
+
+      .trust-card i {
+        display: grid;
+        place-items: center;
+        width: 42px;
+        height: 42px;
+        margin-bottom: 22px;
+        border-radius: 8px;
+        color: var(--teal);
+        background: var(--mint);
+      }
+
+      .trust-card h3 {
+        margin-bottom: 0;
+        font-size: 17px;
+      }
+
+      .footer {
+        padding: 54px 0 34px;
+        color: rgba(255, 255, 255, 0.82);
+        background: #0b2420;
+      }
+
+      .footer-grid {
+        display: grid;
+        grid-template-columns: 1.1fr 1fr 1fr;
+        gap: 32px;
+      }
+
+      .footer h2,
+      .footer h3 {
+        color: #fff;
+      }
+
+      .footer h2 {
+        margin-bottom: 10px;
+      }
+
+      .footer h3 {
+        margin-bottom: 12px;
+        font-size: 16px;
+      }
+
+      .footer p {
+        margin-bottom: 10px;
+      }
+
+      .footer a {
+        color: #d9fff0;
+        font-weight: 800;
+      }
+
+      .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        margin-top: 38px;
+        padding-top: 22px;
+        border-top: 1px solid rgba(255, 255, 255, 0.14);
+        color: rgba(255, 255, 255, 0.62);
+        font-size: 13px;
+      }
+
+      .mobile-menu {
+        display: none;
+      }
+
+      .disclaimer {
+        max-width: 760px;
+        margin-top: 20px;
+        color: rgba(255, 255, 255, 0.58);
+        font-size: 12px;
+      }
+
+      @media (max-width: 980px) {
+        .nav {
+          grid-template-columns: auto auto;
+          justify-content: space-between;
+        }
+
+        .nav-links {
+          display: none;
+        }
+
+        .icon-button {
+          display: grid;
+        }
+
+        .hero {
+          min-height: auto;
+          padding-top: 44px;
+        }
+
+        .hero-grid,
+        .section-head,
+        .wiki-layout,
+        .doctor-grid,
+        .footer-grid,
+        .upload-band {
+          grid-template-columns: 1fr;
+        }
+
+        .visual-panel {
+          min-height: 0;
+        }
+
+        .wiki-panel {
+          position: static;
+        }
+
+        .specialty-grid,
+        .trust-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .mobile-menu {
+          position: fixed;
+          inset: 76px 0 auto;
+          z-index: 18;
+          display: none;
+          padding: 18px 20px 24px;
+          border-bottom: 1px solid var(--line);
+          background: var(--paper);
+          box-shadow: 0 16px 40px rgba(22, 48, 43, 0.12);
+        }
+
+        body.menu-open .mobile-menu {
+          display: grid;
+          gap: 6px;
+        }
+
+        .mobile-menu a {
+          padding: 13px 0;
+          border-bottom: 1px solid rgba(219, 228, 223, 0.72);
+          font-weight: 800;
+        }
+      }
+
+      @media (max-width: 720px) {
+        .shell {
+          width: min(100% - 28px, 1160px);
+        }
+
+        .nav {
+          min-height: 68px;
+        }
+
+        .nav-actions .btn {
+          display: none;
+        }
+
+        .mobile-menu {
+          inset-block-start: 68px;
+        }
+
+        .hero {
+          padding-top: 32px;
+        }
+
+        .hero::before {
+          background:
+            linear-gradient(180deg, rgba(251, 250, 244, 0.97) 0%, rgba(251, 250, 244, 0.84) 58%, rgba(251, 250, 244, 0.42) 100%),
+            url("https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&w=1400&q=82") center / cover;
+        }
+
+        h1 {
+          font-size: clamp(45px, 15vw, 66px);
+        }
+
+        .hero-trust,
+        .action-matrix,
+        .step-grid,
+        .remedy-grid,
+        .specialty-grid,
+        .trust-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .photo-main {
+          height: 300px;
+        }
+
+        .photo-row {
+          grid-template-columns: 1fr;
+        }
+
+        .photo-small {
+          height: 220px;
+        }
+
+        .hero-actions,
+        .upload-band {
+          align-items: stretch;
+        }
+
+        .hero-actions .btn,
+        .upload-band .btn {
+          width: 100%;
+        }
+
+        section {
+          padding: 66px 0;
+        }
+
+        .footer-bottom {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="shell nav">
+        <a class="brand" href="#home" aria-label="Medi-Cure home">
+          <span class="brand-mark" aria-hidden="true"><i data-lucide="cross"></i></span>
+          <span>Medi-Cure <small>Homeopathy</small></span>
+        </a>
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a href="#home">Home</a>
+          <a href="#doctor">Meet Dr. Som</a>
+          <a href="#order">Order Medicines</a>
+          <a href="#wiki">Remedy Wiki</a>
+          <a href="#visit">Locate Shop</a>
+        </nav>
+        <div class="nav-actions">
+          <a class="btn btn-primary" data-whatsapp="order" href="#">
+            <i data-lucide="message-circle"></i>
+            Order via WhatsApp
+          </a>
+          <button class="icon-button" type="button" aria-label="Open menu" aria-expanded="false" data-menu-toggle>
+            <i data-lucide="menu"></i>
+          </button>
+        </div>
+      </div>
+      <nav class="mobile-menu" aria-label="Mobile navigation">
+        <a href="#home">Home</a>
+        <a href="#doctor">Meet Dr. Som</a>
+        <a href="#order">Order Medicines</a>
+        <a href="#wiki">Remedy Wiki</a>
+        <a href="#visit">Locate Shop</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="shell hero-grid">
+          <div>
+            <p class="eyebrow">Welcome to Medi-Cure Homeopathy</p>
+            <h1 id="hero-title">Genuine remedies and thoughtful clinical care.</h1>
+            <p class="hero-copy">
+              Consult with Dr. Achintya Kumar Som or order authentic, sealed homeopathic medicines from the Medi-Cure store through a quick WhatsApp chat.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" data-whatsapp="order" href="#">
+                <i data-lucide="message-circle"></i>
+                Tap to Order on WhatsApp
+              </a>
+              <a class="btn btn-secondary" href="#wiki">
+                <i data-lucide="search"></i>
+                Explore Remedy Wiki
+              </a>
+            </div>
+            <div class="hero-trust" aria-label="Practice highlights">
+              <div class="mini-stat"><strong>35+</strong><span>Years of clinical practice</span></div>
+              <div class="mini-stat"><strong>100%</strong><span>Sealed authentic medicines</span></div>
+              <div class="mini-stat"><strong>Chat</strong><span>Order and appointment support</span></div>
+            </div>
+          </div>
+          <div class="visual-panel" aria-label="Medi-Cure clinic and medicine store imagery">
+            <div class="photo-card photo-main">
+              <img
+                src="https://images.unsplash.com/photo-1576602976047-174e57a47881?auto=format&fit=crop&w=1000&q=86"
+                alt="Organized medicine shelves in a pharmacy"
+              />
+              <span class="label-chip"><i data-lucide="shield-check"></i> Authentic sealed stock</span>
+            </div>
+            <div class="photo-row">
+              <div class="photo-card photo-small">
+                <img
+                  src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=650&q=84"
+                  alt="Doctor speaking with a patient in a consultation room"
+                />
+              </div>
+              <div class="photo-card photo-small">
+                <img
+                  src="https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=720&q=84"
+                  alt="Clinical desk with health records and medicine bottles"
+                />
+                <span class="label-chip"><i data-lucide="stethoscope"></i> Clinic consultations</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="order">
+        <div class="shell">
+          <div class="section-head">
+            <h2>Choose what you need today.</h2>
+            <p>Order medicines, check availability, request pickup, or book a consultation without waiting on a long form.</p>
+          </div>
+          <div class="action-matrix">
+            <article class="matrix-panel">
+              <img
+                src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=1100&q=84"
+                alt="Medicine bottles and pharmacy supplies"
+              />
+              <div class="matrix-content">
+                <h3>Medicine Store</h3>
+                <p>Share a prescription photo or medicine list. The store team confirms potency, availability, expiry, and pickup or local delivery options.</p>
+                <a class="btn btn-primary" data-whatsapp="order" href="#"><i data-lucide="message-circle"></i> Start an Order</a>
+              </div>
+            </article>
+            <article class="matrix-panel">
+              <img
+                src="https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?auto=format&fit=crop&w=1100&q=84"
+                alt="Doctor consultation in a calm clinical setting"
+              />
+              <div class="matrix-content">
+                <h3>Clinic Consultation</h3>
+                <p>Request an appointment with Dr. Achintya Kumar Som for classical homeopathic case-taking and care planning.</p>
+                <a class="btn btn-primary" data-whatsapp="appointment" href="#"><i data-lucide="calendar-check"></i> Request a Slot</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="upload-band">
+            <div class="upload-title">
+              <span class="upload-icon" aria-hidden="true"><i data-lucide="camera"></i></span>
+              <div>
+                <h3>Have a prescription?</h3>
+                <p>Snap a picture and send it directly to Medi-Cure on WhatsApp.</p>
+              </div>
+            </div>
+            <p>Useful for complex medicine names, dilutions, and potency combinations that are easier to photograph than type.</p>
+            <a class="btn btn-dark" data-whatsapp="prescription" href="#"><i data-lucide="paperclip"></i> Attach via WhatsApp</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="steps">
+        <div class="shell">
+          <div class="section-head">
+            <h2>Order in three clear steps.</h2>
+            <p>Built for patients and families who want a simple human confirmation before buying medicines.</p>
+          </div>
+          <div class="step-grid">
+            <article class="step">
+              <span class="step-number">1</span>
+              <h3>Snap and Text</h3>
+              <p>Send a prescription photo or type the requested remedies directly into the WhatsApp chat.</p>
+            </article>
+            <article class="step">
+              <span class="step-number">2</span>
+              <h3>Expert Verification</h3>
+              <p>The team confirms names, potencies, dilutions, packaging, and batch expiry before billing.</p>
+            </article>
+            <article class="step">
+              <span class="step-number">3</span>
+              <h3>Pickup or Delivery</h3>
+              <p>Collect your sealed order from the store or coordinate local courier dispatch where available.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="wiki">
+        <div class="shell wiki-layout">
+          <div class="wiki-panel">
+            <p class="eyebrow">Remedy Wiki Preview</p>
+            <h2>Search by symptom or category.</h2>
+            <p>
+              A quick educational starting point for common homeopathic remedy names. Final medicine selection should be confirmed by a qualified practitioner.
+            </p>
+            <label class="search-box" for="remedy-search">
+              <i data-lucide="search"></i>
+              <input id="remedy-search" type="search" placeholder="Type a symptom, for example acidity or cough" />
+            </label>
+            <div class="tabs" role="tablist" aria-label="Remedy categories">
+              <button class="tab active" type="button" data-category="all">All</button>
+              <button class="tab" type="button" data-category="respiratory">Respiratory</button>
+              <button class="tab" type="button" data-category="gastric">Gastric</button>
+              <button class="tab" type="button" data-category="joints">Joints</button>
+              <button class="tab" type="button" data-category="immunity">Immunity</button>
+            </div>
+          </div>
+          <div class="remedy-grid" id="remedy-grid"></div>
+        </div>
+      </section>
+
+      <section class="doctor" id="doctor">
+        <div class="shell">
+          <div class="doctor-grid">
+            <div class="portrait">
+              <img
+                src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=900&q=86"
+                alt="Professional doctor portrait"
+              />
+            </div>
+            <div>
+              <p class="eyebrow">Clinical Authority</p>
+              <h2>Dr. Achintya Kumar Som</h2>
+              <p>
+                Sole Proprietor and Chief Medical Consultant at Medi-Cure, with more than 35 years dedicated to classical homeopathic practice.
+              </p>
+              <div class="ribbon">
+                <span>35+ years clinical experience</span>
+                <span>Classical case-taking</span>
+                <span>Chronic care focus</span>
+              </div>
+              <p>
+                Dr. Som's consultation approach emphasizes the individual patient: health history, recurring patterns, sensitivities, lifestyle context, and long-term care goals.
+              </p>
+              <a class="btn btn-primary" data-whatsapp="appointment" href="#"><i data-lucide="calendar-check"></i> Request a Consultation</a>
+            </div>
+          </div>
+          <div class="specialty-grid">
+            <article class="specialty">
+              <h3>Chronic Lifestyle Ailments</h3>
+              <p>Digestive, metabolic, and recurring systemic concerns requiring deeper case review.</p>
+            </article>
+            <article class="specialty">
+              <h3>Allergic and Respiratory Disorders</h3>
+              <p>Support for long-standing sensitivities, seasonal patterns, asthma, and bronchitis care.</p>
+            </article>
+            <article class="specialty">
+              <h3>Pediatric Homeopathy</h3>
+              <p>Gentle consultation pathways for children and family care discussions.</p>
+            </article>
+            <article class="specialty">
+              <h3>Skin and Dermatological Concerns</h3>
+              <p>Root-pattern evaluation for recurring skin conditions and internal triggers.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="shell">
+          <div class="section-head">
+            <h2>Trust signals that matter.</h2>
+            <p>Simple procurement, clear communication, and human support from first message to final pickup.</p>
+          </div>
+          <div class="trust-grid">
+            <article class="trust-card">
+              <i data-lucide="shield-check"></i>
+              <h3>Sealed authentic German and Indian dilutions</h3>
+            </article>
+            <article class="trust-card">
+              <i data-lucide="calendar-days"></i>
+              <h3>Over 35 years of continuous clinical practice</h3>
+            </article>
+            <article class="trust-card">
+              <i data-lucide="badge-check"></i>
+              <h3>Direct stock checks before order confirmation</h3>
+            </article>
+            <article class="trust-card">
+              <i data-lucide="messages-square"></i>
+              <h3>Real-time human support through WhatsApp</h3>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="visit">
+      <div class="shell">
+        <div class="footer-grid">
+          <div>
+            <h2>Medi-Cure Homeopathy</h2>
+            <p>Homeopathic medicine store and consultation clinic led by Dr. Achintya Kumar Som.</p>
+            <a class="btn btn-primary" data-whatsapp="order" href="#"><i data-lucide="message-circle"></i> WhatsApp Medi-Cure</a>
+          </div>
+          <div>
+            <h3>Store Hours</h3>
+            <p>Monday to Saturday</p>
+            <p>Morning and evening clinic slots available by prior confirmation.</p>
+            <a data-whatsapp="appointment" href="#">Request appointment timing</a>
+          </div>
+          <div>
+            <h3>Visit the Store</h3>
+            <p>Medi-Cure Homeopathy Clinic and Medicine Store</p>
+            <p>Kolkata, West Bengal</p>
+            <a href="https://www.google.com/maps/search/?api=1&query=Medi-Cure%20Homeopathy%20Kolkata" target="_blank" rel="noreferrer">Open map search</a>
+          </div>
+        </div>
+        <p class="disclaimer">
+          Educational remedy information on this website is not a diagnosis, prescription, or emergency medical advice. Please consult a qualified medical practitioner for personal treatment decisions.
+        </p>
+        <div class="footer-bottom">
+          <span>Copyright <span id="year"></span> Medi-Cure Homeopathy. All rights reserved.</span>
+          <span>medicur.in</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script>
+      const WHATSAPP_NUMBER = "";
+
+      const messages = {
+        order: "Hello Medi-Cure, I would like to check medicine availability and place an order.",
+        appointment: "Hello Medi-Cure, I would like to request a consultation appointment with Dr. Achintya Kumar Som.",
+        prescription: "Hello Medi-Cure, I would like to check the availability of this prescription. I will attach a photo here.",
+      };
+
+      const remedies = [
+        {
+          name: "Nux Vomica",
+          category: "gastric",
+          tags: "acidity indigestion digestion sedentary lifestyle",
+          text: "Often discussed for indigestion, acidity, and digestive sluggishness associated with irregular routines.",
+        },
+        {
+          name: "Aconitum Napellus",
+          category: "respiratory",
+          tags: "cough cold sudden onset dry cough fever",
+          text: "Commonly referenced for sudden onset cold states, dry cough, and early acute discomfort patterns.",
+        },
+        {
+          name: "Bryonia Alba",
+          category: "respiratory",
+          tags: "dry cough chest throat movement",
+          text: "Known in materia medica discussions around dry coughs and discomfort aggravated by movement.",
+        },
+        {
+          name: "Rhus Toxicodendron",
+          category: "joints",
+          tags: "joint pain stiffness back pain bones movement",
+          text: "Frequently associated with stiffness and joint discomfort patterns that may change with motion.",
+        },
+        {
+          name: "Calcarea Phosphorica",
+          category: "joints",
+          tags: "bones growth weakness children joints",
+          text: "Often considered in constitutional discussions involving growth, bones, and general weakness.",
+        },
+        {
+          name: "Arsenicum Album",
+          category: "immunity",
+          tags: "immunity weakness anxiety digestion",
+          text: "A deeply studied remedy name connected with weakness, restlessness, and recurring sensitivity patterns.",
+        },
+      ];
+
+      function whatsappUrl(kind, remedyName) {
+        const baseMessage = remedyName
+          ? `Hello Medi-Cure, I would like to ask about ${remedyName}.`
+          : messages[kind] || messages.order;
+        const text = encodeURIComponent(baseMessage);
+        return WHATSAPP_NUMBER ? `https://wa.me/${WHATSAPP_NUMBER}?text=${text}` : `https://wa.me/?text=${text}`;
+      }
+
+      function setWhatsAppLinks() {
+        document.querySelectorAll("[data-whatsapp]").forEach((link) => {
+          link.href = whatsappUrl(link.dataset.whatsapp);
+          link.target = "_blank";
+          link.rel = "noreferrer";
+        });
+      }
+
+      function renderRemedies() {
+        const grid = document.getElementById("remedy-grid");
+        const query = document.getElementById("remedy-search").value.trim().toLowerCase();
+        const active = document.querySelector(".tab.active").dataset.category;
+        const filtered = remedies.filter((item) => {
+          const matchesCategory = active === "all" || item.category === active;
+          const searchable = `${item.name} ${item.tags} ${item.text}`.toLowerCase();
+          return matchesCategory && searchable.includes(query);
+        });
+
+        grid.innerHTML = filtered
+          .map(
+            (item) => `
+              <article class="remedy-card">
+                <div>
+                  <h3>${item.name}</h3>
+                  <p>${item.text}</p>
+                </div>
+                <a href="${whatsappUrl("order", item.name)}" target="_blank" rel="noreferrer">
+                  Add this remedy to my WhatsApp inquiry
+                </a>
+              </article>
+            `
+          )
+          .join("");
+      }
+
+      document.querySelector("[data-menu-toggle]").addEventListener("click", (event) => {
+        const open = document.body.classList.toggle("menu-open");
+        event.currentTarget.setAttribute("aria-expanded", String(open));
+      });
+
+      document.querySelectorAll(".mobile-menu a").forEach((link) => {
+        link.addEventListener("click", () => {
+          document.body.classList.remove("menu-open");
+          document.querySelector("[data-menu-toggle]").setAttribute("aria-expanded", "false");
+        });
+      });
+
+      document.querySelectorAll(".tab").forEach((tab) => {
+        tab.addEventListener("click", () => {
+          document.querySelectorAll(".tab").forEach((item) => item.classList.remove("active"));
+          tab.classList.add("active");
+          renderRemedies();
+        });
+      });
+
+      document.getElementById("remedy-search").addEventListener("input", renderRemedies);
+      document.getElementById("year").textContent = new Date().getFullYear();
+
+      setWhatsAppLinks();
+      renderRemedies();
+      lucide.createIcons({ attrs: { "stroke-width": 2 } });
+    </script>
+  </body>
+</html>
