@@ -1,3 +1,3 @@
 # Medicure Site
 
-Initial repository for the Medicure website.
+Initial repository for the Medicure shop website.
