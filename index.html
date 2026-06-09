@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Medicure is a homeopathic medicine store and clinic offering authentic remedies, prescription ordering, and consultations with Dr. Achintya Kumar Som."
+      content="Medicure Homeopathy in Maniktala, Kolkata offers homeopathic medicines, prescription ordering on WhatsApp, educational remedy guidance, and consultations with Dr. Achintya Kumar Som."
     />
     <title>Medicure Homeopathy | Clinic and Medicine Store</title>
     <link rel="preconnect" href="https://images.unsplash.com" />
@@ -16,6 +16,40 @@
       href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Pharmacy",
+        "name": "Medicure Homeopathy",
+        "description": "Homeopathic medicine store and consultation clinic in Maniktala, Kolkata.",
+        "url": "https://medicur.in/",
+        "telephone": "+91 86478 37624",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "45, Maniktala Main Road",
+          "addressLocality": "Kolkata",
+          "postalCode": "700054",
+          "addressRegion": "West Bengal",
+          "addressCountry": "IN"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "opens": "10:00",
+            "closes": "22:30"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Sunday",
+            "opens": "10:00",
+            "closes": "14:00"
+          }
+        ],
+        "medicalSpecialty": "Homeopathy",
+        "areaServed": "Kolkata"
+      }
+    </script>
     <style>
       :root {
         --ink: #16302b;
@@ -143,6 +177,17 @@
         gap: 10px;
       }
 
+      .language-toggle {
+        min-height: 40px;
+        padding: 0 12px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        color: var(--teal);
+        background: #fff;
+        font-weight: 900;
+        cursor: pointer;
+      }
+
       .icon-button {
         display: none;
         place-items: center;
@@ -193,6 +238,11 @@
         color: #fff;
         background: var(--teal);
         box-shadow: 0 14px 30px rgba(15, 91, 80, 0.2);
+      }
+
+      .btn[aria-disabled="true"] {
+        opacity: 0.5;
+        pointer-events: none;
       }
 
       .hero {
@@ -527,6 +577,18 @@
         top: 100px;
       }
 
+      .wiki-panel h2 {
+        margin-bottom: 16px;
+        font-family: "Instrument Serif", Georgia, serif;
+        font-size: clamp(38px, 5vw, 62px);
+        font-weight: 400;
+        line-height: 1;
+      }
+
+      .wiki-panel p {
+        color: var(--muted);
+      }
+
       .search-box {
         display: flex;
         align-items: center;
@@ -571,6 +633,51 @@
         background: var(--teal);
       }
 
+      .finder-card {
+        margin-top: 18px;
+        padding: 18px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: #fff;
+      }
+
+      .finder-card h3 {
+        margin-bottom: 10px;
+        font-size: 18px;
+      }
+
+      .field-grid {
+        display: grid;
+        gap: 10px;
+      }
+
+      .field-grid label {
+        display: grid;
+        gap: 6px;
+        color: #39504a;
+        font-size: 12px;
+        font-weight: 800;
+      }
+
+      .field-grid select {
+        min-height: 42px;
+        padding: 0 12px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        color: var(--ink);
+        background: #fff;
+      }
+
+      .safety-note {
+        margin-top: 16px;
+        padding: 14px;
+        border: 1px solid #edd2a2;
+        border-radius: var(--radius);
+        color: #5f451f;
+        background: #fff7e8;
+        font-size: 13px;
+      }
+
       .remedy-grid {
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -597,10 +704,199 @@
         color: var(--muted);
       }
 
+      .remedy-card .bangla {
+        color: #37534b;
+        font-size: 14px;
+      }
+
+      .remedy-meta,
+      .remedy-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 7px;
+        margin: 12px 0;
+      }
+
+      .remedy-meta span,
+      .remedy-tags span {
+        padding: 5px 8px;
+        border-radius: 999px;
+        color: #46615a;
+        background: var(--mint);
+        font-size: 11px;
+        font-weight: 800;
+      }
+
+      .remedy-card small {
+        display: block;
+        margin-bottom: 14px;
+        color: #7f8c87;
+        font-size: 12px;
+      }
+
       .remedy-card a {
         color: var(--green-dark);
         font-size: 14px;
         font-weight: 900;
+      }
+
+      .empty-state {
+        grid-column: 1 / -1;
+        padding: 24px;
+        border: 1px dashed var(--line);
+        border-radius: var(--radius);
+        color: var(--muted);
+        background: #fff;
+      }
+
+      .remedy-controls {
+        grid-column: 1 / -1;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 16px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: #fff;
+      }
+
+      .remedy-count {
+        margin: 0;
+        color: var(--muted);
+        font-size: 13px;
+        font-weight: 700;
+      }
+
+      .optin-section {
+        background: #fff;
+      }
+
+      .optin-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 0.9fr) minmax(300px, 0.48fr);
+        gap: 24px;
+        align-items: stretch;
+      }
+
+      .consent-box,
+      .qr-card {
+        padding: 26px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: #fff;
+        box-shadow: 0 16px 40px rgba(22, 48, 43, 0.08);
+      }
+
+      .consent-check {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+        margin: 20px 0;
+        color: #39504a;
+        font-weight: 700;
+      }
+
+      .consent-check input {
+        width: 18px;
+        height: 18px;
+        margin-top: 3px;
+        accent-color: var(--green);
+      }
+
+      .consent-box .fineprint,
+      .qr-card .fineprint {
+        margin-top: 14px;
+        color: var(--muted);
+        font-size: 12px;
+      }
+
+      .qr-card {
+        display: grid;
+        justify-items: center;
+        text-align: center;
+      }
+
+      .qr-card img {
+        width: min(220px, 100%);
+        margin: 8px 0 16px;
+        border: 8px solid #fff;
+        border-radius: var(--radius);
+        box-shadow: 0 12px 28px rgba(22, 48, 43, 0.12);
+      }
+
+      .location-section {
+        background: #f7fbf7;
+      }
+
+      .location-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 0.75fr) minmax(340px, 0.65fr);
+        gap: 26px;
+        align-items: stretch;
+      }
+
+      .location-card,
+      .faq-card {
+        padding: 26px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: #fff;
+      }
+
+      .info-list {
+        display: grid;
+        gap: 14px;
+        margin: 22px 0;
+      }
+
+      .info-list div {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+      }
+
+      .info-list i {
+        flex: 0 0 auto;
+        color: var(--teal);
+      }
+
+      .info-list p {
+        margin-bottom: 0;
+        color: var(--muted);
+      }
+
+      .map-frame {
+        overflow: hidden;
+        min-height: 420px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: #fff;
+      }
+
+      .map-frame iframe {
+        width: 100%;
+        height: 100%;
+        min-height: 420px;
+        border: 0;
+      }
+
+      .faq-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+        margin-top: 18px;
+      }
+
+      .faq-card h3 {
+        margin-bottom: 8px;
+        font-size: 17px;
+      }
+
+      .faq-card p {
+        margin-bottom: 0;
+        color: var(--muted);
       }
 
       .doctor {
@@ -807,6 +1103,8 @@
         .hero-grid,
         .section-head,
         .wiki-layout,
+        .optin-grid,
+        .location-grid,
         .doctor-grid,
         .footer-grid,
         .upload-band {
@@ -884,6 +1182,7 @@
         .action-matrix,
         .step-grid,
         .remedy-grid,
+        .faq-grid,
         .specialty-grid,
         .trust-grid {
           grid-template-columns: 1fr;
@@ -932,10 +1231,11 @@
           <a href="#home">Home</a>
           <a href="#doctor">Meet Dr. Som</a>
           <a href="#order">Order Medicines</a>
-          <a href="#wiki">Remedy Wiki</a>
+          <a href="#wiki">Remedy Finder</a>
           <a href="#visit">Locate Shop</a>
         </nav>
         <div class="nav-actions">
+          <button class="language-toggle" type="button" data-language-toggle aria-label="Switch to Bengali">বাংলা</button>
           <a class="btn btn-primary" data-whatsapp="order" href="#">
             <i data-lucide="message-circle"></i>
             Order via WhatsApp
@@ -949,8 +1249,9 @@
         <a href="#home">Home</a>
         <a href="#doctor">Meet Dr. Som</a>
         <a href="#order">Order Medicines</a>
-        <a href="#wiki">Remedy Wiki</a>
+        <a href="#wiki">Remedy Finder</a>
         <a href="#visit">Locate Shop</a>
+        <button class="language-toggle" type="button" data-language-toggle aria-label="Switch to Bengali">বাংলা</button>
       </nav>
     </header>
 
@@ -970,7 +1271,7 @@
               </a>
               <a class="btn btn-secondary" href="#wiki">
                 <i data-lucide="search"></i>
-                Explore Remedy Wiki
+                Explore Remedy Finder
               </a>
             </div>
             <div class="hero-trust" aria-label="Practice highlights">
@@ -985,7 +1286,7 @@
                 src="https://images.unsplash.com/photo-1576602976047-174e57a47881?auto=format&fit=crop&w=1000&q=86"
                 alt="Organized medicine shelves in a pharmacy"
               />
-              <span class="label-chip"><i data-lucide="shield-check"></i> Authentic sealed stock</span>
+              <span class="label-chip"><i data-lucide="shield-check"></i> Authentic sealed medicines</span>
             </div>
             <div class="photo-row">
               <div class="photo-card photo-small">
@@ -1010,7 +1311,7 @@
         <div class="shell">
           <div class="section-head">
             <h2>Choose what you need today.</h2>
-            <p>Order medicines, check availability, request pickup, or book a consultation without waiting on a long form.</p>
+            <p>Order medicines, share prescriptions, request pickup, or book a consultation without waiting on a long form.</p>
           </div>
           <div class="action-matrix">
             <article class="matrix-panel">
@@ -1020,7 +1321,7 @@
               />
               <div class="matrix-content">
                 <h3>Medicine Store</h3>
-                <p>Share a prescription photo or medicine list. The store team confirms potency, availability, expiry, and pickup or local delivery options.</p>
+                <p>Share a prescription photo or medicine list. The store team confirms names, potency, packaging, and pickup or local delivery options.</p>
                 <a class="btn btn-primary" data-whatsapp="order" href="#"><i data-lucide="message-circle"></i> Start an Order</a>
               </div>
             </article>
@@ -1045,7 +1346,7 @@
                 <p>Snap a picture and send it directly to Medicure on WhatsApp.</p>
               </div>
             </div>
-            <p>Useful for complex medicine names, dilutions, and potency combinations that are easier to photograph than type.</p>
+            <p>Useful for handwritten prescriptions, complex medicine names, dilutions, and potency combinations that are easier to photograph than type.</p>
             <a class="btn btn-dark" data-whatsapp="prescription" href="#"><i data-lucide="paperclip"></i> Attach via WhatsApp</a>
           </div>
         </div>
@@ -1080,14 +1381,14 @@
       <section id="wiki">
         <div class="shell wiki-layout">
           <div class="wiki-panel">
-            <p class="eyebrow">Remedy Wiki Preview</p>
-            <h2>Search by symptom or category.</h2>
+            <p class="eyebrow">Remedy Finder</p>
+            <h2>Explore remedy patterns in English and Bengali.</h2>
             <p>
-              A quick educational starting point for common homeopathic remedy names. Final medicine selection should be confirmed by a qualified practitioner.
+              A guided educational starting point built from classical materia medica references and reviewed for patient-friendly language. Final medicine selection should be confirmed by a qualified practitioner.
             </p>
             <label class="search-box" for="remedy-search">
               <i data-lucide="search"></i>
-              <input id="remedy-search" type="search" placeholder="Type a symptom, for example acidity or cough" />
+              <input id="remedy-search" type="search" placeholder="Search acidity, cough, stiffness, anxiety, অম্বল, কাশি" />
             </label>
             <div class="tabs" role="tablist" aria-label="Remedy categories">
               <button class="tab active" type="button" data-category="all">All</button>
@@ -1095,9 +1396,74 @@
               <button class="tab" type="button" data-category="gastric">Gastric</button>
               <button class="tab" type="button" data-category="joints">Joints</button>
               <button class="tab" type="button" data-category="immunity">Immunity</button>
+              <button class="tab" type="button" data-category="skin">Skin</button>
+              <button class="tab" type="button" data-category="children">Children</button>
+              <button class="tab" type="button" data-category="stress">Stress/Sleep</button>
+              <button class="tab" type="button" data-category="women">Women</button>
+            </div>
+            <div class="finder-card" aria-label="Guided remedy finder">
+              <h3>Quick pattern finder</h3>
+              <div class="field-grid">
+                <label>
+                  Main concern
+                  <select id="concern-filter">
+                    <option value="">Any concern</option>
+                    <option value="gastric">Acidity / digestion</option>
+                    <option value="respiratory">Cold / cough</option>
+                    <option value="joints">Joint or muscle stiffness</option>
+                    <option value="skin">Skin irritation</option>
+                    <option value="children">Children's complaints</option>
+                    <option value="anxiety">Restlessness / anxiety</option>
+                    <option value="stress">Stress / sleep</option>
+                    <option value="women">Women's health patterns</option>
+                  </select>
+                </label>
+                <label>
+                  Pattern
+                  <select id="pattern-filter">
+                    <option value="">Any pattern</option>
+                    <option value="sudden">Sudden onset</option>
+                    <option value="dry">Dryness</option>
+                    <option value="motion">Worse or better with motion</option>
+                    <option value="food">Food or routine related</option>
+                    <option value="night">Night aggravation</option>
+                    <option value="weakness">Weakness or sensitivity</option>
+                    <option value="cold">Cold sensitivity</option>
+                    <option value="heat">Heat sensitivity</option>
+                  </select>
+                </label>
+              </div>
+            </div>
+            <div class="safety-note">
+              Educational guidance only. This finder does not diagnose, prescribe, or suggest dosage. For severe symptoms, infants, breathing difficulty, chest pain, dehydration, persistent bleeding, or high fever, seek urgent medical care.
             </div>
           </div>
           <div class="remedy-grid" id="remedy-grid"></div>
+        </div>
+      </section>
+
+      <section class="optin-section" id="updates">
+        <div class="shell optin-grid">
+          <div class="consent-box">
+            <p class="eyebrow">WhatsApp Updates</p>
+            <h2>Join Medicure reminders and offers.</h2>
+            <p>Get reorder reminders, clinic timing updates, and store announcements on WhatsApp. Consent is recorded inside your WhatsApp chat.</p>
+            <label class="consent-check">
+              <input id="marketing-consent" type="checkbox" />
+              <span>I agree to receive WhatsApp updates, reorder reminders, and offers from Medicure.</span>
+            </label>
+            <a class="btn btn-primary" data-whatsapp="join" data-consent-button href="#" aria-disabled="true">
+              <i data-lucide="message-circle"></i>
+              Send JOIN on WhatsApp
+            </a>
+            <p class="fineprint">Reply STOP anytime to opt out. We will not use this as medical advice or emergency support.</p>
+          </div>
+          <div class="qr-card">
+            <h3>Scan to message Medicure</h3>
+            <img id="whatsapp-qr" alt="WhatsApp QR code for Medicure" />
+            <p>Use this QR on posters, bills, and store counters for fast repeat orders.</p>
+            <p class="fineprint">This opens the shop WhatsApp number with a short greeting.</p>
+          </div>
         </div>
       </section>
 
@@ -1148,35 +1514,72 @@
         </div>
       </section>
 
-      <section>
+      <section class="location-section" id="visit">
         <div class="shell">
           <div class="section-head">
-            <h2>Trust signals that matter.</h2>
-            <p>Simple procurement, clear communication, and human support from first message to final pickup.</p>
+            <h2>Visit Medicure in Maniktala.</h2>
+            <p>Find the clinic and medicine store on Maniktala Main Road, with long weekday hours and Sunday morning service.</p>
           </div>
-          <div class="trust-grid">
-            <article class="trust-card">
-              <i data-lucide="shield-check"></i>
-              <h3>Sealed authentic German and Indian dilutions</h3>
+          <div class="location-grid">
+            <div class="location-card">
+              <h3>Medicure Homeopathy Clinic and Medicine Store</h3>
+              <div class="info-list">
+                <div>
+                  <i data-lucide="map-pin"></i>
+                  <p>45, Maniktala Main Road, Kolkata 700054</p>
+                </div>
+                <div>
+                  <i data-lucide="clock"></i>
+                  <p>Monday to Saturday: 10:00 AM-10:30 PM<br />Sunday: 10:00 AM-2:00 PM</p>
+                </div>
+                <div>
+                  <i data-lucide="message-circle"></i>
+                  <p>Medicine orders and prescription photos are handled on WhatsApp.</p>
+                </div>
+              </div>
+              <div class="hero-actions">
+                <a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&query=45%2C%20Maniktala%20Main%20Road%2C%20Kolkata%20700054" target="_blank" rel="noreferrer">
+                  <i data-lucide="map"></i>
+                  Open Google Maps
+                </a>
+                <a class="btn btn-secondary" data-whatsapp="order" href="#">
+                  <i data-lucide="message-circle"></i>
+                  WhatsApp the Store
+                </a>
+              </div>
+            </div>
+            <div class="map-frame" aria-label="Google map for Medicure Homeopathy">
+              <iframe
+                title="Medicure Homeopathy location map"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps?q=45%2C%20Maniktala%20Main%20Road%2C%20Kolkata%20700054&output=embed"
+              ></iframe>
+            </div>
+          </div>
+          <div class="faq-grid">
+            <article class="faq-card">
+              <h3>Can I send a prescription photo?</h3>
+              <p>Yes. Use the WhatsApp prescription button and attach a clear photo of the full prescription.</p>
             </article>
-            <article class="trust-card">
-              <i data-lucide="calendar-days"></i>
-              <h3>Over 35 years of continuous clinical practice</h3>
+            <article class="faq-card">
+              <h3>Can I ask about a remedy?</h3>
+              <p>Yes. The remedy finder can start an educational inquiry, and final selection should be confirmed by a practitioner.</p>
             </article>
-            <article class="trust-card">
-              <i data-lucide="badge-check"></i>
-              <h3>Direct stock checks before order confirmation</h3>
+            <article class="faq-card">
+              <h3>Do I need an appointment?</h3>
+              <p>Appointments are recommended for consultations with Dr. Achintya Kumar Som.</p>
             </article>
-            <article class="trust-card">
-              <i data-lucide="messages-square"></i>
-              <h3>Real-time human support through WhatsApp</h3>
+            <article class="faq-card">
+              <h3>Is Sunday open?</h3>
+              <p>Yes. Sunday hours are 10:00 AM-2:00 PM.</p>
             </article>
           </div>
         </div>
       </section>
     </main>
 
-    <footer class="footer" id="visit">
+    <footer class="footer">
       <div class="shell">
         <div class="footer-grid">
           <div>
@@ -1186,15 +1589,15 @@
           </div>
           <div>
             <h3>Store Hours</h3>
-            <p>Monday to Saturday</p>
-            <p>Morning and evening clinic slots available by prior confirmation.</p>
+            <p>Mon-Sat: 10:00 AM-10:30 PM</p>
+            <p>Sun: 10:00 AM-2:00 PM</p>
             <a data-whatsapp="appointment" href="#">Request appointment timing</a>
           </div>
           <div>
             <h3>Visit the Store</h3>
-            <p>Medicure Homeopathy Clinic and Medicine Store</p>
-            <p>Kolkata, West Bengal</p>
-            <a href="https://www.google.com/maps/search/?api=1&query=Medicure%20Homeopathy%20Kolkata" target="_blank" rel="noreferrer">Open map search</a>
+            <p>45, Maniktala Main Road</p>
+            <p>Kolkata 700054</p>
+            <a href="https://www.google.com/maps/search/?api=1&query=45%2C%20Maniktala%20Main%20Road%2C%20Kolkata%20700054" target="_blank" rel="noreferrer">Open map search</a>
           </div>
         </div>
         <p class="disclaimer">
@@ -1209,59 +1612,639 @@
 
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
     <script>
-      const WHATSAPP_NUMBER = "";
+      const WHATSAPP_ORDER_NUMBER = "918647837624";
+      const WHATSAPP_CONSULTATION_NUMBER = "919830415507";
+
+      const DEFAULT_REMEDY_LIMIT = 6;
+      let remediesExpanded = false;
+      let currentLanguage = localStorage.getItem("medicure-language") || "en";
 
       const messages = {
-        order: "Hello Medicure, I would like to check medicine availability and place an order.",
-        appointment: "Hello Medicure, I would like to request a consultation appointment with Dr. Achintya Kumar Som.",
-        prescription: "Hello Medicure, I would like to check the availability of this prescription. I will attach a photo here.",
+        order: {
+          en: "Hello Medicure, I would like to place a medicine order.",
+          bn: "নমস্কার Medicure, আমি একটি ওষুধের অর্ডার করতে চাই।",
+        },
+        appointment: {
+          en: "Hello Medicure, I would like to request a consultation appointment with Dr. Achintya Kumar Som.",
+          bn: "নমস্কার Medicure, আমি Dr. Achintya Kumar Som-এর সঙ্গে কনসালটেশন অ্যাপয়েন্টমেন্ট নিতে চাই।",
+        },
+        prescription: {
+          en: "Hello Medicure, I would like to place an order from this prescription. I will attach a photo here.",
+          bn: "নমস্কার Medicure, আমি এই প্রেসক্রিপশন অনুযায়ী অর্ডার করতে চাই। আমি এখানে ছবি পাঠাব।",
+        },
+        join: {
+          en: "JOIN - I consent to receive Medicure WhatsApp updates, reorder reminders, and offers. I understand I can reply STOP anytime.",
+          bn: "JOIN - আমি Medicure-এর WhatsApp আপডেট, রি-অর্ডার রিমাইন্ডার এবং অফার পেতে সম্মতি দিচ্ছি। আমি যে কোনও সময় STOP লিখে বন্ধ করতে পারি।",
+        },
       };
+
+      const uiText = {
+        bn: {
+          "Home": "হোম",
+          "Meet Dr. Som": "ডাঃ সোম",
+          "Order Medicines": "ওষুধ অর্ডার",
+          "Remedy Finder": "রেমেডি ফাইন্ডার",
+          "Locate Shop": "দোকানের ঠিকানা",
+          "Order via WhatsApp": "WhatsApp-এ অর্ডার",
+          "Welcome to Medicure Homeopathy": "Medicure Homeopathy-তে স্বাগতম",
+          "Genuine remedies and thoughtful clinical care.": "বিশ্বাসযোগ্য রেমেডি ও যত্নশীল চিকিৎসা সহায়তা।",
+          "Consult with Dr. Achintya Kumar Som or order authentic, sealed homeopathic medicines from the Medicure store through a quick WhatsApp chat.": "Dr. Achintya Kumar Som-এর সঙ্গে কনসাল্ট করুন অথবা একটি দ্রুত WhatsApp চ্যাটের মাধ্যমে Medicure থেকে সিল করা আসল হোমিওপ্যাথিক ওষুধ অর্ডার করুন।",
+          "Tap to Order on WhatsApp": "WhatsApp-এ অর্ডার করুন",
+          "Explore Remedy Finder": "রেমেডি ফাইন্ডার দেখুন",
+          "Years of clinical practice": "বছরের ক্লিনিক্যাল অভিজ্ঞতা",
+          "Sealed authentic medicines": "সিল করা আসল ওষুধ",
+          "Order and appointment support": "অর্ডার ও অ্যাপয়েন্টমেন্ট সহায়তা",
+          "Authentic sealed medicines": "সিল করা আসল ওষুধ",
+          "Clinic consultations": "ক্লিনিক কনসালটেশন",
+          "Choose what you need today.": "আজ আপনার কী দরকার বেছে নিন।",
+          "Order medicines, share prescriptions, request pickup, or book a consultation without waiting on a long form.": "লম্বা ফর্ম ছাড়াই ওষুধ অর্ডার, প্রেসক্রিপশন পাঠানো, পিকআপ অনুরোধ বা কনসালটেশন বুক করুন।",
+          "Medicine Store": "মেডিসিন স্টোর",
+          "Share a prescription photo or medicine list. The store team confirms names, potency, packaging, and pickup or local delivery options.": "প্রেসক্রিপশনের ছবি বা ওষুধের তালিকা পাঠান। স্টোর টিম নাম, পোটেন্সি, প্যাকেজিং এবং পিকআপ বা লোকাল ডেলিভারির বিষয় নিশ্চিত করবে।",
+          "Start an Order": "অর্ডার শুরু করুন",
+          "Clinic Consultation": "ক্লিনিক কনসালটেশন",
+          "Request an appointment with Dr. Achintya Kumar Som for classical homeopathic case-taking and care planning.": "ক্লাসিক্যাল হোমিওপ্যাথিক কেস-টেকিং ও কেয়ার প্ল্যানিং-এর জন্য Dr. Achintya Kumar Som-এর অ্যাপয়েন্টমেন্ট নিন।",
+          "Request a Slot": "সময় চাইুন",
+          "Have a prescription?": "প্রেসক্রিপশন আছে?",
+          "Snap a picture and send it directly to Medicure on WhatsApp.": "ছবি তুলে সরাসরি WhatsApp-এ Medicure-কে পাঠান।",
+          "Useful for handwritten prescriptions, complex medicine names, dilutions, and potency combinations that are easier to photograph than type.": "হাতে লেখা প্রেসক্রিপশন, জটিল ওষুধের নাম, ডাইলিউশন এবং পোটেন্সি কম্বিনেশন টাইপ করার চেয়ে ছবি পাঠানো সহজ।",
+          "Attach via WhatsApp": "WhatsApp-এ ছবি পাঠান",
+          "Order in three clear steps.": "তিনটি সহজ ধাপে অর্ডার।",
+          "Built for patients and families who want a simple human confirmation before buying medicines.": "যাঁরা ওষুধ কেনার আগে মানুষের কাছ থেকে নিশ্চিতকরণ চান, তাঁদের জন্য সহজ প্রক্রিয়া।",
+          "Snap and Text": "ছবি তুলুন ও পাঠান",
+          "Send a prescription photo or type the requested remedies directly into the WhatsApp chat.": "প্রেসক্রিপশনের ছবি পাঠান বা দরকারি রেমেডির নাম WhatsApp চ্যাটে লিখুন।",
+          "Expert Verification": "বিশেষজ্ঞ যাচাই",
+          "The team confirms names, potencies, dilutions, packaging, and batch expiry before billing.": "বিল করার আগে টিম নাম, পোটেন্সি, ডাইলিউশন, প্যাকেজিং এবং ব্যাচ এক্সপায়ারি দেখে নেয়।",
+          "Pickup or Delivery": "পিকআপ বা ডেলিভারি",
+          "Collect your sealed order from the store or coordinate local courier dispatch where available.": "দোকান থেকে সিল করা অর্ডার নিন বা প্রযোজ্য ক্ষেত্রে লোকাল কুরিয়ারের ব্যবস্থা করুন।",
+          "Explore remedy patterns in English and Bengali.": "ইংরেজি ও বাংলায় রেমেডি প্যাটার্ন দেখুন।",
+          "A guided educational starting point built from classical materia medica references and reviewed for patient-friendly language. Final medicine selection should be confirmed by a qualified practitioner.": "ক্লাসিক্যাল মেটেরিয়া মেডিকা রেফারেন্স থেকে তৈরি সহজ শিক্ষামূলক গাইড। শেষ ওষুধ নির্বাচন অবশ্যই যোগ্য চিকিৎসকের সঙ্গে নিশ্চিত করা উচিত।",
+          "Quick pattern finder": "দ্রুত প্যাটার্ন ফাইন্ডার",
+          "Main concern": "প্রধান সমস্যা",
+          "Any concern": "যে কোনও সমস্যা",
+          "Acidity / digestion": "অম্বল / হজম",
+          "Cold / cough": "সর্দি / কাশি",
+          "Joint or muscle stiffness": "জয়েন্ট বা পেশীর কাঠিন্য",
+          "Skin irritation": "ত্বকের অস্বস্তি",
+          "Children's complaints": "শিশুদের সমস্যা",
+          "Restlessness / anxiety": "অস্থিরতা / উদ্বেগ",
+          "Stress / sleep": "স্ট্রেস / ঘুম",
+          "Women's health patterns": "মহিলাদের স্বাস্থ্য প্যাটার্ন",
+          "Pattern": "প্যাটার্ন",
+          "Any pattern": "যে কোনও প্যাটার্ন",
+          "Sudden onset": "হঠাৎ শুরু",
+          "Dryness": "শুষ্কতা",
+          "Worse or better with motion": "নড়াচড়ায় বাড়ে বা কমে",
+          "Food or routine related": "খাবার বা রুটিন সম্পর্কিত",
+          "Night aggravation": "রাতে বাড়ে",
+          "Weakness or sensitivity": "দুর্বলতা বা সংবেদনশীলতা",
+          "Cold sensitivity": "ঠান্ডায় সংবেদনশীলতা",
+          "Heat sensitivity": "গরমে সংবেদনশীলতা",
+          "Educational guidance only. This finder does not diagnose, prescribe, or suggest dosage. For severe symptoms, infants, breathing difficulty, chest pain, dehydration, persistent bleeding, or high fever, seek urgent medical care.": "শুধুমাত্র শিক্ষামূলক নির্দেশনা। এই ফাইন্ডার রোগ নির্ণয়, প্রেসক্রিপশন বা ডোজ বলে না। গুরুতর উপসর্গ, শিশু, শ্বাসকষ্ট, বুকে ব্যথা, ডিহাইড্রেশন, রক্তপাত বা বেশি জ্বর হলে জরুরি চিকিৎসা নিন।",
+          "WhatsApp Updates": "WhatsApp আপডেট",
+          "Join Medicure reminders and offers.": "Medicure রিমাইন্ডার ও অফারে যোগ দিন।",
+          "Get reorder reminders, clinic timing updates, and store announcements on WhatsApp. Consent is recorded inside your WhatsApp chat.": "WhatsApp-এ রি-অর্ডার রিমাইন্ডার, ক্লিনিক সময়ের আপডেট এবং স্টোর ঘোষণা পান। সম্মতি আপনার WhatsApp চ্যাটেই রেকর্ড থাকবে।",
+          "I agree to receive WhatsApp updates, reorder reminders, and offers from Medicure.": "আমি Medicure-এর WhatsApp আপডেট, রি-অর্ডার রিমাইন্ডার এবং অফার পেতে সম্মতি দিচ্ছি।",
+          "Send JOIN on WhatsApp": "WhatsApp-এ JOIN পাঠান",
+          "Reply STOP anytime to opt out. We will not use this as medical advice or emergency support.": "বন্ধ করতে যে কোনও সময় STOP লিখুন। এটি মেডিক্যাল অ্যাডভাইস বা জরুরি সহায়তা হিসেবে ব্যবহার করবেন না।",
+          "Scan to message Medicure": "Medicure-কে মেসেজ করতে স্ক্যান করুন",
+          "Use this QR on posters, bills, and store counters for fast repeat orders.": "দ্রুত রিপিট অর্ডারের জন্য পোস্টার, বিল এবং দোকানের কাউন্টারে এই QR ব্যবহার করুন।",
+          "This opens the shop WhatsApp number with a short greeting.": "এটি ছোট একটি মেসেজসহ দোকানের WhatsApp নম্বর খুলবে।",
+          "Clinical Authority": "ক্লিনিক্যাল অভিজ্ঞতা",
+          "Sole Proprietor and Chief Medical Consultant at Medicure, with more than 35 years dedicated to classical homeopathic practice.": "Medicure-এর Sole Proprietor ও Chief Medical Consultant, ক্লাসিক্যাল হোমিওপ্যাথিক প্র্যাকটিসে ৩৫ বছরেরও বেশি অভিজ্ঞতা।",
+          "35+ years clinical experience": "৩৫+ বছরের অভিজ্ঞতা",
+          "Classical case-taking": "ক্লাসিক্যাল কেস-টেকিং",
+          "Chronic care focus": "ক্রনিক কেয়ার ফোকাস",
+          "Dr. Som's consultation approach emphasizes the individual patient: health history, recurring patterns, sensitivities, lifestyle context, and long-term care goals.": "Dr. Som-এর কনসালটেশনে রোগীর ব্যক্তিগত ইতিহাস, পুনরাবৃত্ত প্যাটার্ন, সংবেদনশীলতা, জীবনযাত্রা এবং দীর্ঘমেয়াদি কেয়ার লক্ষ্য গুরুত্ব পায়।",
+          "Request a Consultation": "কনসালটেশন চাইুন",
+          "Chronic Lifestyle Ailments": "ক্রনিক লাইফস্টাইল সমস্যা",
+          "Digestive, metabolic, and recurring systemic concerns requiring deeper case review.": "হজম, মেটাবলিক এবং বারবার হওয়া সিস্টেমিক সমস্যার গভীর কেস রিভিউ।",
+          "Allergic and Respiratory Disorders": "অ্যালার্জি ও শ্বাস-প্রশ্বাসের সমস্যা",
+          "Support for long-standing sensitivities, seasonal patterns, asthma, and bronchitis care.": "দীর্ঘদিনের সংবেদনশীলতা, ঋতুভিত্তিক প্যাটার্ন, অ্যাজমা ও ব্রঙ্কাইটিস কেয়ার আলোচনা।",
+          "Pediatric Homeopathy": "শিশু হোমিওপ্যাথি",
+          "Gentle consultation pathways for children and family care discussions.": "শিশু ও পরিবারের জন্য সহজ কনসালটেশন আলোচনা।",
+          "Skin and Dermatological Concerns": "ত্বক সংক্রান্ত সমস্যা",
+          "Root-pattern evaluation for recurring skin conditions and internal triggers.": "বারবার হওয়া ত্বকের সমস্যায় রুট-প্যাটার্ন মূল্যায়ন।",
+          "Visit Medicure in Maniktala.": "মানিকতলায় Medicure-এ আসুন।",
+          "Find the clinic and medicine store on Maniktala Main Road, with long weekday hours and Sunday morning service.": "Maniktala Main Road-এ ক্লিনিক ও মেডিসিন স্টোর, দীর্ঘ সপ্তাহের সময় এবং রবিবার সকালের পরিষেবা।",
+          "Medicure Homeopathy Clinic and Medicine Store": "Medicure Homeopathy Clinic and Medicine Store",
+          "Monday to Saturday: 10:00 AM-10:30 PM": "সোমবার থেকে শনিবার: সকাল ১০টা-রাত ১০:৩০",
+          "Sunday: 10:00 AM-2:00 PM": "রবিবার: সকাল ১০টা-দুপুর ২টা",
+          "Medicine orders and prescription photos are handled on WhatsApp.": "ওষুধের অর্ডার ও প্রেসক্রিপশনের ছবি WhatsApp-এ নেওয়া হয়।",
+          "Open Google Maps": "Google Maps খুলুন",
+          "WhatsApp the Store": "স্টোরে WhatsApp করুন",
+          "Can I send a prescription photo?": "প্রেসক্রিপশনের ছবি পাঠাতে পারি?",
+          "Yes. Use the WhatsApp prescription button and attach a clear photo of the full prescription.": "হ্যাঁ। WhatsApp প্রেসক্রিপশন বাটন ব্যবহার করে সম্পূর্ণ প্রেসক্রিপশনের পরিষ্কার ছবি পাঠান।",
+          "Can I ask about a remedy?": "রেমেডি নিয়ে জিজ্ঞেস করতে পারি?",
+          "Yes. The remedy finder can start an educational inquiry, and final selection should be confirmed by a practitioner.": "হ্যাঁ। রেমেডি ফাইন্ডার শিক্ষামূলক প্রশ্ন শুরু করতে সাহায্য করে; শেষ নির্বাচন চিকিৎসকের সঙ্গে নিশ্চিত করুন।",
+          "Do I need an appointment?": "অ্যাপয়েন্টমেন্ট দরকার?",
+          "Appointments are recommended for consultations with Dr. Achintya Kumar Som.": "Dr. Achintya Kumar Som-এর কনসালটেশনের জন্য অ্যাপয়েন্টমেন্ট নেওয়া ভালো।",
+          "Is Sunday open?": "রবিবার খোলা?",
+          "Yes. Sunday hours are 10:00 AM-2:00 PM.": "হ্যাঁ। রবিবার সময় সকাল ১০টা-দুপুর ২টা।",
+          "Homeopathic medicine store and consultation clinic led by Dr. Achintya Kumar Som.": "Dr. Achintya Kumar Som পরিচালিত হোমিওপ্যাথিক মেডিসিন স্টোর ও কনসালটেশন ক্লিনিক।",
+          "WhatsApp Medicure": "Medicure-কে WhatsApp করুন",
+          "Store Hours": "দোকানের সময়",
+          "Mon-Sat: 10:00 AM-10:30 PM": "সোম-শনি: সকাল ১০টা-রাত ১০:৩০",
+          "Sun: 10:00 AM-2:00 PM": "রবি: সকাল ১০টা-দুপুর ২টা",
+          "Request appointment timing": "অ্যাপয়েন্টমেন্ট সময় জিজ্ঞেস করুন",
+          "Visit the Store": "দোকানে আসুন",
+          "Open map search": "ম্যাপ খুলুন",
+          "Educational remedy information on this website is not a diagnosis, prescription, or emergency medical advice. Please consult a qualified medical practitioner for personal treatment decisions.": "এই ওয়েবসাইটের রেমেডি তথ্য রোগ নির্ণয়, প্রেসক্রিপশন বা জরুরি চিকিৎসা পরামর্শ নয়। ব্যক্তিগত চিকিৎসার সিদ্ধান্তের জন্য যোগ্য চিকিৎসকের পরামর্শ নিন।",
+          "Copyright": "কপিরাইট",
+          "All rights reserved.": "সর্বস্বত্ব সংরক্ষিত।",
+          "Search acidity, cough, stiffness, anxiety, অম্বল, কাশি": "অম্বল, কাশি, কাঠিন্য, উদ্বেগ, acidity, cough লিখে খুঁজুন",
+          "All": "সব",
+          "Respiratory": "শ্বাস-প্রশ্বাস",
+          "Gastric": "হজম",
+          "Joints": "জয়েন্ট",
+          "Immunity": "ইমিউনিটি",
+          "Skin": "ত্বক",
+          "Children": "শিশু",
+          "Stress/Sleep": "স্ট্রেস/ঘুম",
+          "Women": "মহিলা",
+        },
+      };
+
+      const originalTextNodes = new Map();
+      const originalAttributes = new WeakMap();
 
       const remedies = [
         {
           name: "Nux Vomica",
+          bangla: "নাক্স ভমিকা",
           category: "gastric",
-          tags: "acidity indigestion digestion sedentary lifestyle",
-          text: "Often discussed for indigestion, acidity, and digestive sluggishness associated with irregular routines.",
+          patterns: ["food", "night"],
+          tags: ["acidity", "indigestion", "irregular routine", "অম্বল", "হজম"],
+          summary: "Commonly discussed for digestive discomfort patterns linked with irregular meals, rich food, late nights, or overwork.",
+          banglaText: "অনিয়মিত খাওয়া, ভারী খাবার, রাত জাগা বা অতিরিক্ত কাজের সঙ্গে যুক্ত অম্বল ও হজমের অস্বস্তির আলোচনায় এই নামটি আসে।",
+          source: "Boericke/Kent-style materia medica references",
         },
         {
           name: "Aconitum Napellus",
+          bangla: "অ্যাকোনাইট",
           category: "respiratory",
-          tags: "cough cold sudden onset dry cough fever",
-          text: "Commonly referenced for sudden onset cold states, dry cough, and early acute discomfort patterns.",
+          patterns: ["sudden", "dry"],
+          tags: ["sudden cold", "dry cough", "feverish onset", "কাশি", "সর্দি"],
+          summary: "Traditionally referenced for sudden early-stage cold or cough patterns, especially when the onset feels abrupt.",
+          banglaText: "হঠাৎ শুরু হওয়া সর্দি-কাশি বা অস্বস্তির প্রথম দিকের প্যাটার্নে এই রেমেডির নাম ঐতিহ্যগতভাবে আলোচিত হয়।",
+          source: "Classical materia medica references",
         },
         {
           name: "Bryonia Alba",
+          bangla: "ব্রায়োনিয়া",
           category: "respiratory",
-          tags: "dry cough chest throat movement",
-          text: "Known in materia medica discussions around dry coughs and discomfort aggravated by movement.",
+          patterns: ["dry", "motion"],
+          tags: ["dry cough", "chest discomfort", "worse motion", "শুকনো কাশি"],
+          summary: "Often discussed for dry cough or body discomfort patterns where movement appears to aggravate the complaint.",
+          banglaText: "শুকনো কাশি বা শরীরের অস্বস্তি নড়াচড়ায় বাড়ে বলে মনে হলে ব্রায়োনিয়া নিয়ে আলোচনা দেখা যায়।",
+          source: "Boericke/Kent-style materia medica references",
         },
         {
           name: "Rhus Toxicodendron",
+          bangla: "রাস টক্স",
           category: "joints",
-          tags: "joint pain stiffness back pain bones movement",
-          text: "Frequently associated with stiffness and joint discomfort patterns that may change with motion.",
+          patterns: ["motion"],
+          tags: ["stiffness", "joint discomfort", "back stiffness", "জয়েন্ট", "কাঠিন্য"],
+          summary: "Frequently associated in materia medica discussions with stiffness patterns that may feel different after gentle movement.",
+          banglaText: "জয়েন্ট বা পেশীর কাঠিন্য, বিশেষ করে নড়াচড়ার সঙ্গে বদলায় এমন প্যাটার্নে এই নামটি পাওয়া যায়।",
+          source: "Classical materia medica references",
         },
         {
           name: "Calcarea Phosphorica",
+          bangla: "ক্যালকেরিয়া ফস",
           category: "joints",
-          tags: "bones growth weakness children joints",
-          text: "Often considered in constitutional discussions involving growth, bones, and general weakness.",
+          patterns: ["weakness"],
+          tags: ["growth", "bones", "weakness", "children", "শিশু", "হাড়"],
+          summary: "Often considered in constitutional discussions around growth, bones, general weakness, and children's developmental complaints.",
+          banglaText: "বৃদ্ধি, হাড়, দুর্বলতা এবং শিশুদের কিছু দীর্ঘমেয়াদি প্যাটার্নের আলোচনায় এই রেমেডির নাম আসে।",
+          source: "Boericke-style materia medica references",
+        },
+        {
+          name: "Pulsatilla",
+          bangla: "পালসাটিলা",
+          category: "children",
+          patterns: ["food", "night"],
+          tags: ["changeable symptoms", "digestion", "children", "ঠান্ডা", "শিশু"],
+          summary: "Commonly referenced for changeable complaint patterns and sensitivity around food, weather, or routine changes.",
+          banglaText: "খাবার, আবহাওয়া বা রুটিন বদলের সঙ্গে উপসর্গ বদলালে পালসাটিলা নিয়ে আলোচনা করা হয়।",
+          source: "Classical materia medica references",
+        },
+        {
+          name: "Belladonna",
+          bangla: "বেলাডোনা",
+          category: "children",
+          patterns: ["sudden"],
+          tags: ["sudden heat", "throbbing", "feverish", "শিশু", "জ্বর"],
+          summary: "Traditionally discussed for sudden, intense patterns with heat or throbbing sensations. High fever should be assessed by a doctor.",
+          banglaText: "হঠাৎ তীব্র অস্বস্তি, গরম ভাব বা ধুকপুক অনুভূতির প্যাটার্নে এই নামটি আসে। বেশি জ্বর হলে ডাক্তার দেখানো জরুরি।",
+          source: "Boericke/Kent-style materia medica references",
+        },
+        {
+          name: "Arnica Montana",
+          bangla: "আর্নিকা",
+          category: "joints",
+          patterns: ["motion"],
+          tags: ["soreness", "strain", "bruised feeling", "ব্যথা", "চোট"],
+          summary: "Often discussed for soreness or bruised-feeling patterns after strain. Injuries with severe pain or swelling need medical evaluation.",
+          banglaText: "চোট বা চাপের পর ব্যথা বা থেঁতলানো অনুভূতির আলোচনায় আর্নিকার নাম পাওয়া যায়। গুরুতর ব্যথা বা ফোলা হলে চিকিৎসা দরকার।",
+          source: "Classical materia medica references",
+        },
+        {
+          name: "Sulphur",
+          bangla: "সালফার",
+          category: "skin",
+          patterns: ["night"],
+          tags: ["itching", "skin irritation", "heat", "চুলকানি", "ত্বক"],
+          summary: "A deeply studied constitutional remedy name often discussed around recurring skin irritation and heat-related patterns.",
+          banglaText: "বারবার হওয়া ত্বকের অস্বস্তি, চুলকানি বা গরমভাবের প্যাটার্নে সালফার নিয়ে আলোচনা দেখা যায়।",
+          source: "Boericke/Kent-style materia medica references",
+        },
+        {
+          name: "Calendula",
+          bangla: "ক্যালেন্ডুলা",
+          category: "skin",
+          patterns: ["sudden"],
+          tags: ["skin care", "minor cuts", "irritation", "ত্বক"],
+          summary: "Commonly known in homeopathic practice discussions around minor skin care contexts. Open wounds or infection signs need medical care.",
+          banglaText: "ছোটখাটো ত্বকের যত্নের প্রসঙ্গে ক্যালেন্ডুলার নাম শোনা যায়। কাটা, সংক্রমণ বা পুঁজ হলে চিকিৎসকের পরামর্শ জরুরি।",
+          source: "Classical materia medica references",
         },
         {
           name: "Arsenicum Album",
+          bangla: "আর্সেনিকাম অ্যালবাম",
           category: "immunity",
-          tags: "immunity weakness anxiety digestion",
-          text: "A deeply studied remedy name connected with weakness, restlessness, and recurring sensitivity patterns.",
+          patterns: ["weakness", "night"],
+          tags: ["weakness", "restlessness", "sensitivity", "anxiety", "দুর্বলতা", "উদ্বেগ"],
+          summary: "A deeply studied remedy name connected in classical texts with weakness, restlessness, and recurring sensitivity patterns.",
+          banglaText: "দুর্বলতা, অস্থিরতা এবং সংবেদনশীলতার পুনরাবৃত্ত প্যাটার্নে ক্লাসিক্যাল বইয়ে এই রেমেডির নাম পাওয়া যায়।",
+          source: "Boericke/Kent-style materia medica references",
+        },
+        {
+          name: "Gelsemium",
+          bangla: "জেলসেমিয়াম",
+          category: "immunity",
+          patterns: ["weakness"],
+          tags: ["dullness", "weakness", "anticipation", "fatigue", "দুর্বলতা"],
+          summary: "Often discussed for dull, heavy, weak-feeling patterns, including sensitivity before stressful events.",
+          banglaText: "ঝিমুনি, ভারীভাব, দুর্বলতা বা চাপের আগে অস্বস্তির প্যাটার্নে জেলসেমিয়ামের নাম আলোচিত হয়।",
+          source: "Classical materia medica references",
+        },
+        {
+          name: "Lycopodium",
+          bangla: "লাইকোপোডিয়াম",
+          category: "gastric",
+          patterns: ["food", "night"],
+          tags: ["bloating", "gas", "evening", "confidence", "পেট ফাঁপা", "গ্যাস"],
+          summary: "Often discussed for bloating, gas, and digestive patterns that may feel worse later in the day.",
+          banglaText: "পেট ফাঁপা, গ্যাস বা দিনের শেষদিকে হজমের অস্বস্তি বাড়ে এমন প্যাটার্নে লাইকোপোডিয়ামের নাম আসে।",
+          source: "Boericke/Kent-style materia medica references",
+        },
+        {
+          name: "Carbo Vegetabilis",
+          bangla: "কার্বো ভেজ",
+          category: "gastric",
+          patterns: ["food", "weakness"],
+          tags: ["gas", "heaviness", "belching", "weak feeling", "গ্যাস", "ঢেকুর"],
+          summary: "Commonly referenced for heavy, gassy digestive patterns with tiredness or a need for fresh air.",
+          banglaText: "গ্যাস, ভারীভাব, ঢেকুর এবং দুর্বলতার সঙ্গে যুক্ত হজমের প্যাটার্নে কার্বো ভেজ নিয়ে আলোচনা হয়।",
+          source: "Classical materia medica references",
+        },
+        {
+          name: "China Officinalis",
+          bangla: "চায়না",
+          category: "gastric",
+          patterns: ["weakness", "food"],
+          tags: ["bloating", "weakness", "fluid loss", "gas", "দুর্বলতা"],
+          summary: "Traditionally discussed for bloating and weakness patterns, especially after exhausting episodes.",
+          banglaText: "অতিরিক্ত ক্লান্তিকর পরিস্থিতির পরে পেট ফাঁপা ও দুর্বলতার প্যাটার্নে চায়নার নাম পাওয়া যায়।",
+          source: "Classical materia medica references",
+        },
+        {
+          name: "Magnesia Phosphorica",
+          bangla: "ম্যাগ ফস",
+          category: "gastric",
+          patterns: ["motion", "heat"],
+          tags: ["crampy discomfort", "warmth", "spasm pattern", "পেট ব্যথা", "গরমে আরাম"],
+          summary: "Often mentioned for crampy discomfort patterns where warmth or pressure is part of the classical picture.",
+          banglaText: "ক্র্যাম্পের মতো অস্বস্তি, গরমে বা চাপ দিলে আরামের প্যাটার্নে ম্যাগ ফস নিয়ে আলোচনা হয়।",
+          source: "Boericke-style materia medica references",
+        },
+        {
+          name: "Antimonium Crudum",
+          bangla: "অ্যান্টিম ক্রুড",
+          category: "gastric",
+          patterns: ["food", "heat"],
+          tags: ["overeating", "coated tongue", "indigestion", "অতিরিক্ত খাওয়া", "হজম"],
+          summary: "Commonly discussed for indigestion patterns after overeating or dietary excess.",
+          banglaText: "অতিরিক্ত খাওয়া বা খাবারের অনিয়মের পরে হজমের অস্বস্তির আলোচনায় অ্যান্টিম ক্রুডের নাম আসে।",
+          source: "Classical materia medica references",
+        },
+        {
+          name: "Allium Cepa",
+          bangla: "অ্যালিয়াম সেপা",
+          category: "respiratory",
+          patterns: ["sudden"],
+          tags: ["runny nose", "watery discharge", "sneezing", "নাক দিয়ে জল", "হাঁচি"],
+          summary: "Often referenced for cold patterns with watery nasal discharge and sneezing.",
+          banglaText: "নাক দিয়ে জল পড়া ও হাঁচির সঙ্গে সর্দির প্যাটার্নে অ্যালিয়াম সেপার নাম শোনা যায়।",
+          source: "Boericke-style materia medica references",
+        },
+        {
+          name: "Euphrasia",
+          bangla: "ইউফ্রেশিয়া",
+          category: "respiratory",
+          patterns: ["sudden"],
+          tags: ["watery eyes", "cold", "eye irritation", "চোখে জল", "সর্দি"],
+          summary: "Traditionally discussed when cold patterns include eye watering or eye irritation.",
+          banglaText: "সর্দির সঙ্গে চোখে জল বা চোখে অস্বস্তি থাকলে ইউফ্রেশিয়া নিয়ে আলোচনা দেখা যায়।",
+          source: "Classical materia medica references",
+        },
+        {
+          name: "Drosera",
+          bangla: "ড্রোসেরা",
+          category: "respiratory",
+          patterns: ["dry", "night"],
+          tags: ["spasmodic cough", "night cough", "dry cough", "রাতের কাশি", "শুকনো কাশি"],
+          summary: "Often discussed for dry, spasmodic cough patterns that may be more troublesome at night.",
+          banglaText: "রাতে বাড়ে এমন শুকনো বা খিঁচুনির মতো কাশির প্যাটার্নে ড্রোসেরার নাম পাওয়া যায়।",
+          source: "Boericke/Kent-style materia medica references",
+        },
+        {
+          name: "Spongia Tosta",
+          bangla: "স্পঞ্জিয়া",
+          category: "respiratory",
+          patterns: ["dry", "night"],
+          tags: ["dry barking cough", "throat dryness", "night", "শুকনো কাশি"],
+          summary: "Commonly referenced for dry, barking-type cough patterns in classical remedy discussions.",
+          banglaText: "শুকনো, কর্কশ ধরনের কাশির প্যাটার্নে স্পঞ্জিয়ার নাম ঐতিহ্যগতভাবে আলোচিত হয়।",
+          source: "Classical materia medica references",
+        },
+        {
+          name: "Hepar Sulphuris",
+          bangla: "হেপার সালফ",
+          category: "respiratory",
+          patterns: ["cold", "sudden"],
+          tags: ["cold sensitivity", "throat", "sensitivity", "ঠান্ডা লাগা", "গলা"],
+          summary: "Often discussed for sensitive cold-weather patterns involving throat or respiratory discomfort.",
+          banglaText: "ঠান্ডায় সংবেদনশীলতা, গলা বা শ্বাসনালীর অস্বস্তির প্যাটার্নে হেপার সালফের নাম আসে।",
+          source: "Boericke-style materia medica references",
+        },
+        {
+          name: "Antimonium Tartaricum",
+          bangla: "অ্যান্টিম টার্ট",
+          category: "respiratory",
+          patterns: ["weakness"],
+          tags: ["chest congestion", "weak cough", "rattling", "বুক ভারী", "দুর্বল কাশি"],
+          summary: "Traditionally discussed for chest congestion patterns with weakness. Breathing difficulty requires urgent care.",
+          banglaText: "বুক ভারী লাগা ও দুর্বলতার প্যাটার্নে অ্যান্টিম টার্টের নাম আসে। শ্বাসকষ্ট হলে জরুরি চিকিৎসা দরকার।",
+          source: "Classical materia medica references",
+        },
+        {
+          name: "Kali Bichromicum",
+          bangla: "ক্যালি বাইক্রোম",
+          category: "respiratory",
+          patterns: ["dry"],
+          tags: ["sinus", "thick discharge", "localized pain", "সাইনাস", "নাক"],
+          summary: "Commonly referenced around sinus or thick-discharge patterns in classical materia medica.",
+          banglaText: "সাইনাস বা ঘন স্রাবের প্যাটার্নে ক্যালি বাইক্রোমের নাম ক্লাসিক্যাল আলোচনায় দেখা যায়।",
+          source: "Boericke-style materia medica references",
+        },
+        {
+          name: "Ferrum Phosphoricum",
+          bangla: "ফেরাম ফস",
+          category: "immunity",
+          patterns: ["sudden", "weakness"],
+          tags: ["early feverish state", "tiredness", "inflammation pattern", "জ্বরের শুরু", "দুর্বলতা"],
+          summary: "Often discussed in early feverish or inflammatory patterns. Persistent or high fever should be medically assessed.",
+          banglaText: "জ্বরের শুরু বা প্রদাহজাত প্যাটার্নে ফেরাম ফসের নাম আসে। বেশি বা দীর্ঘস্থায়ী জ্বর হলে চিকিৎসকের পরামর্শ জরুরি।",
+          source: "Classical materia medica references",
+        },
+        {
+          name: "Phosphorus",
+          bangla: "ফসফরাস",
+          category: "immunity",
+          patterns: ["weakness", "dry"],
+          tags: ["sensitivity", "weakness", "respiratory", "সংবেদনশীলতা", "দুর্বলতা"],
+          summary: "A major constitutional remedy name often discussed around sensitivity, weakness, and respiratory tendency patterns.",
+          banglaText: "সংবেদনশীলতা, দুর্বলতা ও শ্বাস-প্রশ্বাসের পুনরাবৃত্ত প্যাটার্নে ফসফরাসের নাম আলোচিত হয়।",
+          source: "Boericke/Kent-style materia medica references",
+        },
+        {
+          name: "Natrum Muriaticum",
+          bangla: "ন্যাট্রাম মিউর",
+          category: "stress",
+          patterns: ["heat", "weakness"],
+          tags: ["headache pattern", "grief", "sensitivity", "মাথাব্যথা", "মানসিক চাপ"],
+          summary: "Often discussed in constitutional contexts involving sensitivity, headaches, grief, or reserved emotional patterns.",
+          banglaText: "সংবেদনশীলতা, মাথাব্যথা, মানসিক চাপ বা আবেগ চেপে রাখার প্যাটার্নে ন্যাট্রাম মিউরের নাম আসে।",
+          source: "Kent/Boericke-style materia medica references",
+        },
+        {
+          name: "Ignatia Amara",
+          bangla: "ইগ্নেশিয়া",
+          category: "stress",
+          patterns: ["sudden"],
+          tags: ["grief", "mood change", "stress", "sighing", "মনখারাপ", "স্ট্রেস"],
+          summary: "Classically discussed for grief, emotional sensitivity, and changeable stress-response patterns.",
+          banglaText: "দুঃখ, আবেগের ওঠানামা বা স্ট্রেস-রেসপন্সের প্যাটার্নে ইগ্নেশিয়া নিয়ে আলোচনা করা হয়।",
+          source: "Kent-style materia medica references",
+        },
+        {
+          name: "Coffea Cruda",
+          bangla: "কফিয়া",
+          category: "stress",
+          patterns: ["night"],
+          tags: ["sleeplessness", "overactive mind", "sensitivity", "ঘুম", "অস্থিরতা"],
+          summary: "Often mentioned for overactive-mind and sleeplessness patterns in classical remedy discussions.",
+          banglaText: "মাথা বেশি সক্রিয় থাকা, ঘুমের অসুবিধা বা অস্থিরতার প্যাটার্নে কফিয়ার নাম পাওয়া যায়।",
+          source: "Classical materia medica references",
+        },
+        {
+          name: "Kali Phosphoricum",
+          bangla: "ক্যালি ফস",
+          category: "stress",
+          patterns: ["weakness", "night"],
+          tags: ["mental fatigue", "study stress", "nervous exhaustion", "ক্লান্তি", "পড়াশোনার চাপ"],
+          summary: "Commonly discussed for mental fatigue and nervous-exhaustion patterns, especially during heavy work or study.",
+          banglaText: "মানসিক ক্লান্তি, পড়াশোনা বা কাজের চাপ, নার্ভাস এক্সহস্টশনের প্যাটার্নে ক্যালি ফসের নাম আসে।",
+          source: "Boericke-style materia medica references",
+        },
+        {
+          name: "Chamomilla",
+          bangla: "ক্যামোমিলা",
+          category: "children",
+          patterns: ["night"],
+          tags: ["irritability", "teething", "children", "রাগ", "শিশু"],
+          summary: "Often referenced for children's irritability patterns, including traditional discussions around teething discomfort.",
+          banglaText: "শিশুদের অস্থিরতা, রাগ বা দাঁত ওঠার সময় অস্বস্তির আলোচনায় ক্যামোমিলার নাম দেখা যায়।",
+          source: "Classical materia medica references",
+        },
+        {
+          name: "Cina",
+          bangla: "সিনা",
+          category: "children",
+          patterns: ["night"],
+          tags: ["children", "irritability", "grinding teeth", "শিশু", "দাঁত ঘষা"],
+          summary: "Traditionally discussed for certain children's irritability patterns. Persistent digestive or sleep issues need assessment.",
+          banglaText: "শিশুদের কিছু অস্থিরতার প্যাটার্নে সিনার নাম আসে। দীর্ঘস্থায়ী হজম বা ঘুমের সমস্যা হলে চিকিৎসকের পরামর্শ দরকার।",
+          source: "Classical materia medica references",
+        },
+        {
+          name: "Silicea",
+          bangla: "সিলিসিয়া",
+          category: "children",
+          patterns: ["weakness", "cold"],
+          tags: ["delicate constitution", "sensitivity", "children", "দুর্বলতা", "ঠান্ডা"],
+          summary: "Often discussed around delicate constitutional patterns, cold sensitivity, and slow recurring complaints.",
+          banglaText: "সংবেদনশীল বা দুর্বল কনস্টিটিউশন, ঠান্ডায় সমস্যা এবং ধীরে ধীরে বারবার হওয়া প্যাটার্নে সিলিসিয়ার নাম আসে।",
+          source: "Boericke/Kent-style materia medica references",
+        },
+        {
+          name: "Graphites",
+          bangla: "গ্রাফাইটিস",
+          category: "skin",
+          patterns: ["dry", "cold"],
+          tags: ["dry skin", "cracks", "recurring irritation", "শুষ্ক ত্বক", "ফাটল"],
+          summary: "Commonly discussed for dry, cracked, recurring skin-irritation patterns.",
+          banglaText: "শুষ্ক ত্বক, ফাটল বা বারবার হওয়া ত্বকের অস্বস্তির প্যাটার্নে গ্রাফাইটিসের নাম পাওয়া যায়।",
+          source: "Classical materia medica references",
+        },
+        {
+          name: "Apis Mellifica",
+          bangla: "এপিস মেল",
+          category: "skin",
+          patterns: ["sudden", "heat"],
+          tags: ["swelling pattern", "stinging", "heat", "ফোলা", "জ্বালা"],
+          summary: "Often discussed for sudden swelling or stinging-feeling skin patterns. Severe allergy needs urgent medical care.",
+          banglaText: "হঠাৎ ফোলা বা জ্বালা-ধরনের ত্বকের প্যাটার্নে এপিসের নাম আসে। গুরুতর অ্যালার্জি হলে জরুরি চিকিৎসা দরকার।",
+          source: "Boericke-style materia medica references",
+        },
+        {
+          name: "Urtica Urens",
+          bangla: "আর্টিকা ইউরেন্স",
+          category: "skin",
+          patterns: ["sudden", "heat"],
+          tags: ["hives pattern", "itching", "stinging", "চুলকানি", "র‍্যাশ"],
+          summary: "Traditionally referenced around hives-like itching or stinging skin patterns.",
+          banglaText: "চুলকানি, জ্বালা বা হাইভসের মতো ত্বকের প্যাটার্নে আর্টিকা ইউরেন্স নিয়ে আলোচনা হয়।",
+          source: "Classical materia medica references",
+        },
+        {
+          name: "Ruta Graveolens",
+          bangla: "রুটা",
+          category: "joints",
+          patterns: ["motion"],
+          tags: ["strain", "tendons", "eye strain", "চাপ", "টেন্ডন"],
+          summary: "Often discussed for strain-type patterns involving tendons, ligaments, or overuse.",
+          banglaText: "টেন্ডন, লিগামেন্ট বা অতিরিক্ত ব্যবহারের কারণে চাপের প্যাটার্নে রুটার নাম আসে।",
+          source: "Boericke-style materia medica references",
+        },
+        {
+          name: "Causticum",
+          bangla: "কস্টিকাম",
+          category: "joints",
+          patterns: ["cold", "weakness"],
+          tags: ["stiffness", "weakness", "cold weather", "কাঠিন্য", "দুর্বলতা"],
+          summary: "Commonly discussed for stiffness and weakness patterns that may be sensitive to cold weather.",
+          banglaText: "কাঠিন্য, দুর্বলতা এবং ঠান্ডায় বাড়ে এমন প্যাটার্নে কস্টিকামের নাম আলোচিত হয়।",
+          source: "Classical materia medica references",
+        },
+        {
+          name: "Sepia",
+          bangla: "সেপিয়া",
+          category: "women",
+          patterns: ["weakness"],
+          tags: ["fatigue", "hormonal pattern", "irritability", "মহিলা", "ক্লান্তি"],
+          summary: "A major constitutional remedy name often discussed in women's health pattern contexts involving fatigue and irritability.",
+          banglaText: "মহিলাদের স্বাস্থ্য প্যাটার্নে ক্লান্তি, বিরক্তি বা কনস্টিটিউশনাল আলোচনায় সেপিয়ার নাম আসে।",
+          source: "Kent/Boericke-style materia medica references",
+        },
+        {
+          name: "Lachesis",
+          bangla: "ল্যাকেসিস",
+          category: "women",
+          patterns: ["heat", "night"],
+          tags: ["heat sensitivity", "left-sided pattern", "change of life", "গরম", "মহিলা"],
+          summary: "Often discussed in constitutional contexts involving heat sensitivity and change-of-life patterns.",
+          banglaText: "গরমে সংবেদনশীলতা, রাতের অস্বস্তি বা জীবনপর্ব বদলের প্যাটার্নে ল্যাকেসিসের নাম দেখা যায়।",
+          source: "Classical materia medica references",
+        },
+        {
+          name: "Calcarea Carbonica",
+          bangla: "ক্যালকেরিয়া কার্ব",
+          category: "women",
+          patterns: ["cold", "weakness"],
+          tags: ["cold sensitivity", "fatigue", "constitution", "ঠান্ডা", "দুর্বলতা"],
+          summary: "A deeply studied constitutional remedy name connected with cold sensitivity, fatigue, and recurring weakness patterns.",
+          banglaText: "ঠান্ডায় সংবেদনশীলতা, ক্লান্তি এবং দুর্বলতার পুনরাবৃত্ত প্যাটার্নে ক্যালকেরিয়া কার্বের নাম আলোচিত হয়।",
+          source: "Boericke/Kent-style materia medica references",
+        },
+        {
+          name: "Cantharis",
+          bangla: "ক্যান্থারিস",
+          category: "immunity",
+          patterns: ["sudden", "heat"],
+          tags: ["burning pattern", "urinary discomfort", "জ্বালা", "প্রস্রাব"],
+          summary: "Traditionally discussed for burning-discomfort patterns. Urinary pain, fever, or blood needs medical assessment.",
+          banglaText: "জ্বালা-ধরনের অস্বস্তির প্যাটার্নে ক্যান্থারিসের নাম আসে। প্রস্রাবে ব্যথা, জ্বর বা রক্ত হলে চিকিৎসকের পরামর্শ দরকার।",
+          source: "Classical materia medica references",
         },
       ];
 
+      const categoryLabels = {
+        en: {
+          respiratory: "Respiratory",
+          gastric: "Gastric",
+          joints: "Joints",
+          immunity: "Immunity",
+          skin: "Skin",
+          children: "Children",
+          stress: "Stress/Sleep",
+          women: "Women",
+        },
+        bn: {
+          respiratory: "শ্বাস-প্রশ্বাস",
+          gastric: "হজম",
+          joints: "জয়েন্ট",
+          immunity: "ইমিউনিটি",
+          skin: "ত্বক",
+          children: "শিশু",
+          stress: "স্ট্রেস/ঘুম",
+          women: "মহিলা",
+        },
+      };
+
+      const patternLabels = {
+        en: {
+          sudden: "sudden",
+          dry: "dry",
+          motion: "motion",
+          food: "food/routine",
+          night: "night",
+          weakness: "weakness",
+          cold: "cold",
+          heat: "heat",
+        },
+        bn: {
+          sudden: "হঠাৎ",
+          dry: "শুষ্ক",
+          motion: "নড়াচড়া",
+          food: "খাবার/রুটিন",
+          night: "রাত",
+          weakness: "দুর্বলতা",
+          cold: "ঠান্ডা",
+          heat: "গরম",
+        },
+      };
+
       function whatsappUrl(kind, remedyName) {
         const baseMessage = remedyName
-          ? `Hello Medicure, I would like to ask about ${remedyName}.`
-          : messages[kind] || messages.order;
+          ? currentLanguage === "bn"
+            ? `নমস্কার Medicure, আমি remedy finder-এ ${remedyName} সম্পর্কে পড়েছি। এটি আমার ক্ষেত্রে প্রাসঙ্গিক কি না আলোচনা করতে চাই।`
+            : `Hello Medicure, I read about ${remedyName} in the remedy finder and would like to discuss whether it is relevant for my case.`
+          : (messages[kind] || messages.order)[currentLanguage] || messages.order.en;
         const text = encodeURIComponent(baseMessage);
-        return WHATSAPP_NUMBER ? `https://wa.me/${WHATSAPP_NUMBER}?text=${text}` : `https://wa.me/?text=${text}`;
+        const phoneNumber = kind === "appointment" ? WHATSAPP_CONSULTATION_NUMBER : WHATSAPP_ORDER_NUMBER;
+        return phoneNumber ? `https://wa.me/${phoneNumber}?text=${text}` : `https://wa.me/?text=${text}`;
       }
 
       function setWhatsAppLinks() {
@@ -1272,31 +2255,108 @@
         });
       }
 
+      function translatedText(original) {
+        return currentLanguage === "bn" ? uiText.bn[original] || original : original;
+      }
+
+      function translateStaticPage() {
+        document.documentElement.lang = currentLanguage === "bn" ? "bn" : "en";
+        document.querySelectorAll("[data-language-toggle]").forEach((button) => {
+          button.textContent = currentLanguage === "bn" ? "English" : "বাংলা";
+          button.setAttribute("aria-label", currentLanguage === "bn" ? "Switch to English" : "Switch to Bengali");
+        });
+
+        const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
+          acceptNode(node) {
+            const parent = node.parentElement;
+            if (!parent || ["SCRIPT", "STYLE"].includes(parent.tagName)) return NodeFilter.FILTER_REJECT;
+            return node.nodeValue.trim() ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+          },
+        });
+
+        let node = walker.nextNode();
+        while (node) {
+          if (!originalTextNodes.has(node)) originalTextNodes.set(node, node.nodeValue);
+          const original = originalTextNodes.get(node);
+          const trimmed = original.trim();
+          const replacement = translatedText(trimmed);
+          node.nodeValue = original.replace(trimmed, replacement);
+          node = walker.nextNode();
+        }
+
+        document.querySelectorAll("[placeholder], [aria-label], [alt], [title]").forEach((element) => {
+          if (!originalAttributes.has(element)) originalAttributes.set(element, {});
+          const stored = originalAttributes.get(element);
+          ["placeholder", "aria-label", "alt", "title"].forEach((attr) => {
+            if (!element.hasAttribute(attr)) return;
+            if (!stored[attr]) stored[attr] = element.getAttribute(attr);
+            element.setAttribute(attr, translatedText(stored[attr]));
+          });
+        });
+      }
+
       function renderRemedies() {
         const grid = document.getElementById("remedy-grid");
         const query = document.getElementById("remedy-search").value.trim().toLowerCase();
         const active = document.querySelector(".tab.active").dataset.category;
+        const concern = document.getElementById("concern-filter").value;
+        const pattern = document.getElementById("pattern-filter").value;
+        const isDefaultAll = active === "all" && !query && !concern && !pattern;
         const filtered = remedies.filter((item) => {
           const matchesCategory = active === "all" || item.category === active;
-          const searchable = `${item.name} ${item.tags} ${item.text}`.toLowerCase();
-          return matchesCategory && searchable.includes(query);
+          const matchesConcern = !concern || item.category === concern || item.tags.includes(concern);
+          const matchesPattern = !pattern || item.patterns.includes(pattern) || item.tags.includes(pattern);
+          const searchable = `${item.name} ${item.bangla} ${item.category} ${item.patterns.join(" ")} ${item.tags.join(" ")} ${item.summary} ${item.banglaText}`.toLowerCase();
+          return matchesCategory && matchesConcern && matchesPattern && searchable.includes(query);
         });
+        const visibleRemedies = isDefaultAll && !remediesExpanded ? filtered.slice(0, DEFAULT_REMEDY_LIMIT) : filtered;
+        const labels = {
+          ask: currentLanguage === "bn" ? "এই রেমেডি নিয়ে Medicure-কে জিজ্ঞেস করুন" : "Ask Medicure about this remedy",
+          sourcePrefix: currentLanguage === "bn" ? "সূত্রভিত্তি" : "Source basis",
+          safety: currentLanguage === "bn" ? "শিক্ষামূলক নির্দেশনা মাত্র; প্রেসক্রিপশন নয়।" : "Educational guidance only; not a prescription.",
+          noMatch: currentLanguage === "bn" ? "এই অনুসন্ধানের সঙ্গে কোনও রেমেডি প্যাটার্ন মেলেনি। আরও সাধারণ উপসর্গ লিখুন, অথবা WhatsApp-এ Medicure-কে জিজ্ঞেস করুন।" : "No remedy pattern matched this search. Try a broader symptom term, or ask Medicure on WhatsApp for guidance.",
+          showing: currentLanguage === "bn" ? `প্রথম ${Math.min(DEFAULT_REMEDY_LIMIT, filtered.length)}টি রেমেডি দেখানো হচ্ছে। মোট ${filtered.length}টি আছে।` : `Showing the first ${Math.min(DEFAULT_REMEDY_LIMIT, filtered.length)} remedies out of ${filtered.length}.`,
+          showAll: currentLanguage === "bn" ? `সব ${filtered.length}টি রেমেডি দেখুন` : `Show all ${filtered.length} remedies`,
+          collapse: currentLanguage === "bn" ? "তালিকা ছোট করুন" : "Collapse remedy list",
+        };
+        const categorySet = categoryLabels[currentLanguage] || categoryLabels.en;
+        const patternSet = patternLabels[currentLanguage] || patternLabels.en;
 
-        grid.innerHTML = filtered
-          .map(
-            (item) => `
+        grid.innerHTML = visibleRemedies.length
+          ? visibleRemedies
+              .map(
+                (item) => `
               <article class="remedy-card">
                 <div>
                   <h3>${item.name}</h3>
-                  <p>${item.text}</p>
+                  <p class="bangla">${item.bangla}</p>
+                  <div class="remedy-meta">
+                    <span>${categorySet[item.category]}</span>
+                    ${item.patterns.map((pattern) => `<span>${patternSet[pattern] || pattern}</span>`).join("")}
+                  </div>
+                  <p>${currentLanguage === "bn" ? item.banglaText : item.summary}</p>
+                  <p class="bangla">${currentLanguage === "bn" ? item.summary : item.banglaText}</p>
+                  <div class="remedy-tags">
+                    ${item.tags.slice(0, 5).map((tag) => `<span>${tag}</span>`).join("")}
+                  </div>
+                  <small>${labels.sourcePrefix}: ${item.source}. ${labels.safety}</small>
                 </div>
                 <a href="${whatsappUrl("order", item.name)}" target="_blank" rel="noreferrer">
-                  Add this remedy to my WhatsApp inquiry
+                  ${labels.ask}
                 </a>
               </article>
             `
-          )
-          .join("");
+              )
+              .join("") +
+            (isDefaultAll && filtered.length > DEFAULT_REMEDY_LIMIT
+              ? `
+                <div class="remedy-controls">
+                  <p class="remedy-count">${remediesExpanded ? (currentLanguage === "bn" ? `সব ${filtered.length}টি রেমেডি দেখানো হচ্ছে।` : `Showing all ${filtered.length} remedies.`) : labels.showing}</p>
+                  <button class="btn btn-secondary" type="button" data-remedy-toggle>${remediesExpanded ? labels.collapse : labels.showAll}</button>
+                </div>
+              `
+              : "")
+          : `<div class="empty-state">${labels.noMatch}</div>`;
       }
 
       document.querySelector("[data-menu-toggle]").addEventListener("click", (event) => {
@@ -1315,14 +2375,60 @@
         tab.addEventListener("click", () => {
           document.querySelectorAll(".tab").forEach((item) => item.classList.remove("active"));
           tab.classList.add("active");
+          remediesExpanded = false;
           renderRemedies();
         });
       });
 
-      document.getElementById("remedy-search").addEventListener("input", renderRemedies);
+      document.getElementById("remedy-grid").addEventListener("click", (event) => {
+        if (!event.target.matches("[data-remedy-toggle]")) return;
+        remediesExpanded = !remediesExpanded;
+        renderRemedies();
+      });
+
+      document.getElementById("remedy-search").addEventListener("input", () => {
+        remediesExpanded = false;
+        renderRemedies();
+      });
+      document.getElementById("concern-filter").addEventListener("change", () => {
+        remediesExpanded = false;
+        renderRemedies();
+      });
+      document.getElementById("pattern-filter").addEventListener("change", () => {
+        remediesExpanded = false;
+        renderRemedies();
+      });
+
+      document.querySelectorAll("[data-language-toggle]").forEach((button) => {
+        button.addEventListener("click", () => {
+          currentLanguage = currentLanguage === "bn" ? "en" : "bn";
+          localStorage.setItem("medicure-language", currentLanguage);
+          translateStaticPage();
+          setWhatsAppLinks();
+          document.getElementById("whatsapp-qr").src = `https://api.qrserver.com/v1/create-qr-code/?size=260x260&margin=12&data=${encodeURIComponent(whatsappUrl("order"))}`;
+          renderRemedies();
+          lucide.createIcons({ attrs: { "stroke-width": 2 } });
+        });
+      });
+
+      const consentCheckbox = document.getElementById("marketing-consent");
+      const consentButton = document.querySelector("[data-consent-button]");
+      consentCheckbox.addEventListener("change", () => {
+        const enabled = consentCheckbox.checked;
+        consentButton.setAttribute("aria-disabled", String(!enabled));
+        consentButton.tabIndex = enabled ? 0 : -1;
+      });
+      consentButton.addEventListener("click", (event) => {
+        if (!consentCheckbox.checked) {
+          event.preventDefault();
+        }
+      });
+
       document.getElementById("year").textContent = new Date().getFullYear();
 
+      translateStaticPage();
       setWhatsAppLinks();
+      document.getElementById("whatsapp-qr").src = `https://api.qrserver.com/v1/create-qr-code/?size=260x260&margin=12&data=${encodeURIComponent(whatsappUrl("order"))}`;
       renderRemedies();
       lucide.createIcons({ attrs: { "stroke-width": 2 } });
     </script>
