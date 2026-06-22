@@ -671,11 +671,27 @@
       .safety-note {
         margin-top: 16px;
         padding: 14px;
-        border: 1px solid #edd2a2;
+        border: 1px solid #f0a8af;
         border-radius: var(--radius);
-        color: #5f451f;
-        background: #fff7e8;
+        color: #8f1f2d;
+        background: #fff1f2;
         font-size: 13px;
+        font-weight: 800;
+      }
+
+      .remedy-feature-card {
+        display: grid;
+        grid-template-columns: 0.84fr 1fr;
+        gap: 24px;
+        padding: 24px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: #fff;
+        box-shadow: 0 18px 48px rgba(22, 48, 43, 0.1);
+      }
+
+      .remedy-feature-card .wiki-panel {
+        position: static;
       }
 
       .remedy-grid {
@@ -767,6 +783,75 @@
         color: var(--muted);
         font-size: 13px;
         font-weight: 700;
+      }
+
+      .remedy-pager {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .remedy-modal {
+        position: fixed;
+        inset: 0;
+        z-index: 50;
+        display: grid;
+        place-items: center;
+        padding: 28px;
+      }
+
+      .remedy-modal[hidden] {
+        display: none;
+      }
+
+      .remedy-modal__backdrop {
+        position: absolute;
+        inset: 0;
+        background: rgba(8, 28, 25, 0.68);
+      }
+
+      .remedy-modal__panel {
+        position: relative;
+        width: min(1120px, 100%);
+        max-height: min(860px, calc(100vh - 56px));
+        overflow: auto;
+        border-radius: var(--radius);
+        background: var(--paper);
+        box-shadow: 0 28px 80px rgba(0, 0, 0, 0.28);
+      }
+
+      .remedy-modal__header {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        padding: 18px 22px;
+        border-bottom: 1px solid var(--line);
+        background: rgba(251, 250, 244, 0.96);
+        backdrop-filter: blur(14px);
+      }
+
+      .remedy-modal__header h2 {
+        margin: 0;
+        font-family: "Instrument Serif", Georgia, serif;
+        font-size: clamp(32px, 4vw, 48px);
+        font-weight: 400;
+        line-height: 1;
+      }
+
+      .remedy-modal__body {
+        padding: 22px;
+      }
+
+      .modal-remedy-grid {
+        margin-top: 14px;
+      }
+
+      body.modal-open {
+        overflow: hidden;
       }
 
       .optin-section {
@@ -1103,6 +1188,7 @@
         .hero-grid,
         .section-head,
         .wiki-layout,
+        .remedy-feature-card,
         .optin-grid,
         .location-grid,
         .doctor-grid,
@@ -1283,22 +1369,22 @@
           <div class="visual-panel" aria-label="Medicure clinic and medicine store imagery">
             <div class="photo-card photo-main">
               <img
-                src="https://images.unsplash.com/photo-1576602976047-174e57a47881?auto=format&fit=crop&w=1000&q=86"
-                alt="Organized medicine shelves in a pharmacy"
+                src="assets/images/medicure-storefront-wide.png"
+                alt="Medicure storefront on Maniktala Main Road"
               />
               <span class="label-chip"><i data-lucide="shield-check"></i> Authentic sealed medicines</span>
             </div>
             <div class="photo-row">
               <div class="photo-card photo-small">
                 <img
-                  src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=650&q=84"
-                  alt="Doctor speaking with a patient in a consultation room"
+                  src="assets/images/medicure-storefront-vertical.png"
+                  alt="Medicure shop entrance and signboard"
                 />
               </div>
               <div class="photo-card photo-small">
                 <img
-                  src="https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=720&q=84"
-                  alt="Clinical desk with health records and medicine bottles"
+                  src="assets/images/medicure-medicine-shelf.jpg"
+                  alt="Homeopathic medicine bottles on Medicure shelves"
                 />
                 <span class="label-chip"><i data-lucide="stethoscope"></i> Clinic consultations</span>
               </div>
@@ -1379,68 +1465,94 @@
       </section>
 
       <section id="wiki">
-        <div class="shell wiki-layout">
-          <div class="wiki-panel">
-            <p class="eyebrow">Remedy Finder</p>
-            <h2>Explore remedy patterns in English and Bengali.</h2>
-            <p>
-              A guided educational starting point built from classical materia medica references and reviewed for patient-friendly language. Final medicine selection should be confirmed by a qualified practitioner.
-            </p>
-            <label class="search-box" for="remedy-search">
-              <i data-lucide="search"></i>
-              <input id="remedy-search" type="search" placeholder="Search acidity, cough, stiffness, anxiety, অম্বল, কাশি" />
-            </label>
-            <div class="tabs" role="tablist" aria-label="Remedy categories">
-              <button class="tab active" type="button" data-category="all">All</button>
-              <button class="tab" type="button" data-category="respiratory">Respiratory</button>
-              <button class="tab" type="button" data-category="gastric">Gastric</button>
-              <button class="tab" type="button" data-category="joints">Joints</button>
-              <button class="tab" type="button" data-category="immunity">Immunity</button>
-              <button class="tab" type="button" data-category="skin">Skin</button>
-              <button class="tab" type="button" data-category="children">Children</button>
-              <button class="tab" type="button" data-category="stress">Stress/Sleep</button>
-              <button class="tab" type="button" data-category="women">Women</button>
-            </div>
-            <div class="finder-card" aria-label="Guided remedy finder">
-              <h3>Quick pattern finder</h3>
-              <div class="field-grid">
-                <label>
-                  Main concern
-                  <select id="concern-filter">
-                    <option value="">Any concern</option>
-                    <option value="gastric">Acidity / digestion</option>
-                    <option value="respiratory">Cold / cough</option>
-                    <option value="joints">Joint or muscle stiffness</option>
-                    <option value="skin">Skin irritation</option>
-                    <option value="children">Children's complaints</option>
-                    <option value="anxiety">Restlessness / anxiety</option>
-                    <option value="stress">Stress / sleep</option>
-                    <option value="women">Women's health patterns</option>
-                  </select>
-                </label>
-                <label>
-                  Pattern
-                  <select id="pattern-filter">
-                    <option value="">Any pattern</option>
-                    <option value="sudden">Sudden onset</option>
-                    <option value="dry">Dryness</option>
-                    <option value="motion">Worse or better with motion</option>
-                    <option value="food">Food or routine related</option>
-                    <option value="night">Night aggravation</option>
-                    <option value="weakness">Weakness or sensitivity</option>
-                    <option value="cold">Cold sensitivity</option>
-                    <option value="heat">Heat sensitivity</option>
-                  </select>
-                </label>
+        <div class="shell">
+          <div class="remedy-feature-card">
+            <div class="wiki-panel">
+              <p class="eyebrow">Remedy Finder</p>
+              <h2>Explore remedy patterns in English and Bengali.</h2>
+              <p>
+                A guided educational starting point built from classical materia medica references and reviewed for patient-friendly language. Final medicine selection should be confirmed by a qualified practitioner.
+              </p>
+              <label class="search-box" for="remedy-search">
+                <i data-lucide="search"></i>
+                <input id="remedy-search" type="search" placeholder="Search acidity, cough, stiffness, anxiety, অম্বল, কাশি" />
+              </label>
+              <div class="tabs" role="tablist" aria-label="Remedy categories">
+                <button class="tab active" type="button" data-category="all">All</button>
+                <button class="tab" type="button" data-category="respiratory">Respiratory</button>
+                <button class="tab" type="button" data-category="gastric">Gastric</button>
+                <button class="tab" type="button" data-category="joints">Joints</button>
+                <button class="tab" type="button" data-category="immunity">Immunity</button>
+                <button class="tab" type="button" data-category="skin">Skin</button>
+                <button class="tab" type="button" data-category="children">Children</button>
+                <button class="tab" type="button" data-category="stress">Stress/Sleep</button>
+                <button class="tab" type="button" data-category="women">Women</button>
+              </div>
+              <div class="finder-card" aria-label="Guided remedy finder">
+                <h3>Quick pattern finder</h3>
+                <div class="field-grid">
+                  <label>
+                    Main concern
+                    <select id="concern-filter">
+                      <option value="">Any concern</option>
+                      <option value="gastric">Acidity / digestion</option>
+                      <option value="respiratory">Cold / cough</option>
+                      <option value="joints">Joint or muscle stiffness</option>
+                      <option value="skin">Skin irritation</option>
+                      <option value="children">Children's complaints</option>
+                      <option value="anxiety">Restlessness / anxiety</option>
+                      <option value="stress">Stress / sleep</option>
+                      <option value="women">Women's health patterns</option>
+                    </select>
+                  </label>
+                  <label>
+                    Pattern
+                    <select id="pattern-filter">
+                      <option value="">Any pattern</option>
+                      <option value="sudden">Sudden onset</option>
+                      <option value="dry">Dryness</option>
+                      <option value="motion">Worse or better with motion</option>
+                      <option value="food">Food or routine related</option>
+                      <option value="night">Night aggravation</option>
+                      <option value="weakness">Weakness or sensitivity</option>
+                      <option value="cold">Cold sensitivity</option>
+                      <option value="heat">Heat sensitivity</option>
+                    </select>
+                  </label>
+                </div>
+              </div>
+              <div class="safety-note">
+                Educational guidance only. This finder does not diagnose, prescribe, or suggest dosage. For severe symptoms, infants, breathing difficulty, chest pain, dehydration, persistent bleeding, or high fever, seek urgent medical care.
+              </div>
+              <div class="hero-actions">
+                <button class="btn btn-secondary" type="button" data-remedy-modal-open>
+                  <i data-lucide="book-open"></i>
+                  Open full remedy finder
+                </button>
               </div>
             </div>
+            <div class="remedy-grid" id="remedy-grid"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="remedy-modal" id="remedy-modal" role="dialog" aria-modal="true" aria-labelledby="remedy-modal-title" hidden>
+        <div class="remedy-modal__backdrop" data-remedy-modal-close></div>
+        <div class="remedy-modal__panel">
+          <div class="remedy-modal__header">
+            <h2 id="remedy-modal-title">Full remedy finder</h2>
+            <button class="btn btn-secondary" type="button" data-remedy-modal-close aria-label="Close remedy finder">
+              <i data-lucide="x"></i>
+            </button>
+          </div>
+          <div class="remedy-modal__body">
             <div class="safety-note">
               Educational guidance only. This finder does not diagnose, prescribe, or suggest dosage. For severe symptoms, infants, breathing difficulty, chest pain, dehydration, persistent bleeding, or high fever, seek urgent medical care.
             </div>
+            <div class="remedy-grid modal-remedy-grid" id="modal-remedy-grid"></div>
           </div>
-          <div class="remedy-grid" id="remedy-grid"></div>
         </div>
-      </section>
+      </div>
 
       <section class="optin-section" id="updates">
         <div class="shell optin-grid">
@@ -1615,8 +1727,9 @@
       const WHATSAPP_ORDER_NUMBER = "918647837624";
       const WHATSAPP_CONSULTATION_NUMBER = "919830415507";
 
-      const DEFAULT_REMEDY_LIMIT = 6;
-      let remediesExpanded = false;
+      const REMEDY_PAGE_SIZE = 4;
+      let remedyPage = 0;
+      let modalRemedyPage = 0;
       let currentLanguage = localStorage.getItem("medicure-language") || "en";
 
       const messages = {
@@ -1647,7 +1760,7 @@
           "Locate Shop": "দোকানের ঠিকানা",
           "Order via WhatsApp": "WhatsApp-এ অর্ডার",
           "Welcome to Medicure Homeopathy": "Medicure Homeopathy-তে স্বাগতম",
-          "Genuine remedies and thoughtful clinical care.": "বিশ্বাসযোগ্য রেমেডি ও যত্নশীল চিকিৎসা সহায়তা।",
+          "Genuine remedies and thoughtful clinical care.": "মেডিকিওর- কলকাতায় হোমিওপ্যাথি চিকিৎসার বিশ্বস্ত ঠিকানা",
           "Consult with Dr. Achintya Kumar Som or order authentic, sealed homeopathic medicines from the Medicure store through a quick WhatsApp chat.": "Dr. Achintya Kumar Som-এর সঙ্গে কনসাল্ট করুন অথবা একটি দ্রুত WhatsApp চ্যাটের মাধ্যমে Medicure থেকে সিল করা আসল হোমিওপ্যাথিক ওষুধ অর্ডার করুন।",
           "Tap to Order on WhatsApp": "WhatsApp-এ অর্ডার করুন",
           "Explore Remedy Finder": "রেমেডি ফাইন্ডার দেখুন",
@@ -1663,7 +1776,7 @@
           "Start an Order": "অর্ডার শুরু করুন",
           "Clinic Consultation": "ক্লিনিক কনসালটেশন",
           "Request an appointment with Dr. Achintya Kumar Som for classical homeopathic case-taking and care planning.": "ক্লাসিক্যাল হোমিওপ্যাথিক কেস-টেকিং ও কেয়ার প্ল্যানিং-এর জন্য Dr. Achintya Kumar Som-এর অ্যাপয়েন্টমেন্ট নিন।",
-          "Request a Slot": "সময় চাইুন",
+          "Request a Slot": "কনসাল্টেশন বুক করুন",
           "Have a prescription?": "প্রেসক্রিপশন আছে?",
           "Snap a picture and send it directly to Medicure on WhatsApp.": "ছবি তুলে সরাসরি WhatsApp-এ Medicure-কে পাঠান।",
           "Useful for handwritten prescriptions, complex medicine names, dilutions, and potency combinations that are easier to photograph than type.": "হাতে লেখা প্রেসক্রিপশন, জটিল ওষুধের নাম, ডাইলিউশন এবং পোটেন্সি কম্বিনেশন টাইপ করার চেয়ে ছবি পাঠানো সহজ।",
@@ -1715,7 +1828,7 @@
           "Classical case-taking": "ক্লাসিক্যাল কেস-টেকিং",
           "Chronic care focus": "ক্রনিক কেয়ার ফোকাস",
           "Dr. Som's consultation approach emphasizes the individual patient: health history, recurring patterns, sensitivities, lifestyle context, and long-term care goals.": "Dr. Som-এর কনসালটেশনে রোগীর ব্যক্তিগত ইতিহাস, পুনরাবৃত্ত প্যাটার্ন, সংবেদনশীলতা, জীবনযাত্রা এবং দীর্ঘমেয়াদি কেয়ার লক্ষ্য গুরুত্ব পায়।",
-          "Request a Consultation": "কনসালটেশন চাইুন",
+          "Request a Consultation": "কনসাল্টেশন বুক করুন",
           "Chronic Lifestyle Ailments": "ক্রনিক লাইফস্টাইল সমস্যা",
           "Digestive, metabolic, and recurring systemic concerns requiring deeper case review.": "হজম, মেটাবলিক এবং বারবার হওয়া সিস্টেমিক সমস্যার গভীর কেস রিভিউ।",
           "Allergic and Respiratory Disorders": "অ্যালার্জি ও শ্বাস-প্রশ্বাসের সমস্যা",
@@ -1749,6 +1862,11 @@
           "Visit the Store": "দোকানে আসুন",
           "Open map search": "ম্যাপ খুলুন",
           "Educational remedy information on this website is not a diagnosis, prescription, or emergency medical advice. Please consult a qualified medical practitioner for personal treatment decisions.": "এই ওয়েবসাইটের রেমেডি তথ্য রোগ নির্ণয়, প্রেসক্রিপশন বা জরুরি চিকিৎসা পরামর্শ নয়। ব্যক্তিগত চিকিৎসার সিদ্ধান্তের জন্য যোগ্য চিকিৎসকের পরামর্শ নিন।",
+          "Open full remedy finder": "সম্পূর্ণ রেমেডি ফাইন্ডার খুলুন",
+          "Full remedy finder": "সম্পূর্ণ রেমেডি ফাইন্ডার",
+          "Close remedy finder": "রেমেডি ফাইন্ডার বন্ধ করুন",
+          "Previous": "আগের",
+          "Next": "পরের",
           "Copyright": "কপিরাইট",
           "All rights reserved.": "সর্বস্বত্ব সংরক্ষিত।",
           "Search acidity, cough, stiffness, anxiety, অম্বল, কাশি": "অম্বল, কাশি, কাঠিন্য, উদ্বেগ, acidity, cough লিখে খুঁজুন",
@@ -2295,68 +2413,111 @@
         });
       }
 
-      function renderRemedies() {
-        const grid = document.getElementById("remedy-grid");
+      function getFilteredRemedies() {
         const query = document.getElementById("remedy-search").value.trim().toLowerCase();
         const active = document.querySelector(".tab.active").dataset.category;
         const concern = document.getElementById("concern-filter").value;
         const pattern = document.getElementById("pattern-filter").value;
-        const isDefaultAll = active === "all" && !query && !concern && !pattern;
-        const filtered = remedies.filter((item) => {
+        return remedies.filter((item) => {
           const matchesCategory = active === "all" || item.category === active;
           const matchesConcern = !concern || item.category === concern || item.tags.includes(concern);
           const matchesPattern = !pattern || item.patterns.includes(pattern) || item.tags.includes(pattern);
           const searchable = `${item.name} ${item.bangla} ${item.category} ${item.patterns.join(" ")} ${item.tags.join(" ")} ${item.summary} ${item.banglaText}`.toLowerCase();
           return matchesCategory && matchesConcern && matchesPattern && searchable.includes(query);
         });
-        const visibleRemedies = isDefaultAll && !remediesExpanded ? filtered.slice(0, DEFAULT_REMEDY_LIMIT) : filtered;
-        const labels = {
+      }
+
+      function remedyLabels() {
+        const previous = currentLanguage === "bn" ? "আগের" : "Previous";
+        const next = currentLanguage === "bn" ? "পরের" : "Next";
+        return {
+          previous,
+          next,
           ask: currentLanguage === "bn" ? "এই রেমেডি নিয়ে Medicure-কে জিজ্ঞেস করুন" : "Ask Medicure about this remedy",
           sourcePrefix: currentLanguage === "bn" ? "সূত্রভিত্তি" : "Source basis",
           safety: currentLanguage === "bn" ? "শিক্ষামূলক নির্দেশনা মাত্র; প্রেসক্রিপশন নয়।" : "Educational guidance only; not a prescription.",
           noMatch: currentLanguage === "bn" ? "এই অনুসন্ধানের সঙ্গে কোনও রেমেডি প্যাটার্ন মেলেনি। আরও সাধারণ উপসর্গ লিখুন, অথবা WhatsApp-এ Medicure-কে জিজ্ঞেস করুন।" : "No remedy pattern matched this search. Try a broader symptom term, or ask Medicure on WhatsApp for guidance.",
-          showing: currentLanguage === "bn" ? `প্রথম ${Math.min(DEFAULT_REMEDY_LIMIT, filtered.length)}টি রেমেডি দেখানো হচ্ছে। মোট ${filtered.length}টি আছে।` : `Showing the first ${Math.min(DEFAULT_REMEDY_LIMIT, filtered.length)} remedies out of ${filtered.length}.`,
-          showAll: currentLanguage === "bn" ? `সব ${filtered.length}টি রেমেডি দেখুন` : `Show all ${filtered.length} remedies`,
-          collapse: currentLanguage === "bn" ? "তালিকা ছোট করুন" : "Collapse remedy list",
+          showing(start, end, total) {
+            return currentLanguage === "bn"
+              ? `${start}-${end}টি রেমেডি দেখানো হচ্ছে। মোট ${total}টি আছে।`
+              : `Showing ${start}-${end} of ${total} remedies.`;
+          },
+        };
+      }
+
+      function renderRemedyCards(items, labels, categorySet, patternSet) {
+        return items
+          .map(
+            (item) => `
+          <article class="remedy-card">
+            <div>
+              <h3>${item.name}</h3>
+              <p class="bangla">${item.bangla}</p>
+              <div class="remedy-meta">
+                <span>${categorySet[item.category]}</span>
+                ${item.patterns.map((pattern) => `<span>${patternSet[pattern] || pattern}</span>`).join("")}
+              </div>
+              <p>${currentLanguage === "bn" ? item.banglaText : item.summary}</p>
+              <p class="bangla">${currentLanguage === "bn" ? item.summary : item.banglaText}</p>
+              <div class="remedy-tags">
+                ${item.tags.slice(0, 5).map((tag) => `<span>${tag}</span>`).join("")}
+              </div>
+              <small>${labels.sourcePrefix}: ${item.source}. ${labels.safety}</small>
+            </div>
+            <a href="${whatsappUrl("order", item.name)}" target="_blank" rel="noreferrer">
+              ${labels.ask}
+            </a>
+          </article>
+        `
+          )
+          .join("");
+      }
+
+      function renderRemedyList(grid, filtered, page, scope) {
+        const labels = {
+          ...remedyLabels(),
         };
         const categorySet = categoryLabels[currentLanguage] || categoryLabels.en;
         const patternSet = patternLabels[currentLanguage] || patternLabels.en;
+        const maxPage = Math.max(0, Math.ceil(filtered.length / REMEDY_PAGE_SIZE) - 1);
+        const safePage = Math.min(Math.max(page, 0), maxPage);
+        if (scope === "main") remedyPage = safePage;
+        if (scope === "modal") modalRemedyPage = safePage;
 
-        grid.innerHTML = visibleRemedies.length
-          ? visibleRemedies
-              .map(
-                (item) => `
-              <article class="remedy-card">
-                <div>
-                  <h3>${item.name}</h3>
-                  <p class="bangla">${item.bangla}</p>
-                  <div class="remedy-meta">
-                    <span>${categorySet[item.category]}</span>
-                    ${item.patterns.map((pattern) => `<span>${patternSet[pattern] || pattern}</span>`).join("")}
-                  </div>
-                  <p>${currentLanguage === "bn" ? item.banglaText : item.summary}</p>
-                  <p class="bangla">${currentLanguage === "bn" ? item.summary : item.banglaText}</p>
-                  <div class="remedy-tags">
-                    ${item.tags.slice(0, 5).map((tag) => `<span>${tag}</span>`).join("")}
-                  </div>
-                  <small>${labels.sourcePrefix}: ${item.source}. ${labels.safety}</small>
+        if (!filtered.length) {
+          grid.innerHTML = `<div class="empty-state">${labels.noMatch}</div>`;
+          return;
+        }
+
+        const start = safePage * REMEDY_PAGE_SIZE;
+        const end = Math.min(start + REMEDY_PAGE_SIZE, filtered.length);
+        const visibleRemedies = filtered.slice(start, end);
+        const controls =
+          filtered.length > REMEDY_PAGE_SIZE
+            ? `
+              <div class="remedy-controls">
+                <p class="remedy-count">${labels.showing(start + 1, end, filtered.length)}</p>
+                <div class="remedy-pager">
+                  <button class="btn btn-secondary" type="button" data-remedy-page="previous" data-remedy-scope="${scope}" ${safePage === 0 ? "disabled" : ""}>${labels.previous}</button>
+                  <button class="btn btn-secondary" type="button" data-remedy-page="next" data-remedy-scope="${scope}" ${safePage === maxPage ? "disabled" : ""}>${labels.next}</button>
                 </div>
-                <a href="${whatsappUrl("order", item.name)}" target="_blank" rel="noreferrer">
-                  ${labels.ask}
-                </a>
-              </article>
+              </div>
             `
-              )
-              .join("") +
-            (isDefaultAll && filtered.length > DEFAULT_REMEDY_LIMIT
-              ? `
-                <div class="remedy-controls">
-                  <p class="remedy-count">${remediesExpanded ? (currentLanguage === "bn" ? `সব ${filtered.length}টি রেমেডি দেখানো হচ্ছে।` : `Showing all ${filtered.length} remedies.`) : labels.showing}</p>
-                  <button class="btn btn-secondary" type="button" data-remedy-toggle>${remediesExpanded ? labels.collapse : labels.showAll}</button>
-                </div>
-              `
-              : "")
-          : `<div class="empty-state">${labels.noMatch}</div>`;
+            : `
+              <div class="remedy-controls">
+                <p class="remedy-count">${labels.showing(start + 1, end, filtered.length)}</p>
+              </div>
+            `;
+
+        grid.innerHTML = renderRemedyCards(visibleRemedies, labels, categorySet, patternSet) + controls;
+      }
+
+      function renderRemedies() {
+        const filtered = getFilteredRemedies();
+        renderRemedyList(document.getElementById("remedy-grid"), filtered, remedyPage, "main");
+        if (!document.getElementById("remedy-modal").hidden) {
+          renderRemedyList(document.getElementById("modal-remedy-grid"), filtered, modalRemedyPage, "modal");
+        }
       }
 
       document.querySelector("[data-menu-toggle]").addEventListener("click", (event) => {
@@ -2375,28 +2536,60 @@
         tab.addEventListener("click", () => {
           document.querySelectorAll(".tab").forEach((item) => item.classList.remove("active"));
           tab.classList.add("active");
-          remediesExpanded = false;
+          remedyPage = 0;
+          modalRemedyPage = 0;
           renderRemedies();
         });
       });
 
-      document.getElementById("remedy-grid").addEventListener("click", (event) => {
-        if (!event.target.matches("[data-remedy-toggle]")) return;
-        remediesExpanded = !remediesExpanded;
+      document.addEventListener("click", (event) => {
+        const pageButton = event.target.closest("[data-remedy-page]");
+        if (!pageButton) return;
+        const direction = pageButton.dataset.remedyPage === "next" ? 1 : -1;
+        if (pageButton.dataset.remedyScope === "modal") {
+          modalRemedyPage += direction;
+        } else {
+          remedyPage += direction;
+        }
         renderRemedies();
       });
 
       document.getElementById("remedy-search").addEventListener("input", () => {
-        remediesExpanded = false;
+        remedyPage = 0;
+        modalRemedyPage = 0;
         renderRemedies();
       });
       document.getElementById("concern-filter").addEventListener("change", () => {
-        remediesExpanded = false;
+        remedyPage = 0;
+        modalRemedyPage = 0;
         renderRemedies();
       });
       document.getElementById("pattern-filter").addEventListener("change", () => {
-        remediesExpanded = false;
+        remedyPage = 0;
+        modalRemedyPage = 0;
         renderRemedies();
+      });
+
+      document.querySelector("[data-remedy-modal-open]").addEventListener("click", () => {
+        const modal = document.getElementById("remedy-modal");
+        modal.hidden = false;
+        document.body.classList.add("modal-open");
+        modalRemedyPage = 0;
+        renderRemedies();
+        lucide.createIcons({ attrs: { "stroke-width": 2 } });
+      });
+
+      document.querySelectorAll("[data-remedy-modal-close]").forEach((button) => {
+        button.addEventListener("click", () => {
+          document.getElementById("remedy-modal").hidden = true;
+          document.body.classList.remove("modal-open");
+        });
+      });
+
+      document.addEventListener("keydown", (event) => {
+        if (event.key !== "Escape") return;
+        document.getElementById("remedy-modal").hidden = true;
+        document.body.classList.remove("modal-open");
       });
 
       document.querySelectorAll("[data-language-toggle]").forEach((button) => {
