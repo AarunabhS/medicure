@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "b2ad33489d71ae51",
+  "slug": "dr-reckeweg-r52-93d24fc9",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R52",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Aethusa cynapium",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Apomorphinum hydrochloricum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Colchicum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Ipecacuanha",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Petroleum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Veratrum",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Nausea, sickly feeling (e.g. when driving or flying), sea-sickness, nausea in pregnancy (soothing effect). Nausea as the effect of other disorders, weakness of conduction, gastric catarrh, nausea of children (atrophy and dystrophy). Acaetonemic vomiting of sucklings and children. Vomiting on rising and gastric catarrh of heavy drinkers....",
+      "attribution": "Dr. Reckeweg",
+      "productId": "c3802c850d7b5d3c",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r52-51.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "c3802c850d7b5d3c",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R52",
+      "productName": "Dr. Reckeweg R52",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Aethusa cynapium",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Apomorphinum hydrochloricum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Colchicum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Ipecacuanha",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Petroleum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Veratrum",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "22ml"
+      ],
+      "labelDirections": "- Frequent doses are generally recommended in nausea with tendency to vomit in pregnancy, in sea-sickness, in inflammation of the appendix, inflammation of the gallbladder, intestinal cramps, weakness of the conduction, gastric catarrh of sucklings, etc., at the rate of 10-15 drops (possibly in a little warm water or undiluted, e.g. on the hand when driving) every 5-10 minutes....",
+      "indication": "Nausea, sickly feeling (e.g. when driving or flying), sea-sickness, nausea in pregnancy (soothing effect). Nausea as the effect of other disorders, weakness of conduction, gastric catarrh, nausea of children (atrophy and dystrophy). Acaetonemic vomiting of sucklings and children. Vomiting on rising and gastric catarrh of heavy drinkers....",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r52-51.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R52",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R52",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R52",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R52",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-c3802c850d7b5d3c",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r52-51.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

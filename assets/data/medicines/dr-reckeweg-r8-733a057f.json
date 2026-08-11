@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "id": "2b8119bb8667e9d2",
+  "slug": "dr-reckeweg-r8-733a057f",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R8",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Ammonium causticum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Belladonna",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Bryonia",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Chamomilla",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Coccus cacti",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Corallium rubrum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Cuprum aceticum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Drosera",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Ipecacuanha",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Pressure on the root of the nose. Thymus vulg",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Catarrhal affections of the upper air passages. Rhinolaryngopharyngitis, especially bronchitis and whooping cough at all stages. Effective expectorant in chronic bronchitis, bronchial asthma, fits of coughing in phthisis.",
+      "attribution": "Dr. Reckeweg",
+      "productId": "2c35439e43abb274",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r8-8.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Syrup"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "2c35439e43abb274",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R8",
+      "productName": "Dr. Reckeweg R8",
+      "type": "combination",
+      "form": "Syrup",
+      "ingredients": [
+        {
+          "name": "Ammonium causticum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Belladonna",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Bryonia",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Chamomilla",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Coccus cacti",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Corallium rubrum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Cuprum aceticum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Drosera",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Ipecacuanha",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Pressure on the root of the nose. Thymus vulg",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "150ml"
+      ],
+      "labelDirections": "- Whooping cough: In the beginning of the treatment frequent doses, every 1 hour, one teaspoon (5ml) of syrup. Advisable is, to alternate from hour to hour the cough syrup and the coughdrops. After attenuation of the graveness and frequency of the fits of coughing (generally in 2-3 days) take the medicine every 2 hours. - In the treatment of non-specific catarrhs, following whooping cough, take 4-6 times daily one teaspoon (5ml) of syrup....",
+      "indication": "Catarrhal affections of the upper air passages. Rhinolaryngopharyngitis, especially bronchitis and whooping cough at all stages. Effective expectorant in chronic bronchitis, bronchial asthma, fits of coughing in phthisis.",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r8-8.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R8",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R8",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R8",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R8",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-2c35439e43abb274",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r8-8.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

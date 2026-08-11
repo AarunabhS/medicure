@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "id": "e89c2e1aff11d325",
+  "slug": "allium-cepa",
+  "type": "single",
+  "canonicalName": "Allium Cepa",
+  "banglaName": "অ্যালিয়াম সেপা",
+  "synonyms": [
+    "অ্যালিয়াম সেপা"
+  ],
+  "scientificIdentity": "Red onion",
+  "sourceMaterial": "Red onion",
+  "hpiReferences": [
+    {
+      "title": "PCIM&H Homoeopathic Pharmacopoeia of India monograph index",
+      "url": "https://www.portal.pcimh.gov.in/products?categories=97e857d1-7288-4f31-b142-bf55adeb7d14&page=1",
+      "verificationStatus": "index-linked"
+    }
+  ],
+  "ingredients": [
+    {
+      "name": "Allium Cepa",
+      "role": "source substance",
+      "sourceIdentity": "Red onion"
+    }
+  ],
+  "traditionalContext": {
+    "summary": "Often referenced for cold patterns with watery nasal discharge and sneezing.",
+    "bangla": "নাক দিয়ে জল পড়া ও হাঁচির সঙ্গে সর্দির প্যাটার্নে অ্যালিয়াম সেপার নাম শোনা যায়।",
+    "sourceBasis": "Boericke-style materia medica references"
+  },
+  "manufacturerIndications": [],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [
+    "Q",
+    "6X",
+    "6CH",
+    "30CH",
+    "200CH",
+    "1M",
+    "10M",
+    "50M",
+    "CM"
+  ],
+  "forms": [
+    "Mother tincture / dilution",
+    "Mother tincture"
+  ],
+  "manufacturers": [
+    {
+      "id": "bakson",
+      "name": "Bakson Drugs & Pharmaceuticals",
+      "shortName": "Bakson",
+      "url": "https://www.buybakson.com/pages/download-catalogue"
+    },
+    {
+      "id": "hapco",
+      "name": "Hahnemann Publishing Co. Pvt. Ltd.",
+      "shortName": "HAPCO",
+      "url": "https://www.hapco.co.in/products.html"
+    },
+    {
+      "id": "mahesh",
+      "name": "Mahesh Laboratories Pvt. Ltd.",
+      "shortName": "Mahesh",
+      "url": "https://www.maheshlab.com/catalogue.html"
+    }
+  ],
+  "products": [
+    {
+      "id": "0c260ba8857640ea",
+      "manufacturerId": "bakson",
+      "canonicalName": "Allium Cepa",
+      "productName": "Bakson Allium Cepa",
+      "type": "single",
+      "form": "Mother tincture / dilution",
+      "ingredients": [
+        {
+          "name": "Allium Cepa",
+          "role": "source substance",
+          "sourceIdentity": "Red onion"
+        }
+      ],
+      "potencies": [
+        "Q",
+        "6X",
+        "6CH",
+        "30CH",
+        "200CH",
+        "1M",
+        "10M",
+        "50M",
+        "CM"
+      ],
+      "packSizes": [],
+      "labelDirections": "",
+      "indication": "",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0743/0904/2417/files/MT_Dilution_Catalogue_14-05-24_1.pdf?v=1754394718",
+      "sourceType": "official catalog"
+    },
+    {
+      "id": "4c896990e6e87ac2",
+      "manufacturerId": "hapco",
+      "canonicalName": "Allium Cepa",
+      "productName": "HAPCO Allium Cepa",
+      "type": "single",
+      "form": "Mother tincture",
+      "ingredients": [
+        {
+          "name": "Allium Cepa",
+          "role": "source substance"
+        }
+      ],
+      "potencies": [
+        "Q"
+      ],
+      "packSizes": [],
+      "labelDirections": "",
+      "indication": "",
+      "sourceUrl": "https://www.hapco.co.in/a.html",
+      "sourceType": "official catalog"
+    },
+    {
+      "id": "94ec84bf6326fcb8",
+      "manufacturerId": "mahesh",
+      "canonicalName": "Allium Cepa",
+      "productName": "Mahesh Allium Cepa",
+      "type": "single",
+      "form": "Mother tincture / dilution",
+      "ingredients": [
+        {
+          "name": "Allium Cepa",
+          "role": "source substance"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [],
+      "labelDirections": "",
+      "indication": "",
+      "sourceUrl": "https://www.maheshlab.com/catalogue.html",
+      "sourceType": "official catalog"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Allium%20Cepa",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Allium%20Cepa",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Allium%20Cepa",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Allium%20Cepa",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "pcimh-hpi",
+      "name": "Homoeopathic Pharmacopoeia of India",
+      "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of AYUSH",
+      "url": "https://www.portal.pcimh.gov.in/products?categories=97e857d1-7288-4f31-b142-bf55adeb7d14&page=1",
+      "role": "Canonical medicine names, synonyms, identity and pharmacopoeial reference"
+    },
+    {
+      "id": "product-0c260ba8857640ea",
+      "name": "Bakson product source",
+      "publisher": "Bakson Drugs & Pharmaceuticals",
+      "url": "https://cdn.shopify.com/s/files/1/0743/0904/2417/files/MT_Dilution_Catalogue_14-05-24_1.pdf?v=1754394718",
+      "role": "official catalog"
+    },
+    {
+      "id": "product-4c896990e6e87ac2",
+      "name": "HAPCO product source",
+      "publisher": "Hahnemann Publishing Co. Pvt. Ltd.",
+      "url": "https://www.hapco.co.in/a.html",
+      "role": "official catalog"
+    },
+    {
+      "id": "product-94ec84bf6326fcb8",
+      "name": "Mahesh product source",
+      "publisher": "Mahesh Laboratories Pvt. Ltd.",
+      "url": "https://www.maheshlab.com/catalogue.html",
+      "role": "official catalog"
+    }
+  ],
+  "category": "respiratory",
+  "tags": [
+    "runny nose",
+    "watery discharge",
+    "sneezing",
+    "নাক দিয়ে জল",
+    "হাঁচি",
+    "sudden"
+  ],
+  "dataQuality": {
+    "identity": "pharmacopoeia-index-linked",
+    "composition": "structured",
+    "indications": "traditional-context-only",
+    "dosage": "not-published"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

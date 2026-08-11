@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "id": "bafb857776795b68",
+  "slug": "dr-reckeweg-r21-1ccebf96",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R21",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Medorrhinum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Results from suppressed Gonnorrhoea. Psorinum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Thuja",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Vaccininum",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Chronic eczema. Skin disease not yielding to conventional therapy. Constitutional improvement in cases associated with skin diseases. To increase reactivity.",
+      "attribution": "Dr. Reckeweg",
+      "productId": "91f7384c9e7d811c",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r21-20.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "91f7384c9e7d811c",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R21",
+      "productName": "Dr. Reckeweg R21",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Medorrhinum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Results from suppressed Gonnorrhoea. Psorinum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Thuja",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Vaccininum",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "22ml"
+      ],
+      "labelDirections": "- Generally 3 times daily 10-15 drops in some water before meals, for a longer period of time.",
+      "indication": "Chronic eczema. Skin disease not yielding to conventional therapy. Constitutional improvement in cases associated with skin diseases. To increase reactivity.",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r21-20.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R21",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R21",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R21",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R21",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-91f7384c9e7d811c",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r21-20.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "id": "cb28a0dcc0d6ef8b",
+  "slug": "dr-reckeweg-r18-a5483b53",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R18",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Berberis",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Cantharis",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Cystitis. Equisetum hiemale",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Eupatorium purpurem",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Dulcamara",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Inflammation of the kidneys, renal calculi, sharp stinging pains in the kidneys, pains in the sacral region. Peritonitis, metritis, piercing pains in the bladder, inflammation of bladder, burning pains when urinating, yellow urine, turbid.",
+      "attribution": "Dr. Reckeweg",
+      "productId": "9e0a8f012cc0c5f8",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r18-17.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "9e0a8f012cc0c5f8",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R18",
+      "productName": "Dr. Reckeweg R18",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Berberis",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Cantharis",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Cystitis. Equisetum hiemale",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Eupatorium purpurem",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Dulcamara",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "22ml"
+      ],
+      "labelDirections": "- In acute cystitis and cysto-pyelitis, 10 drops in some water one hourly to begin with, thereafter two hourly. As soon as improvement sets in administer 10-15 drops in some water 3-4 times a day. - In chronic cystitis, cysto-pyelitis and bacteriuria: administer 10-15 drops in some water 2-3 times daily before meals until disappearance of symptoms. - In bladder irritation: 10-15 drops in some water once or twice a day.",
+      "indication": "Inflammation of the kidneys, renal calculi, sharp stinging pains in the kidneys, pains in the sacral region. Peritonitis, metritis, piercing pains in the bladder, inflammation of bladder, burning pains when urinating, yellow urine, turbid.",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r18-17.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R18",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R18",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R18",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R18",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-9e0a8f012cc0c5f8",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r18-17.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

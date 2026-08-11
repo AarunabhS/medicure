@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "id": "a0ad8e1be78491f5",
+  "slug": "dr-reckeweg-r32-dc433d96",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R32",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Highly disagreeable sweat. Belladonna",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Jaborandi",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Kalium carbonicum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Salvia officianalis",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Sambucus nigra",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Sanguinaria",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Sepia",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Veratrum",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Undue perspiration (hyperhidrosis of varying genesis). Climacteric flushing, with sweat. Excessive perspiration during acute infectious diseases and fever. Other forms of perspiration (unpleasant smell). Nocturnal perspiration with exhaustion (pre-tuberculous cases). Hot, cold or sticky sweat.",
+      "attribution": "Dr. Reckeweg",
+      "productId": "cf6907a0e5655529",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r32-31.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "cf6907a0e5655529",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R32",
+      "productName": "Dr. Reckeweg R32",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Highly disagreeable sweat. Belladonna",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Jaborandi",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Kalium carbonicum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Salvia officianalis",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Sambucus nigra",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Sanguinaria",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Sepia",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Veratrum",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "22ml"
+      ],
+      "labelDirections": "- As a prolonged cure 3-4 times a day 10-15 drops will be taken in some water. In cases intermittent perspiration (i.e. flushing, nocturnal sweat) frequent, eventually prophylactic doses, e.g. in nocturnal perspiration several doses, at an interval of 1/4 hour, of 10-15 drops. - If perspiring occurs in the early part of the night the same dosage will hold....",
+      "indication": "Undue perspiration (hyperhidrosis of varying genesis). Climacteric flushing, with sweat. Excessive perspiration during acute infectious diseases and fever. Other forms of perspiration (unpleasant smell). Nocturnal perspiration with exhaustion (pre-tuberculous cases). Hot, cold or sticky sweat.",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r32-31.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R32",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R32",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R32",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R32",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-cf6907a0e5655529",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r32-31.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

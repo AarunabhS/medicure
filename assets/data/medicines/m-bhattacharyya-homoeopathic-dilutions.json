@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "9b041ff384948330",
+  "slug": "m-bhattacharyya-homoeopathic-dilutions",
+  "type": "range",
+  "canonicalName": "M. Bhattacharyya Homoeopathic Dilutions",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [],
+  "traditionalContext": null,
+  "manufacturerIndications": [],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Manufacturer range"
+  ],
+  "manufacturers": [
+    {
+      "id": "mb-king",
+      "name": "M. Bhattacharyya & Co. Pvt. Ltd. / King & Co.",
+      "shortName": "M. Bhattacharyya / King & Co.",
+      "url": "https://mbhomeo.in/"
+    }
+  ],
+  "products": [
+    {
+      "canonicalName": "M. Bhattacharyya Homoeopathic Dilutions",
+      "type": "range",
+      "manufacturerId": "mb-king",
+      "productName": "Homoeopathic mother tinctures and dilutions range",
+      "form": "Manufacturer range",
+      "potencies": [],
+      "packSizes": [],
+      "sourceUrl": "https://mbhomeo.in/wp-content/uploads/2023/03/englishcatalogue_2023_a5_digital.pdf",
+      "sourceType": "official catalog; individual records pending reviewed OCR",
+      "id": "6343d6004f5e2d2c",
+      "ingredients": []
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=M.%20Bhattacharyya%20Homoeopathic%20Dilutions",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=M.%20Bhattacharyya%20Homoeopathic%20Dilutions",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=M.%20Bhattacharyya%20Homoeopathic%20Dilutions",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=M.%20Bhattacharyya%20Homoeopathic%20Dilutions",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-6343d6004f5e2d2c",
+      "name": "M. Bhattacharyya / King & Co. product source",
+      "publisher": "M. Bhattacharyya & Co. Pvt. Ltd. / King & Co.",
+      "url": "https://mbhomeo.in/wp-content/uploads/2023/03/englishcatalogue_2023_a5_digital.pdf",
+      "role": "official catalog; individual records pending reviewed OCR"
+    }
+  ],
+  "category": "single-remedy",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "source-link-only",
+    "indications": "not-published",
+    "dosage": "not-published"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

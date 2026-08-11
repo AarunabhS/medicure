@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "id": "dfc2a5469d2b126b",
+  "slug": "dr-reckeweg-r6-ee6c5278",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R6",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Baptisia",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Bryonia",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Camphora",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Causticum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Eucalyptus",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Eupatorium perfoliatum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Ferrum phosphoricum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Gelsemium",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Sabadilla",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Acute feverish inflammations of the fibrous tissues and the serous membranes. Gripfektan: Specific serous remedy, especially influenza. General infection with pain in the limbs, sensation of prostration, dull head-aches, restlessness. Dry and burning skin, acute pains....",
+      "attribution": "Dr. Reckeweg",
+      "productId": "29581131bfb8e5c1",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r6-6.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "29581131bfb8e5c1",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R6",
+      "productName": "Dr. Reckeweg R6",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Baptisia",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Bryonia",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Camphora",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Causticum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Eucalyptus",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Eupatorium perfoliatum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Ferrum phosphoricum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Gelsemium",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Sabadilla",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "22ml"
+      ],
+      "labelDirections": "- Acute illness with feverish tendency: 10 drops in some water every 15 to 30 minutes. - As soon as fever is abating (generally after 1-2 days) and perspiration appears, take the medicine every 1-2 hours 10-15 drops. - When fever has gone, take during several days every 2-3 hours 10 drops in some water. - Prevention in influenza epidemics: 3-4 times a day 10-15 drops in some water.",
+      "indication": "Acute feverish inflammations of the fibrous tissues and the serous membranes. Gripfektan: Specific serous remedy, especially influenza. General infection with pain in the limbs, sensation of prostration, dull head-aches, restlessness. Dry and burning skin, acute pains....",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r6-6.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R6",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R6",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R6",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R6",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-29581131bfb8e5c1",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r6-6.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

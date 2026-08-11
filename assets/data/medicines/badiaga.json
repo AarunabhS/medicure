@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "id": "372f5fb7fa6b9637",
+  "slug": "badiaga",
+  "type": "single",
+  "canonicalName": "Badiaga",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "Fresh water sponge",
+  "sourceMaterial": "Fresh water sponge",
+  "hpiReferences": [
+    {
+      "title": "PCIM&H Homoeopathic Pharmacopoeia of India monograph index",
+      "url": "https://www.portal.pcimh.gov.in/products?categories=97e857d1-7288-4f31-b142-bf55adeb7d14&page=1",
+      "verificationStatus": "index-linked"
+    }
+  ],
+  "ingredients": [
+    {
+      "name": "Badiaga",
+      "role": "source substance",
+      "sourceIdentity": "Fresh water sponge"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [
+    "Q",
+    "6X",
+    "3CH",
+    "6CH",
+    "30CH",
+    "200CH",
+    "1M",
+    "10M",
+    "50M",
+    "CM"
+  ],
+  "forms": [
+    "Mother tincture / dilution",
+    "Dilution"
+  ],
+  "manufacturers": [
+    {
+      "id": "bakson",
+      "name": "Bakson Drugs & Pharmaceuticals",
+      "shortName": "Bakson",
+      "url": "https://www.buybakson.com/pages/download-catalogue"
+    },
+    {
+      "id": "hapco",
+      "name": "Hahnemann Publishing Co. Pvt. Ltd.",
+      "shortName": "HAPCO",
+      "url": "https://www.hapco.co.in/products.html"
+    },
+    {
+      "id": "mahesh",
+      "name": "Mahesh Laboratories Pvt. Ltd.",
+      "shortName": "Mahesh",
+      "url": "https://www.maheshlab.com/catalogue.html"
+    }
+  ],
+  "products": [
+    {
+      "id": "62720c3f4a1b22d5",
+      "manufacturerId": "bakson",
+      "canonicalName": "Badiaga",
+      "productName": "Bakson Badiaga",
+      "type": "single",
+      "form": "Mother tincture / dilution",
+      "ingredients": [
+        {
+          "name": "Badiaga",
+          "role": "source substance",
+          "sourceIdentity": "Fresh water sponge"
+        }
+      ],
+      "potencies": [
+        "Q",
+        "6X",
+        "6CH",
+        "30CH",
+        "200CH",
+        "1M",
+        "10M",
+        "50M",
+        "CM"
+      ],
+      "packSizes": [],
+      "labelDirections": "",
+      "indication": "",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0743/0904/2417/files/MT_Dilution_Catalogue_14-05-24_1.pdf?v=1754394718",
+      "sourceType": "official catalog"
+    },
+    {
+      "id": "1ffbfdb96f028d7a",
+      "manufacturerId": "hapco",
+      "canonicalName": "Badiaga",
+      "productName": "HAPCO Badiaga",
+      "type": "single",
+      "form": "Dilution",
+      "ingredients": [
+        {
+          "name": "Badiaga",
+          "role": "source substance"
+        }
+      ],
+      "potencies": [
+        "3CH"
+      ],
+      "packSizes": [],
+      "labelDirections": "",
+      "indication": "",
+      "sourceUrl": "https://www.hapco.co.in/b.html",
+      "sourceType": "official catalog"
+    },
+    {
+      "id": "49fa426a473bc417",
+      "manufacturerId": "mahesh",
+      "canonicalName": "Badiaga",
+      "productName": "Mahesh Badiaga",
+      "type": "single",
+      "form": "Mother tincture / dilution",
+      "ingredients": [
+        {
+          "name": "Badiaga",
+          "role": "source substance"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [],
+      "labelDirections": "",
+      "indication": "",
+      "sourceUrl": "https://www.maheshlab.com/catalogue.html",
+      "sourceType": "official catalog"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Badiaga",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Badiaga",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Badiaga",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Badiaga",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "pcimh-hpi",
+      "name": "Homoeopathic Pharmacopoeia of India",
+      "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of AYUSH",
+      "url": "https://www.portal.pcimh.gov.in/products?categories=97e857d1-7288-4f31-b142-bf55adeb7d14&page=1",
+      "role": "Canonical medicine names, synonyms, identity and pharmacopoeial reference"
+    },
+    {
+      "id": "product-62720c3f4a1b22d5",
+      "name": "Bakson product source",
+      "publisher": "Bakson Drugs & Pharmaceuticals",
+      "url": "https://cdn.shopify.com/s/files/1/0743/0904/2417/files/MT_Dilution_Catalogue_14-05-24_1.pdf?v=1754394718",
+      "role": "official catalog"
+    },
+    {
+      "id": "product-1ffbfdb96f028d7a",
+      "name": "HAPCO product source",
+      "publisher": "Hahnemann Publishing Co. Pvt. Ltd.",
+      "url": "https://www.hapco.co.in/b.html",
+      "role": "official catalog"
+    },
+    {
+      "id": "product-49fa426a473bc417",
+      "name": "Mahesh product source",
+      "publisher": "Mahesh Laboratories Pvt. Ltd.",
+      "url": "https://www.maheshlab.com/catalogue.html",
+      "role": "official catalog"
+    }
+  ],
+  "category": "single-remedy",
+  "tags": [],
+  "dataQuality": {
+    "identity": "pharmacopoeia-index-linked",
+    "composition": "structured",
+    "indications": "not-published",
+    "dosage": "not-published"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

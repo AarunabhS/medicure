@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "id": "e70296754afbb56f",
+  "slug": "dr-reckeweg-r71-8b322a6f",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R71",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Aconitum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Paraesthesias especially at night. Arsenicum album",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Ameliorated by warm applications. Colocynthis",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Gnaphalium polycephalum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Ameliorated on sitting. Magnesium phosphoricum",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Sciatica. Sciatica as a result of prolapse of the vertebral discs. Paraesthesias, formication in legs.",
+      "attribution": "Dr. Reckeweg",
+      "productId": "d58f561078fa2d92",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r71-69.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "d58f561078fa2d92",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R71",
+      "productName": "Dr. Reckeweg R71",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Aconitum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Paraesthesias especially at night. Arsenicum album",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Ameliorated by warm applications. Colocynthis",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Gnaphalium polycephalum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Ameliorated on sitting. Magnesium phosphoricum",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "22ml"
+      ],
+      "labelDirections": "- In acute cases give initially 8-10 drops in some water every ¼ to ½ hour. When improvement sets in reduce the dosage to 10-15 drops every 1-2 hours",
+      "indication": "Sciatica. Sciatica as a result of prolapse of the vertebral discs. Paraesthesias, formication in legs.",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r71-69.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R71",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R71",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R71",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R71",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-d58f561078fa2d92",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r71-69.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

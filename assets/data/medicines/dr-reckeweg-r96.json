@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "b8aff64f87b1a38f",
+  "slug": "dr-reckeweg-r96",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R96",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Nasal Spray (Preservative Free)",
+      "attribution": "Dr. Reckeweg",
+      "productId": "16b70b1bef906b5f",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r96-nasal-spray-new-762.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Spray"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "16b70b1bef906b5f",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R96",
+      "productName": "Dr. Reckeweg R96",
+      "type": "combination",
+      "form": "Spray",
+      "ingredients": [],
+      "potencies": [],
+      "packSizes": [
+        "15ml"
+      ],
+      "labelDirections": "",
+      "indication": "Nasal Spray (Preservative Free)",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r96-nasal-spray-new-762.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R96",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R96",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R96",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R96",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-16b70b1bef906b5f",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r96-nasal-spray-new-762.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "source-link-only",
+    "indications": "manufacturer-attributed",
+    "dosage": "not-published"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

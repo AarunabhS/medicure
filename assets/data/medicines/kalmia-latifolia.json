@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "id": "9f4445ff47aa81b1",
+  "slug": "kalmia-latifolia",
+  "type": "single",
+  "canonicalName": "Kalmia Latifolia",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "Mountain laurel",
+  "sourceMaterial": "Mountain laurel",
+  "hpiReferences": [
+    {
+      "title": "PCIM&H Homoeopathic Pharmacopoeia of India monograph index",
+      "url": "https://www.portal.pcimh.gov.in/products?categories=97e857d1-7288-4f31-b142-bf55adeb7d14&page=1",
+      "verificationStatus": "index-linked"
+    }
+  ],
+  "ingredients": [
+    {
+      "name": "Kalmia Latifolia",
+      "role": "source substance",
+      "sourceIdentity": "Mountain laurel"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [
+    "Q",
+    "6X",
+    "6CH",
+    "30CH",
+    "200CH",
+    "1M",
+    "10M",
+    "50M"
+  ],
+  "forms": [
+    "Mother tincture / dilution",
+    "Mother tincture"
+  ],
+  "manufacturers": [
+    {
+      "id": "bakson",
+      "name": "Bakson Drugs & Pharmaceuticals",
+      "shortName": "Bakson",
+      "url": "https://www.buybakson.com/pages/download-catalogue"
+    },
+    {
+      "id": "hapco",
+      "name": "Hahnemann Publishing Co. Pvt. Ltd.",
+      "shortName": "HAPCO",
+      "url": "https://www.hapco.co.in/products.html"
+    },
+    {
+      "id": "mahesh",
+      "name": "Mahesh Laboratories Pvt. Ltd.",
+      "shortName": "Mahesh",
+      "url": "https://www.maheshlab.com/catalogue.html"
+    }
+  ],
+  "products": [
+    {
+      "id": "d0e0f46b03a7b007",
+      "manufacturerId": "bakson",
+      "canonicalName": "Kalmia Latifolia",
+      "productName": "Bakson Kalmia Latifolia",
+      "type": "single",
+      "form": "Mother tincture / dilution",
+      "ingredients": [
+        {
+          "name": "Kalmia Latifolia",
+          "role": "source substance",
+          "sourceIdentity": "Mountain laurel"
+        }
+      ],
+      "potencies": [
+        "Q",
+        "6X",
+        "6CH",
+        "30CH",
+        "200CH",
+        "1M",
+        "10M",
+        "50M"
+      ],
+      "packSizes": [],
+      "labelDirections": "",
+      "indication": "",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0743/0904/2417/files/MT_Dilution_Catalogue_14-05-24_1.pdf?v=1754394718",
+      "sourceType": "official catalog"
+    },
+    {
+      "id": "ab6f379dcb0cb9f8",
+      "manufacturerId": "hapco",
+      "canonicalName": "Kalmia Latifolia",
+      "productName": "HAPCO Kalmia Latifolia",
+      "type": "single",
+      "form": "Mother tincture",
+      "ingredients": [
+        {
+          "name": "Kalmia Latifolia",
+          "role": "source substance"
+        }
+      ],
+      "potencies": [
+        "Q"
+      ],
+      "packSizes": [],
+      "labelDirections": "",
+      "indication": "",
+      "sourceUrl": "https://www.hapco.co.in/k.html",
+      "sourceType": "official catalog"
+    },
+    {
+      "id": "f202f27a0eb56489",
+      "manufacturerId": "mahesh",
+      "canonicalName": "Kalmia Latifolia",
+      "productName": "Mahesh Kalmia Latifolia",
+      "type": "single",
+      "form": "Mother tincture / dilution",
+      "ingredients": [
+        {
+          "name": "Kalmia Latifolia",
+          "role": "source substance"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [],
+      "labelDirections": "",
+      "indication": "",
+      "sourceUrl": "https://www.maheshlab.com/catalogue.html",
+      "sourceType": "official catalog"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Kalmia%20Latifolia",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Kalmia%20Latifolia",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Kalmia%20Latifolia",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Kalmia%20Latifolia",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "pcimh-hpi",
+      "name": "Homoeopathic Pharmacopoeia of India",
+      "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of AYUSH",
+      "url": "https://www.portal.pcimh.gov.in/products?categories=97e857d1-7288-4f31-b142-bf55adeb7d14&page=1",
+      "role": "Canonical medicine names, synonyms, identity and pharmacopoeial reference"
+    },
+    {
+      "id": "product-d0e0f46b03a7b007",
+      "name": "Bakson product source",
+      "publisher": "Bakson Drugs & Pharmaceuticals",
+      "url": "https://cdn.shopify.com/s/files/1/0743/0904/2417/files/MT_Dilution_Catalogue_14-05-24_1.pdf?v=1754394718",
+      "role": "official catalog"
+    },
+    {
+      "id": "product-ab6f379dcb0cb9f8",
+      "name": "HAPCO product source",
+      "publisher": "Hahnemann Publishing Co. Pvt. Ltd.",
+      "url": "https://www.hapco.co.in/k.html",
+      "role": "official catalog"
+    },
+    {
+      "id": "product-f202f27a0eb56489",
+      "name": "Mahesh product source",
+      "publisher": "Mahesh Laboratories Pvt. Ltd.",
+      "url": "https://www.maheshlab.com/catalogue.html",
+      "role": "official catalog"
+    }
+  ],
+  "category": "single-remedy",
+  "tags": [],
+  "dataQuality": {
+    "identity": "pharmacopoeia-index-linked",
+    "composition": "structured",
+    "indications": "not-published",
+    "dosage": "not-published"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

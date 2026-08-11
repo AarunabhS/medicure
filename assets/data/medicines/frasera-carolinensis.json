@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "id": "3fcbdcc448da681a",
+  "slug": "frasera-carolinensis",
+  "type": "single",
+  "canonicalName": "Frasera Carolinensis",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "Frasera Carolinensis",
+  "hpiReferences": [
+    {
+      "title": "PCIM&H Homoeopathic Pharmacopoeia of India monograph index",
+      "url": "https://www.portal.pcimh.gov.in/products?categories=97e857d1-7288-4f31-b142-bf55adeb7d14&page=1",
+      "verificationStatus": "index-linked"
+    }
+  ],
+  "ingredients": [
+    {
+      "name": "Frasera Carolinensis",
+      "role": "source substance"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Dilution",
+    "Mother tincture / dilution"
+  ],
+  "manufacturers": [
+    {
+      "id": "hapco",
+      "name": "Hahnemann Publishing Co. Pvt. Ltd.",
+      "shortName": "HAPCO",
+      "url": "https://www.hapco.co.in/products.html"
+    },
+    {
+      "id": "mahesh",
+      "name": "Mahesh Laboratories Pvt. Ltd.",
+      "shortName": "Mahesh",
+      "url": "https://www.maheshlab.com/catalogue.html"
+    }
+  ],
+  "products": [
+    {
+      "id": "242eaa522beb06e4",
+      "manufacturerId": "hapco",
+      "canonicalName": "Frasera Carolinensis",
+      "productName": "HAPCO Frasera Carolinensis",
+      "type": "single",
+      "form": "Dilution",
+      "ingredients": [
+        {
+          "name": "Frasera Carolinensis",
+          "role": "source substance"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [],
+      "labelDirections": "",
+      "indication": "",
+      "sourceUrl": "https://www.hapco.co.in/f.html",
+      "sourceType": "official catalog"
+    },
+    {
+      "id": "c144ec35d318825c",
+      "manufacturerId": "mahesh",
+      "canonicalName": "Frasera Carolinensis",
+      "productName": "Mahesh Frasera Carolinensis",
+      "type": "single",
+      "form": "Mother tincture / dilution",
+      "ingredients": [
+        {
+          "name": "Frasera Carolinensis",
+          "role": "source substance"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [],
+      "labelDirections": "",
+      "indication": "",
+      "sourceUrl": "https://www.maheshlab.com/catalogue.html",
+      "sourceType": "official catalog"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Frasera%20Carolinensis",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Frasera%20Carolinensis",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Frasera%20Carolinensis",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Frasera%20Carolinensis",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "pcimh-hpi",
+      "name": "Homoeopathic Pharmacopoeia of India",
+      "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of AYUSH",
+      "url": "https://www.portal.pcimh.gov.in/products?categories=97e857d1-7288-4f31-b142-bf55adeb7d14&page=1",
+      "role": "Canonical medicine names, synonyms, identity and pharmacopoeial reference"
+    },
+    {
+      "id": "product-242eaa522beb06e4",
+      "name": "HAPCO product source",
+      "publisher": "Hahnemann Publishing Co. Pvt. Ltd.",
+      "url": "https://www.hapco.co.in/f.html",
+      "role": "official catalog"
+    },
+    {
+      "id": "product-c144ec35d318825c",
+      "name": "Mahesh product source",
+      "publisher": "Mahesh Laboratories Pvt. Ltd.",
+      "url": "https://www.maheshlab.com/catalogue.html",
+      "role": "official catalog"
+    }
+  ],
+  "category": "single-remedy",
+  "tags": [],
+  "dataQuality": {
+    "identity": "pharmacopoeia-index-linked",
+    "composition": "structured",
+    "indications": "not-published",
+    "dosage": "not-published"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

@@ -1,0 +1,2195 @@
+[
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Nixocid",
+    "productName": "Nixocid",
+    "type": "combination",
+    "form": "Tablets & Syrup",
+    "ingredients": [
+      {
+        "name": "Natrum Phosphoricum",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Carbo Vegetabilis",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Robinia Pseudacacia",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Lycopodium Clavatum",
+        "potency": "3X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "25 gm",
+      "450 gm",
+      "115 ml",
+      "500 ml"
+    ],
+    "labelDirections": "Tablets 2 tablets, 3-4 times a day, in acute conditions Adults 2 tablets, 2-3 hourly Children 1 tablet, 3-4 times a day Syrup 1 teaspoonful, 3-4 times a day Adults Children ½ teaspoonful, 3-4 times a day or, as prescribed by the physician.",
+    "indication": "Heartburn, Acidity & Flatulence Acidity in the stomach results in",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 7",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Fe-Min",
+    "productName": "Fe-Min",
+    "type": "combination",
+    "form": "Tablets",
+    "ingredients": [
+      {
+        "name": "Calcarea Fluorica",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Ferrum Phosphoricum",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Calcarea Phosphorica",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Kali Phosphoricum",
+        "potency": "3X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [],
+    "labelDirections": "Adults : 2 tablets 4 times a day Children : Half of adult dose Or, as prescribed by the physician.",
+    "indication": "For Anaemic conditions Anaemia can affect both males and",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 8",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Ferrumsip",
+    "productName": "Ferrumsip",
+    "type": "combination",
+    "form": "Syrup",
+    "ingredients": [
+      {
+        "name": "Ferrum Phosphoricum",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Ferrum Muriaticum",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Cinchona Officinalis",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Natrum Phosphoricum",
+        "potency": "1X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Kali Phosphorium",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Ferrum Metallicum",
+        "potency": "3X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "115ml",
+      "180ml",
+      "500 ml"
+    ],
+    "labelDirections": "Adults 1 teaspoonful, 3-4 times a day. Children 1/2 teaspoon 3-4 times a day. Or, as prescribed by the physician.",
+    "indication": "For Anaemia Anaemia is the condition when there is a decrease in number of Red Blood",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 9",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Tranquil",
+    "productName": "Tranquil",
+    "type": "combination",
+    "form": "Tablets",
+    "ingredients": [
+      {
+        "name": "Abrus Precatorius",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Kalium Phosphoricum",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Aconitum Napellus",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Calendula Officinalis",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Viburnum Opulus",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Zincum Picricum",
+        "potency": "3X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "25 gm",
+      "450 gm"
+    ],
+    "labelDirections": "Adults 2 tablets, 4-6 times daily Children Half of adult’s dose Or, as prescribed by the physician.",
+    "indication": "For Anxity, tension, melancholy and distrubed sleep.",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 10",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Cineraria Maritima Euphrasia",
+    "productName": "Cineraria Maritima Euphrasia",
+    "type": "combination",
+    "form": "Eye Drops (cme)",
+    "ingredients": [
+      {
+        "name": "Cineraria Maritima",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Calendula Officinalis",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Euphrasia",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Kali Muriaticum",
+        "potency": "10X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Calcarea Fluorica",
+        "potency": "10X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Magnesia Carbonica",
+        "potency": "10X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Silicea",
+        "potency": "10X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "5 ml",
+      "10 ml"
+    ],
+    "labelDirections": "Instill 1-2 drops in to the eye, 3 times a day. The usage should be continued for several months Or, as prescribed by the physician.",
+    "indication": "* Irritation due to foreign bodies, * Halo around lights, * Haziness.",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 11",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Cineraria Maritima 10%",
+    "productName": "Cineraria Maritima 10%",
+    "type": "combination",
+    "form": "Drops",
+    "ingredients": [
+      {
+        "name": "Cineraria Maritima",
+        "potency": "Q",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "5 ml",
+      "10 ml"
+    ],
+    "labelDirections": "Instill 1-2 drops into the eye, 3 times a day. The usage should be continued for several months Or, as prescribed by the physician.",
+    "indication": "Cataract is the opacity or clouding of the normally clear and transparent lens of the eye. It is a gradual,",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 12",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL AF-Tabs",
+    "productName": "AF-Tabs",
+    "type": "combination",
+    "form": "Tablets",
+    "ingredients": [
+      {
+        "name": "Bellis Perennis",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Gelsemium Sempervirens",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Bryonia Alba",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Eupatorium Perfoliatum",
+        "potency": "3X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "25 g",
+      "450g"
+    ],
+    "labelDirections": "Adults 2 tablets, every 3 hours or 4 times a day Children Half of the adult dose Or, as prescribed by the physician.",
+    "indication": "For cold and flu Flu or Influenza is a viral infection of the respiratory system - nose, throat",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 13",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Euphrasia 10%",
+    "productName": "Euphrasia 10%",
+    "type": "combination",
+    "form": "Eye Drops",
+    "ingredients": [
+      {
+        "name": "Euphrasia Officinalis",
+        "potency": "Q",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "5 ml",
+      "10 ml"
+    ],
+    "labelDirections": "Instill 1 or 2 drops in to eyes, 3 times daily. Or, as prescribed by the physician.",
+    "indication": "Eye Strain & Conjunctivitis Eye strain results in pain and tiredness",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 14",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Dibonil",
+    "productName": "Dibonil",
+    "type": "combination",
+    "form": "Drops",
+    "ingredients": [
+      {
+        "name": "Crataegus Oxyacantha",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Gymnema Sylvestre",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Acidum Phosphoricum",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Abroma Augusta",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Syzygium Jambolanum",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Helonias Dioica",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Cephalandra Indica",
+        "potency": "Q",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "30ml"
+    ],
+    "labelDirections": "th 10 drops in 1/4 cup of water, half an hour before meals, three times daily or as prescribed by the physician",
+    "indication": "Increased frequency of urination, increased thirst, weakness and muscular pain.",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 16",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Stodal +",
+    "productName": "Stodal +",
+    "type": "combination",
+    "form": "Speciality Formulation",
+    "ingredients": [
+      {
+        "name": "Pulsatilla Nigricans",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Rumex Crispus",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Justicia Adhatoda",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Ipecacuanha",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Spongia Tosta",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Sticta Pulmonaria",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Coccus Cacti",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Blatta Orientalis",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Drosera Rotundifolia",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Ephedra Vulgaris",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Piper Nigrum",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Zingiber",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Ocimum Sanctum",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Polygala Senega",
+        "potency": "Q",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [],
+    "labelDirections": "Adults One tablespoonful, 3-5 times a day Children One teaspoonful, 3-5 times a day Or, as prescribed by the physician.",
+    "indication": "",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 17",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL SBL Drops No. 5",
+    "productName": "SBL Drops No. 5",
+    "type": "combination",
+    "form": "Drops",
+    "ingredients": [
+      {
+        "name": "Bryonia Alba",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Hypericum Perforatum",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Cimicifuga Racemosa",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Ledum Palustre",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Colocynthis",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Ruta Graveolens",
+        "potency": "3X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "30 ml"
+    ],
+    "labelDirections": "th 10-15 drops in 1/4 cup of water, 3-4 times a day or as prescribed by the physician",
+    "indication": "",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 18",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Wormorid",
+    "productName": "Wormorid",
+    "type": "combination",
+    "form": "Drops",
+    "ingredients": [
+      {
+        "name": "Cina",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Sabadilla",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Chelone Glabra",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Teucrium Marum Verum",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Filix Mas",
+        "potency": "3X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "30 ml"
+    ],
+    "labelDirections": "Infants 5 drops, 3-4 times a day Children 10 drops, 3-4 times a day Or, as prescribed by the physician.",
+    "indication": "For Deworming Worm infestation is a common problem in children. Most common",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 20",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Alfalfa Speciality",
+    "productName": "Alfalfa Speciality",
+    "type": "combination",
+    "form": "Speciality Formulation",
+    "ingredients": [
+      {
+        "name": "Alfalfa",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Avena Sativa",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Ginseng",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Cinchona Officinalis",
+        "potency": "2X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Hydrastis Canadensis",
+        "potency": "2X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Kalium Phosphoricum",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Kalium Arsenicosum",
+        "potency": "4X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Ferrum Aceticum",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Calcarea Phosphorica",
+        "potency": "3X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [],
+    "labelDirections": "For convalescing individuals 1 tablespoonful, 2 times daily For pregnant and lactating women 1 tablespoonful, 3 times daily Children 1-2 teaspoonful, 2-3 times daily",
+    "indication": "",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 22",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL FP-Tabs & FP-Ointment",
+    "productName": "FP-Tabs & FP-Ointment",
+    "type": "combination",
+    "form": "Tablets & Ointment",
+    "ingredients": [
+      {
+        "name": "Tablets Ratanhia",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Hamamelis Virginica",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Aesculus Hippocastanum",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Aloe Socotrina",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Calcarea Fluorica",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Ointment Hamamelis Virginica",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Hydrastic Candensis",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Aesculus Hippocastanum",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Ratanhia",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Paeonia Officinalis",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Viburnum Prunifolium",
+        "potency": "Q",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [],
+    "labelDirections": "Tablets-Adults 2 Tablets taken orally, every 3 hours daily for 1-2 weeks Ointment Apply locally twice daily before and after stool, for 1-2 weeks, using the applicator if internal administration is required. Or, as prescribed by the physician.",
+    "indication": "For Fissures & Engorged rectal veins Put simply, 'piles' are the swollen blood",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 23",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Zerogrype",
+    "productName": "Zerogrype",
+    "type": "combination",
+    "form": "Drops",
+    "ingredients": [
+      {
+        "name": "Chamomilla Vulgaris",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Magnesia Phosphoricum",
+        "potency": "3X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "30 ml"
+    ],
+    "labelDirections": "Infants 5 drops, 3-4 times a day Children 10 drops, 3-4 times a day Or, as prescribed by the physician.",
+    "indication": "Gas and Colic in Children Colic is the most common and",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 25",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Alfalfa Tonic",
+    "productName": "Alfalfa Tonic",
+    "type": "combination",
+    "form": "Tonic",
+    "ingredients": [
+      {
+        "name": "Alfalfa",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Avena Sativa",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Ginseng",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Cinchona Officinalis",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Hydrastic Canadensis",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Kalium Arsenicosum",
+        "potency": "6X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Ferrum Aceticum",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Calcarea Phosphorica",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Kalium Phosphoricum",
+        "potency": "3X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "115 ml",
+      "180 ml",
+      "500 ml"
+    ],
+    "labelDirections": "Adults 1 tablespoonful, 3 times daily Infants and children ½ teaspoonful, before meals, 3 times a day below 2 years Children above 7 years 1 teaspoonful, before meals, 3 times a day Or, as prescribed by the physician.",
+    "indication": "Fortified with Ginseng SUGAR FREE",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 26",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Rite-hite",
+    "productName": "Rite-hite",
+    "type": "combination",
+    "form": "Tablets",
+    "ingredients": [
+      {
+        "name": "Baryta Carbonica",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Natrum Muriaticum",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Calcarea Phosphorica",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Silicea",
+        "potency": "3X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "25g",
+      "450 g"
+    ],
+    "labelDirections": "Children below 13 years 1 tablet once a day Children above 13 years 2 tablets once a day Or, as prescribed by the physician.",
+    "indication": "Rite-Hite promotes optimal growth in children who have : * Imperfect assimilation, * Do not grow or develop, * Feeble digestion, * Anaemia, * Lack of concentration, * Poor memory.",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 27",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL SBL Drops No. 1",
+    "productName": "SBL Drops No. 1",
+    "type": "combination",
+    "form": "Drops",
+    "ingredients": [
+      {
+        "name": "Arnica Montana",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Acidum Phosphoricum",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Lycopodium",
+        "potency": "3X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "30ml"
+    ],
+    "labelDirections": "th 10-15 drops in 1/4 cup of water 3-4 times a day or as advised by the physician",
+    "indication": "• Excessive Hair fall • Thinning of hair • Dandruff • Itching & irritation of scalp",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 28",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Scalptone",
+    "productName": "Scalptone",
+    "type": "combination",
+    "form": "Tablets",
+    "ingredients": [
+      {
+        "name": "Acidum Fluoricum",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Acidum Phosphoricum",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Natrum Muriaticum",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Calcarea Phosphoricum",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Badiaga",
+        "potency": "3X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "25 gm",
+      "450 gm"
+    ],
+    "labelDirections": "Adults 2 tablets, 4-6 times daily Children 1 tablet, 4 times daily Ors, as prescribed by the physician.",
+    "indication": "Net 25 g Tablets Healthy Hair Roots Scalptone (internal care)",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 29",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Relaxhed",
+    "productName": "Relaxhed",
+    "type": "combination",
+    "form": "Drops / Tablets",
+    "ingredients": [
+      {
+        "name": "Cedron",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Spigelia Anthelmia",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Ignatia Amara",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Usnea Barbata",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Iris Versicolor",
+        "potency": "3X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "30 ml",
+      "25 g",
+      "450 g"
+    ],
+    "labelDirections": "Drops: Adult 10-15 drops in ¼th cup of water, 3-4 times a day or hourly during severe headache. Drops: Children Half of the adult dose. Tablets : Adult 2 tablets, 4 times a day or hourly during severe headache. Tablets : Children Half of the adult dose. Or, as prescribed by the physician.",
+    "indication": "For Headache Headache is a common complaint and can be caused due to various reasons",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 30",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Tonicard Gold Drops",
+    "productName": "Tonicard Gold Drops",
+    "type": "combination",
+    "form": "Drops",
+    "ingredients": [
+      {
+        "name": "Cactus Grandiflorus",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Crataegus Oxyacantha",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Convallaria Majalis",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Valeriana Officinalis",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Strophanthus Hispidus",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Aurum Muriaticum Natronatum",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Camphora",
+        "potency": "2X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [],
+    "labelDirections": "Adults (Regular dose) 20-30 drops in ¼th cup of water, 3 times daily For sudden 40 drops in ¼th cup of water unexpected symptoms Or, as prescribed by the physician.",
+    "indication": "",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 31",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Kalmegh",
+    "productName": "Kalmegh",
+    "type": "combination",
+    "form": "Syrup and paediatric drops",
+    "ingredients": [
+      {
+        "name": "Andrographic Paniculata",
+        "potency": "2X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Chelidonium Majus",
+        "potency": "1X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Carduus Marianus",
+        "potency": "2X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Chionanthus Virginica",
+        "potency": "1X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Carica Papaya",
+        "potency": "2X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Myrica Cerifera",
+        "potency": "1X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "30ml",
+      "115ml",
+      "180ml"
+    ],
+    "labelDirections": "Kalmegh Paediatric Drops Children: 5-10 drops three times daily or as prescribed by the physician. Kalmegh Syrup Adults: 1 teaspoonful Children: ½ teaspoonful Three times daily or as prescribed by the physician",
+    "indication": "PAEDIATRIC DROPS Indigestion & Flatulence",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 32",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL SBL Drops No. 6",
+    "productName": "SBL Drops No. 6",
+    "type": "combination",
+    "form": "Drops",
+    "ingredients": [
+      {
+        "name": "Berberis Vulgaris",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Rhododendron Ferrugineum",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Dulcamara",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Rhus Toxicodendron",
+        "potency": "6X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Nux Vomica",
+        "potency": "4X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [],
+    "labelDirections": "th 10-15 drops in 1/4 cup of water, 3-4 times a day or as prescribed by the physician.",
+    "indication": "Arthritis, swelling, joint and muscle pain.",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 33",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Pelvorin",
+    "productName": "Pelvorin",
+    "type": "combination",
+    "form": "Tablets",
+    "ingredients": [
+      {
+        "name": "Alumina",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Kreosotum",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Borax",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Hydrastic Canadensis",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Calcarea Ova Testa",
+        "potency": "3X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "25 g",
+      "450 g"
+    ],
+    "labelDirections": "Adults 2 tablets, 4 times a day for 2 weeks followed by 2 tablets 3 times a day for next 2 weeks. Or, as prescribed by the physician.",
+    "indication": "For Leucorrhoea Leucorrhoea is a condition in which there is excessive white discharge",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 34",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Liv-T",
+    "productName": "Liv-T",
+    "type": "combination",
+    "form": "Speciality Formulation",
+    "ingredients": [
+      {
+        "name": "Carduus Marianus",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Chelidonium Majus",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Taraxacum",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Ipecacuanha",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Andrographic Paniculata",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Ic Canadensis Q (kalmegh) Podophyllum Peltatum",
+        "potency": "Q",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "60 ml",
+      "115 ml",
+      "180 ml",
+      "500 ml"
+    ],
+    "labelDirections": "LIV T Adults Two teaspoonful, 3-4 times a day Children One teaspoonful, 3-4 times a day LIV T (Paed) Children One teaspoonful, 3 times a day Or, as prescribed by the physician.",
+    "indication": "",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 35",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Vertefine",
+    "productName": "Vertefine",
+    "type": "combination",
+    "form": "Drops",
+    "ingredients": [
+      {
+        "name": "Berberis Vulgaris",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Ledum Palustre",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Bryonia Alba",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Rhus Toxicodendron",
+        "potency": "6X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Cimicifuga",
+        "potency": "3X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "30 ml"
+    ],
+    "labelDirections": "10-15 drops in 1/4th cup of water, 3-4 times daily Or, as prescribed by the physician.",
+    "indication": "For lumbago (Backache) Nearly everyone at some point in their life get back pain that interferes with",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 36",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL SBL Drops No. 4",
+    "productName": "SBL Drops No. 4",
+    "type": "combination",
+    "form": "Drops",
+    "ingredients": [
+      {
+        "name": "Rauvolfia Serpentina",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Crataegus Oxyacantha",
+        "potency": "2X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Viscum Album",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Veratrum Viride",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Cactus Grandiflorus",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Arnica Montana",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Passiflora Incarnata",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Kali Phosphoricum",
+        "potency": "3X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "30 ml"
+    ],
+    "labelDirections": "th 10-15 drops in 1/4 cup of water 3-4 times a day or as advised by the physician",
+    "indication": "",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 37",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Damiagra",
+    "productName": "Damiagra",
+    "type": "combination",
+    "form": "Drops",
+    "ingredients": [
+      {
+        "name": "Damiana",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Selenium",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Lycopodium Clavatum",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Yohimbinum",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Agnus Castus",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Acidum Phosphoricum",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Caladium Seguinum",
+        "potency": "3X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "30 ml"
+    ],
+    "labelDirections": "Adults 15-20 drops in 1/4th cup of water, 3-4 times daily Or, as prescribed by the physician.",
+    "indication": "Erectile Dysfunction (ED) is a common type of male dysfunction, It may cause stress, cause relationship problems or",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 38",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL B-Trim",
+    "productName": "B-Trim",
+    "type": "combination",
+    "form": "Drops",
+    "ingredients": [
+      {
+        "name": "Calcera Carbonica",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Phytolacca Berry",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Fucus Vesiculosis",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Thyroidinum",
+        "potency": "3X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "30 ml"
+    ],
+    "labelDirections": "Adults 10-15 drops in ¼ cup of water, 3-4 times Or, as prescribed by the physician.",
+    "indication": "Obesity is abnormal or excessive fat accumulation that presents a risk to health. Obesity can be due to excessive",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 39",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL SBL Drops No. 2",
+    "productName": "SBL Drops No. 2",
+    "type": "combination",
+    "form": "Drops",
+    "ingredients": [
+      {
+        "name": "Caulophyllum Thalictroides",
+        "potency": "2X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Magnesiam Phosphoricam",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Cimicifuga Racemosa",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Viburnum Opulus",
+        "potency": "2X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "30 ml"
+    ],
+    "labelDirections": "th 10-15 drops in 1/4 cup of water 3-4 times a day for 2-3 days before onset of flow th 10-15 drops in 1/4 cup of water, 1-2 hourly at onset of pain till the pain lasts Or as advised by the physician",
+    "indication": "",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 41",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Dysmin",
+    "productName": "Dysmin",
+    "type": "combination",
+    "form": "Tablets",
+    "ingredients": [
+      {
+        "name": "Cactus Grandiflorus",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Magnesia Phosphoria",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Caulophyllum Thalictroides",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Viburnum Opulus",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Cimicifuga Racemosa",
+        "potency": "3X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "25 gm",
+      "450 gm"
+    ],
+    "labelDirections": "2 tablets 4 times daily, 2 days prior to onset of periods followed by 2 tablets every hour during pain. With reduction of pain frequency of dosage may be reduced. Or, as prescribed by the physician.",
+    "indication": "Pain-free month Painful menstruation termed as Dysmenorrhea is a condition in which",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 42",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Rinsout",
+    "productName": "Rinsout",
+    "type": "combination",
+    "form": "Mouth Wash",
+    "ingredients": [
+      {
+        "name": "Calendula Officinalis",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Echinacea Angustifolia",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Hydrastis Canadensis",
+        "potency": "Q",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "30 ml"
+    ],
+    "labelDirections": "th Put 20-25 drops in 1/4 cup of water; rinse the mouth 2-3 times by holding the liquid in the mouth for about 30-40 seconds. Do this 2-3 times daily. Or, as prescribed by the physician. FOR EXTERNAL USE ONLY Compatible with oral homoeopatic medicines.",
+    "indication": "Mouth ulcers with pain, burning, redness and swelling.",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 43",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Sativol",
+    "productName": "Sativol",
+    "type": "combination",
+    "form": "Speciality Formulation",
+    "ingredients": [
+      {
+        "name": "Avena Sativa",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Acidum Phosphoricum",
+        "potency": "2X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Gentiana Lutea",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Guarana",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Helonias Dioica",
+        "potency": "3X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "100 ml"
+    ],
+    "labelDirections": "1-2 teaspoonful 3 times a day or as prescribed by the physician",
+    "indication": "A general tonic for tiredness, fatigue, sleeplessness and decreased appetite.",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 45",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Homeocal",
+    "productName": "Homeocal",
+    "type": "combination",
+    "form": "Tablets",
+    "ingredients": [
+      {
+        "name": "Calcarea Carbonica",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Calcarea Fluorica",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Calcarea Phosphorica",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Silicea",
+        "potency": "3X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [],
+    "labelDirections": "Adults 2 tablets, 3-4 times a day Or, as prescribed by the physician.",
+    "indication": "Osteoprosis, calcium depletion, decreased bone density, weak bones & associated pains.",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 46",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Arnica Act",
+    "productName": "Arnica Act",
+    "type": "combination",
+    "form": "Spray",
+    "ingredients": [
+      {
+        "name": "Arnica Montana",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Calendula Officinalis",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Hypericum Perforatum",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Symphtum Officinalis",
+        "potency": "3X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "50 ml"
+    ],
+    "labelDirections": "Adult and Children above 2 yrs of age: Spray on the injured part of the body 2-3 times a day, or use as a compress. Saturate a clean cloth or gauze compress, place on wound and secure with a bandage. Change dressing 2-3 times a day.",
+    "indication": "Quick acting pain reliever SBL's Arnica Act Spray is formulated",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 47",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Clearstone",
+    "productName": "Clearstone",
+    "type": "combination",
+    "form": "Drops",
+    "ingredients": [
+      {
+        "name": "Berberis Vulgaris",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Sarsaparilla",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Ocimum Canum",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Solidago Vigaurea",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Pareira Brava",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Senecio Aureus",
+        "potency": "Q",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "30 ml"
+    ],
+    "labelDirections": "Adults 10-15 drops in ¼th cup of water, 3 times a day Children 5-10 drops in ¼th cup of water, 3 times a day Or, as prescribed by the physician.",
+    "indication": "Renal colic. Pain is felt in flanks extending to groins which may be accompanied with painful urination and blood in urine.",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 48",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL SBL Drops No. 7",
+    "productName": "SBL Drops No. 7",
+    "type": "combination",
+    "form": "Drops",
+    "ingredients": [
+      {
+        "name": "Hydrastis Canadensis",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Pulsatilla Nigricans",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Lemna Minor",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Sanguinaria Canadensis",
+        "potency": "3X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "30 ml"
+    ],
+    "labelDirections": "th 10-15 drops in 1/4 cup of water 3-4 times a day or as prescribed by the physician.",
+    "indication": "",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 49",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Sleeptite",
+    "productName": "Sleeptite",
+    "type": "combination",
+    "form": "Tablets",
+    "ingredients": [
+      {
+        "name": "Ferrum Phosphorica",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Kali Phosphorica",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Magnesium Phosphorica",
+        "potency": "3X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "25 gm",
+      "450gm"
+    ],
+    "labelDirections": "Adults: 2 Tablets 3-4 times daily or as advised by the physician",
+    "indication": "• Disturbed sleep • Sleeplessness • Difficulty in falling asleep due to anxiety & restlessness",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 50",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Tonsilat",
+    "productName": "Tonsilat",
+    "type": "combination",
+    "form": "Tablets",
+    "ingredients": [
+      {
+        "name": "Baryta Carbonicum",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Kali Muriaticum",
+        "potency": "1X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Belladonna",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Mercurius Bin-iodatus",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Ferrum Phosphoricum",
+        "potency": "3X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "25 gm",
+      "450 gm"
+    ],
+    "labelDirections": "Adults 2 tablets every 3 hours Children 1 tablet every 3 hours Or, as prescribed by the physician.",
+    "indication": "* Tonsillitis * Sore throat * Pharyngitis",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 51",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL AT-Tabs",
+    "productName": "AT-Tabs",
+    "type": "combination",
+    "form": "Tablets",
+    "ingredients": [
+      {
+        "name": "Arnica Montana",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Hypericum Perforatum",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Ledum Palustre",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Rhus Toxicodendron",
+        "potency": "6X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Ruta Graveolens",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Symphytum Officinalis",
+        "potency": "2X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Bellis Perennis",
+        "potency": "3X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "25 gm",
+      "450 gm"
+    ],
+    "labelDirections": "Adults 2 tablets, every 4 hours of 4 times a day Children 1 tablet, every 4 hours or 4 times a day Or, as prescribed by the physician.",
+    "indication": "Trauma and Injuries Injury, accidents, surgery, visit to the dentists can create traumatic",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 52",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Prostonum",
+    "productName": "Prostonum",
+    "type": "combination",
+    "form": "Drops",
+    "ingredients": [
+      {
+        "name": "Sabal Serrulata",
+        "potency": "2X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Chimaphila Umbellate",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Clematis Erecta",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Conium Maculatum",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Pareira Brava",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Pulsatilla Nigricans",
+        "potency": "3X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "30 ml"
+    ],
+    "labelDirections": "Adults 10-15 drops in ¼th cup of water, 3-4 times daily Or, as prescribed by the physician.",
+    "indication": "* Urgency (leakage or dribbling), * Difficulty in starting urination (hesitancy), * Frequent urination, * Frequent awakening at night for urination, * Sensation as if bladder is not fully emptied, * Burning sensation while urinating.",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 53",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL UTI Drops",
+    "productName": "UTI Drops",
+    "type": "combination",
+    "form": "Drops",
+    "ingredients": [
+      {
+        "name": "Berberis Vulgaris",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Pareira Brava",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Sarsaparilla Officinalis",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Senecio Aureus",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Ocimum Cannum",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Cantharis Vesicatoria",
+        "potency": "3X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [],
+    "labelDirections": "",
+    "indication": "* Burning sensatin while urination, * Pain in lower abdomen, * Frequent & unsatisfactory urination, * Blood in urine.",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 54",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Utrofyne",
+    "productName": "Utrofyne",
+    "type": "combination",
+    "form": "Syrup",
+    "ingredients": [
+      {
+        "name": "Abroma Augusta",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Jonosia Asoka",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Calcarea Phosphorica",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Magnesia Phosphorica",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "China Officinalis",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Pulsatilla Nigricans",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Caulophyllum",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Viburnum Opulus",
+        "potency": "Q",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "115 ml",
+      "180 ml",
+      "500 ml"
+    ],
+    "labelDirections": "One teaspoonful, 3 times a day Or, as prescribed by the physician.",
+    "indication": "Uterine tonic. Pain in back and tired felling",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 55",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Thuja",
+    "productName": "Thuja",
+    "type": "combination",
+    "form": "Roll-on",
+    "ingredients": [
+      {
+        "name": "Thuja Occidentalis",
+        "potency": "Q",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [],
+    "labelDirections": "Roll it on the wart 2-3 times a day Can be used effectively with oral homoeopathic medicines",
+    "indication": "Targets the warts Warts are small, usually painless growths on the skin caused by the",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 56",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL SBL Drops No. 9",
+    "productName": "SBL Drops No. 9",
+    "type": "combination",
+    "form": "Drops",
+    "ingredients": [
+      {
+        "name": "Blatta Orientalis",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Bryonia Alba",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Ipecacuanha",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Zingiber Officinalis",
+        "potency": "2X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "30 ml"
+    ],
+    "labelDirections": "Adult: 10 drops, Children : 5 Drops th in 1/4 cup of water 4 times a day or as prescribed by the physician",
+    "indication": "Dry, productive and rattling cough. Cough associated with irritation and dryness in throat ; pain in throat and chest ; and post nasal discharge.",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 58",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL SBL Drops No. 10",
+    "productName": "SBL Drops No. 10",
+    "type": "combination",
+    "form": "Drops",
+    "ingredients": [
+      {
+        "name": "Arnica Montana",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Crataegus Oxyacantha",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Cimicifuga Racemosa",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Janosia Ashoka",
+        "potency": "3X",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Sanguinaria Canadensis",
+        "potency": "3X",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "30 ml"
+    ],
+    "labelDirections": "th 10 drops in 1/4 cup of water 4 times a day or as prescribed by the physician",
+    "indication": "For women having hot flashes with anxiety, palpitation and perspiration during change of life.",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 59",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Wipeclear Acne",
+    "productName": "Wipeclear Acne",
+    "type": "combination",
+    "form": "Lotion",
+    "ingredients": [
+      {
+        "name": "Berberisaquifolium",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Echinacea Angustifolia",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Bellisperennis",
+        "potency": "Q",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Ledumpalustre",
+        "potency": "Q",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "30 ml"
+    ],
+    "labelDirections": "Apply twice a day using a clean cotton swab after washing the affected area",
+    "indication": "Acne vulgaris. Papules, pustules and comedones on face, arms & back",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, page 60",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  },
+  {
+    "manufacturerId": "sbl",
+    "canonicalName": "SBL Diaboherb",
+    "productName": "Diaboherb",
+    "type": "combination",
+    "form": "Syrup",
+    "ingredients": [
+      {
+        "name": "Abroma Augusta",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Gymnema Sylvestre",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Cephalandra Indica",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Syzygium Jambolanum",
+        "role": "active ingredient"
+      },
+      {
+        "name": "Crataegus Oxyacantha",
+        "role": "active ingredient"
+      }
+    ],
+    "potencies": [],
+    "packSizes": [
+      "180 ml",
+      "500 ml"
+    ],
+    "labelDirections": "One teaspoonful three times daily, half an hour before meals, or as prescribed by the physician.",
+    "indication": "Frequent urination, increased thirst and increased appetite, as stated in the SBL product booklet.",
+    "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+    "sourceType": "official product booklet, reviewed page 15",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "composition-and-identity-reviewed"
+  }
+]

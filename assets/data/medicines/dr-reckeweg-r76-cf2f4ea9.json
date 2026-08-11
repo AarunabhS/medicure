@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "id": "58013630626e862c",
+  "slug": "dr-reckeweg-r76-cf2f4ea9",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R76",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Aconitum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Ammi visnaga",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Convallaria majalis",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Drosera",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Kalium jodatum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Lobelia intlata",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Mentholum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Stramonium",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Constitutional asthma-therapy.",
+      "attribution": "Dr. Reckeweg",
+      "productId": "84fa5cf5ae41b674",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r76-74.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "84fa5cf5ae41b674",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R76",
+      "productName": "Dr. Reckeweg R76",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Aconitum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Ammi visnaga",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Convallaria majalis",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Drosera",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Kalium jodatum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Lobelia intlata",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Mentholum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Stramonium",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "22ml"
+      ],
+      "labelDirections": "- 3 times daily 20 drops in some water. In case of attack 10 drops every 5-10 minutes.",
+      "indication": "Constitutional asthma-therapy.",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r76-74.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R76",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R76",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R76",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R76",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-84fa5cf5ae41b674",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r76-74.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

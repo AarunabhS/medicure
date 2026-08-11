@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "id": "3a97faef5b603b90",
+  "slug": "graphites",
+  "type": "single",
+  "canonicalName": "Graphites",
+  "banglaName": "গ্রাফাইটিস",
+  "synonyms": [
+    "গ্রাফাইটিস",
+    "graphite"
+  ],
+  "scientificIdentity": "Black lead, plumbago",
+  "sourceMaterial": "Black lead, plumbago",
+  "hpiReferences": [
+    {
+      "title": "PCIM&H Homoeopathic Pharmacopoeia of India monograph index",
+      "url": "https://www.portal.pcimh.gov.in/products?categories=97e857d1-7288-4f31-b142-bf55adeb7d14&page=1",
+      "verificationStatus": "index-linked"
+    }
+  ],
+  "ingredients": [
+    {
+      "name": "Graphites",
+      "role": "source substance",
+      "sourceIdentity": "Black lead, plumbago"
+    }
+  ],
+  "traditionalContext": {
+    "summary": "Commonly discussed for dry, cracked, recurring skin-irritation patterns.",
+    "bangla": "শুষ্ক ত্বক, ফাটল বা বারবার হওয়া ত্বকের অস্বস্তির প্যাটার্নে গ্রাফাইটিসের নাম পাওয়া যায়।",
+    "sourceBasis": "Classical materia medica references"
+  },
+  "manufacturerIndications": [],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [
+    "30CH",
+    "200CH",
+    "1M",
+    "10M",
+    "50M",
+    "CM"
+  ],
+  "forms": [
+    "Dilution"
+  ],
+  "manufacturers": [
+    {
+      "id": "bakson",
+      "name": "Bakson Drugs & Pharmaceuticals",
+      "shortName": "Bakson",
+      "url": "https://www.buybakson.com/pages/download-catalogue"
+    }
+  ],
+  "products": [
+    {
+      "id": "aa780ee1221088f0",
+      "manufacturerId": "bakson",
+      "canonicalName": "Graphites",
+      "productName": "Bakson Graphites",
+      "type": "single",
+      "form": "Dilution",
+      "ingredients": [
+        {
+          "name": "Graphites",
+          "role": "source substance",
+          "sourceIdentity": "Black lead, plumbago"
+        }
+      ],
+      "potencies": [
+        "30CH",
+        "200CH",
+        "1M",
+        "10M",
+        "50M",
+        "CM"
+      ],
+      "packSizes": [],
+      "labelDirections": "",
+      "indication": "",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0743/0904/2417/files/MT_Dilution_Catalogue_14-05-24_1.pdf?v=1754394718",
+      "sourceType": "official catalog"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Graphites",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Graphites",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Graphites",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Graphites",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "pcimh-hpi",
+      "name": "Homoeopathic Pharmacopoeia of India",
+      "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of AYUSH",
+      "url": "https://www.portal.pcimh.gov.in/products?categories=97e857d1-7288-4f31-b142-bf55adeb7d14&page=1",
+      "role": "Canonical medicine names, synonyms, identity and pharmacopoeial reference"
+    },
+    {
+      "id": "product-aa780ee1221088f0",
+      "name": "Bakson product source",
+      "publisher": "Bakson Drugs & Pharmaceuticals",
+      "url": "https://cdn.shopify.com/s/files/1/0743/0904/2417/files/MT_Dilution_Catalogue_14-05-24_1.pdf?v=1754394718",
+      "role": "official catalog"
+    }
+  ],
+  "category": "skin",
+  "tags": [
+    "dry skin",
+    "cracks",
+    "recurring irritation",
+    "শুষ্ক ত্বক",
+    "ফাটল",
+    "dry",
+    "cold"
+  ],
+  "dataQuality": {
+    "identity": "pharmacopoeia-index-linked",
+    "composition": "structured",
+    "indications": "traditional-context-only",
+    "dosage": "not-published"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

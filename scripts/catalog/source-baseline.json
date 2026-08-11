@@ -1,0 +1,10 @@
+{
+  "reviewedAt": "2026-08-12",
+  "minimumProducts": {
+    "bakson": 800,
+    "hapco": 1350,
+    "mahesh": 480,
+    "reckeweg": 75
+  },
+  "note": "Generation fails when an automated source falls below these conservative reviewed floors. Manual-review catalogs are checked through manufacturer coverage instead."
+}

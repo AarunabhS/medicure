@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "id": "be4094aa0db319e5",
+  "slug": "dr-reckeweg-r70-afcd0465",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R70",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Cedron",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Colocynthis",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Kalmia",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Verbascum",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Neuralgias in various areas. Trigeminal - and facial neuralgia. Neuritis.",
+      "attribution": "Dr. Reckeweg",
+      "productId": "d942eeaa3cf1de59",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r70-68.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "d942eeaa3cf1de59",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R70",
+      "productName": "Dr. Reckeweg R70",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Cedron",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Colocynthis",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Kalmia",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Verbascum",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "22ml"
+      ],
+      "labelDirections": "- In severe pain: 10 drops in some water every ¼ to ½ hour. To prevent relapses administer R70 over a long period 10-15 drops in some water before meals 3 times daily",
+      "indication": "Neuralgias in various areas. Trigeminal - and facial neuralgia. Neuritis.",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r70-68.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R70",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R70",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R70",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R70",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-d942eeaa3cf1de59",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r70-68.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

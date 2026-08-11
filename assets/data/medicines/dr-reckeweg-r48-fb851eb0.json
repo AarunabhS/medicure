@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "id": "7f432280e3313529",
+  "slug": "dr-reckeweg-r48-fb851eb0",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R48",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Acidum picrinicum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Bryonia",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Dulcamara",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Pressure on the shoulders. Ferrum phosphoricum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Kalium carbonicum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Lycopodium",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Aperitive. Sepia",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Silicea",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Pulmonary weakness and first appearance of tuberculous diseases. Complementary remedy in bronchial asthma, chronic pulmonary catarrh, cough resulting from excessive smoking. Complementary or alternative remedy in all catarrhal affections of the upper air passages. Weakness and pains between the omoplates, weariness, nocturnal perspiration.",
+      "attribution": "Dr. Reckeweg",
+      "productId": "c8c46c9cb22081d1",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r48-47.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "c8c46c9cb22081d1",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R48",
+      "productName": "Dr. Reckeweg R48",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Acidum picrinicum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Bryonia",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Dulcamara",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Pressure on the shoulders. Ferrum phosphoricum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Kalium carbonicum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Lycopodium",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Aperitive. Sepia",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Silicea",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "22ml"
+      ],
+      "labelDirections": "- Generally 3 times daily 10-15 drops in some water before meals. In dorsal pains, take every 5-10 minutes the same dose.",
+      "indication": "Pulmonary weakness and first appearance of tuberculous diseases. Complementary remedy in bronchial asthma, chronic pulmonary catarrh, cough resulting from excessive smoking. Complementary or alternative remedy in all catarrhal affections of the upper air passages. Weakness and pains between the omoplates, weariness, nocturnal perspiration.",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r48-47.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R48",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R48",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R48",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R48",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-c8c46c9cb22081d1",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r48-47.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

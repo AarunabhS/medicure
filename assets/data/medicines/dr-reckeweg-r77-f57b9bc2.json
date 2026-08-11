@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "id": "0817134d83dd9559",
+  "slug": "dr-reckeweg-r77-f57b9bc2",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R77",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Agaricus",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Echinacea angustifolia",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Natrium chloratum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Robinia",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Tabacum",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "For withdrawal of smokers, smokers hangover, headache caused by smoking too much and thus arisen vasoconstriction, nausea, pain in the stomach, constipation, arrhythmic palpitation (beating of the heart), liver complaints, tympanitis. Disturbances of the function of the connective tissues. Disturbances of the endocrinum, vascular disturbances, smoker's leg.",
+      "attribution": "Dr. Reckeweg",
+      "productId": "e4c5764c917191ef",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r77-75.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "e4c5764c917191ef",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R77",
+      "productName": "Dr. Reckeweg R77",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Agaricus",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Echinacea angustifolia",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Natrium chloratum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Robinia",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Tabacum",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "22ml"
+      ],
+      "labelDirections": "- 3 times daily 15-20 drops in some water",
+      "indication": "For withdrawal of smokers, smokers hangover, headache caused by smoking too much and thus arisen vasoconstriction, nausea, pain in the stomach, constipation, arrhythmic palpitation (beating of the heart), liver complaints, tympanitis. Disturbances of the function of the connective tissues. Disturbances of the endocrinum, vascular disturbances, smoker's leg.",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r77-75.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R77",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R77",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R77",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R77",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-e4c5764c917191ef",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r77-75.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

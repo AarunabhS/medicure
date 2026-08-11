@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "e23d0e9002af13ef",
+  "slug": "dr-reckeweg-r38-1f45a950",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R38",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Apis mellifica",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Arsenicum album",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Characteristics",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Bryonia",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Main symptom",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Sulfur",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Affections of the ovaries, right side, inflammation of the ovaries (right side), adnexitis, salpingitis, parametritis. Cysts and benign tumours of the ovaries, oedema of the larynx, after-effects of stynx and for a beginning of inflammation of the appendix.",
+      "attribution": "Dr. Reckeweg",
+      "productId": "cc384f7ec1dfddb0",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r38-37.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "cc384f7ec1dfddb0",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R38",
+      "productName": "Dr. Reckeweg R38",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Apis mellifica",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Arsenicum album",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Characteristics",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Bryonia",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Main symptom",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Sulfur",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "22ml"
+      ],
+      "labelDirections": "- As prolonged cure 3 times daily 10-15 drops in some water before meals. - In case of acute inflammation and convulsive pains or colic a more frequent dose is to be administered. - According to degree of acuity, every 5 minutes, or every 15-30 minutes, 10 drops (possibly in a little warm water). Also to be advised are hot poultices or the application of healing earth....",
+      "indication": "Affections of the ovaries, right side, inflammation of the ovaries (right side), adnexitis, salpingitis, parametritis. Cysts and benign tumours of the ovaries, oedema of the larynx, after-effects of stynx and for a beginning of inflammation of the appendix.",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r38-37.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R38",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R38",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R38",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R38",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-cc384f7ec1dfddb0",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r38-37.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

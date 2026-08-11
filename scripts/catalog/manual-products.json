@@ -1,0 +1,53 @@
+[
+  {
+    "canonicalName": "Nux Vomica",
+    "manufacturerId": "schwabe-india",
+    "productName": "Nux Vomica CH",
+    "form": "Dilution",
+    "potencies": ["6CH", "30CH", "200CH", "1M"],
+    "packSizes": ["30 ml"],
+    "sourceUrl": "https://www.schwabeindia.com/product/nux-vomica-ch/",
+    "sourceType": "official product page"
+  },
+  {
+    "canonicalName": "Calcarea Fluorica",
+    "manufacturerId": "schwabe-india",
+    "productName": "Calcarea Fluorica",
+    "form": "Trituration tablet",
+    "potencies": ["3X", "6X", "12X", "30X"],
+    "packSizes": [],
+    "sourceUrl": "https://www.schwabeindia.com/product/calcarea-fluorica/",
+    "sourceType": "official product page"
+  },
+  {
+    "canonicalName": "Conium Maculatum",
+    "manufacturerId": "schwabe-india",
+    "productName": "Conium Maculatum LM",
+    "form": "LM dilution",
+    "potencies": ["LM1", "LM2", "LM3", "LM4", "LM5"],
+    "packSizes": [],
+    "sourceUrl": "https://www.schwabeindia.com/product/conium-maculatum/",
+    "sourceType": "official product page"
+  },
+  {
+    "canonicalName": "Erigeron Canadensis",
+    "manufacturerId": "schwabe-india",
+    "productName": "Erigeron Canadensis CH",
+    "form": "Dilution",
+    "potencies": ["6CH", "12CH", "30CH", "200CH", "1M"],
+    "packSizes": [],
+    "sourceUrl": "https://www.schwabeindia.com/product/erigeron-canadensis/",
+    "sourceType": "official product page"
+  },
+  {
+    "canonicalName": "M. Bhattacharyya Homoeopathic Dilutions",
+    "type": "range",
+    "manufacturerId": "mb-king",
+    "productName": "Homoeopathic mother tinctures and dilutions range",
+    "form": "Manufacturer range",
+    "potencies": [],
+    "packSizes": [],
+    "sourceUrl": "https://mbhomeo.in/wp-content/uploads/2023/03/englishcatalogue_2023_a5_digital.pdf",
+    "sourceType": "official catalog; individual records pending reviewed OCR"
+  }
+]

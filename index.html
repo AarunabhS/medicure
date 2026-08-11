@@ -10,6 +10,7 @@
     />
     <meta name="theme-color" content="#0f5b50" />
     <title>Medicure Homeopathy Maniktala | Homeopathy Clinic & Medicine Store Kolkata</title>
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
     <link rel="canonical" href="https://medicur.in/" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Medicure Homeopathy" />
@@ -28,7 +29,7 @@
       content="Trusted homeopathic medicine store and clinic in Maniktala, Kolkata. WhatsApp medicine orders and consultation appointments available."
     />
     <meta name="twitter:image" content="https://medicur.in/assets/images/medicure-storefront-wide.png" />
-    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="preload" as="image" href="assets/images/medicure-storefront-wide.png" />
     <link rel="preconnect" href="https://unpkg.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -49,6 +50,14 @@
             "inLanguage": ["en-IN", "bn-IN"],
             "publisher": {
               "@id": "https://medicur.in/#localbusiness"
+            },
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://medicur.in/medicines.html?q={search_term_string}"
+              },
+              "query-input": "required name=search_term_string"
             }
           },
           {
@@ -319,7 +328,7 @@
         display: grid;
         grid-template-columns: auto 1fr auto;
         align-items: center;
-        gap: 28px;
+        gap: 20px;
         min-height: 76px;
       }
 
@@ -352,12 +361,13 @@
       }
 
       .nav-links {
+        min-width: 0;
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 24px;
+        gap: 18px;
         color: #39504a;
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 700;
       }
 
@@ -445,10 +455,10 @@
 
       .hero {
         position: relative;
-        min-height: calc(100vh - 76px);
+        min-height: clamp(600px, calc(100vh - 112px), 760px);
         display: grid;
         align-items: center;
-        padding: 56px 0 36px;
+        padding: 40px 0 28px;
         overflow: hidden;
       }
 
@@ -458,7 +468,7 @@
         inset: 0;
         background:
           linear-gradient(90deg, rgba(251, 250, 244, 0.98) 0%, rgba(251, 250, 244, 0.92) 48%, rgba(251, 250, 244, 0.18) 100%),
-          url("https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&w=2200&q=85") center right / cover;
+          url("assets/images/medicure-storefront-wide.png") center right / cover;
         z-index: -2;
       }
 
@@ -475,16 +485,16 @@
 
       .hero-grid {
         display: grid;
-        grid-template-columns: minmax(0, 0.95fr) minmax(360px, 0.65fr);
+        grid-template-columns: minmax(0, 1.1fr) minmax(360px, 0.65fr);
         align-items: center;
-        gap: 44px;
+        gap: 36px;
       }
 
       .eyebrow {
         display: inline-flex;
         align-items: center;
         gap: 10px;
-        margin: 0 0 18px;
+        margin: 0 0 14px;
         color: var(--teal);
         font-size: 13px;
         font-weight: 800;
@@ -508,12 +518,17 @@
 
       h1 {
         max-width: 780px;
-        margin-bottom: 22px;
+        margin-bottom: 16px;
         font-family: "Instrument Serif", Georgia, serif;
-        font-size: clamp(48px, 7vw, 92px);
+        font-size: clamp(46px, 5.8vw, 76px);
         font-weight: 400;
-        line-height: 0.95;
+        line-height: 0.98;
         letter-spacing: 0;
+      }
+
+      html[lang="bn"] h1 {
+        font-size: clamp(44px, 5vw, 66px);
+        line-height: 1.02;
       }
 
       .hero-copy {
@@ -526,7 +541,56 @@
         display: flex;
         flex-wrap: wrap;
         gap: 14px;
-        margin: 30px 0 28px;
+        margin: 16px 0;
+      }
+
+      .hero-medicine-search {
+        max-width: 700px;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 10px;
+        margin: 16px 0 10px;
+        padding: 8px;
+        border: 1px solid rgba(190, 207, 198, 0.9);
+        border-radius: var(--radius);
+        background: rgba(255, 255, 255, 0.92);
+        box-shadow: 0 18px 46px rgba(22, 48, 43, 0.13);
+        backdrop-filter: blur(10px);
+      }
+
+      .hero-search-field {
+        min-width: 0;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        gap: 10px;
+        padding: 0 10px;
+      }
+
+      .hero-search-field i {
+        color: var(--teal);
+      }
+
+      .hero-search-field input {
+        min-width: 0;
+        width: 100%;
+        height: 46px;
+        border: 0;
+        outline: 0;
+        color: var(--ink);
+        background: transparent;
+      }
+
+      .hero-search-field input::placeholder {
+        color: #7c8985;
+      }
+
+      .hero-search-note {
+        max-width: 700px;
+        margin: 0 0 12px;
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 700;
       }
 
       .hero-trust {
@@ -539,7 +603,7 @@
       .mini-stat {
         border: 1px solid rgba(219, 228, 223, 0.88);
         border-radius: var(--radius);
-        padding: 14px;
+        padding: 12px;
         background: rgba(255, 255, 255, 0.68);
       }
 
@@ -555,9 +619,231 @@
         font-weight: 700;
       }
 
+      .pharmacy-proof-bar {
+        padding: 0;
+        border-top: 1px solid var(--line);
+        border-bottom: 1px solid var(--line);
+        background: #fff;
+      }
+
+      .proof-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+
+      .proof-item {
+        min-height: 76px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 14px 18px;
+      }
+
+      .proof-item + .proof-item {
+        border-left: 1px solid var(--line);
+      }
+
+      .proof-item i {
+        width: 22px;
+        height: 22px;
+        flex: 0 0 auto;
+        color: var(--teal);
+      }
+
+      .proof-item strong,
+      .proof-item span {
+        display: block;
+      }
+
+      .proof-item strong {
+        font-size: 13px;
+      }
+
+      .proof-item span {
+        margin-top: 2px;
+        color: var(--muted);
+        font-size: 11px;
+        font-weight: 600;
+      }
+
+      .manufacturer-band {
+        padding: 44px 0;
+        color: #fff;
+        background: #102f2a;
+      }
+
+      .manufacturer-layout {
+        display: grid;
+        grid-template-columns: minmax(210px, 0.42fr) minmax(0, 1fr);
+        gap: 34px;
+        align-items: center;
+      }
+
+      .manufacturer-band h2 {
+        margin-bottom: 7px;
+        font-size: 20px;
+      }
+
+      .manufacturer-band p {
+        margin-bottom: 0;
+        color: rgba(255, 255, 255, 0.68);
+        font-size: 12px;
+      }
+
+      .brand-rail {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        justify-content: flex-end;
+      }
+
+      .brand-rail span {
+        min-height: 38px;
+        display: inline-flex;
+        align-items: center;
+        padding: 0 13px;
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        border-radius: 999px;
+        color: #f4fff8;
+        background: rgba(255, 255, 255, 0.07);
+        font-size: 12px;
+        font-weight: 800;
+      }
+
+      .department-section {
+        background: #fff;
+      }
+
+      .department-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .department-card {
+        min-height: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 22px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: linear-gradient(180deg, #fff, #f7fbf7);
+      }
+
+      .department-icon {
+        width: 42px;
+        height: 42px;
+        display: grid;
+        place-items: center;
+        margin-bottom: 18px;
+        border-radius: var(--radius);
+        color: var(--teal);
+        background: var(--mint);
+      }
+
+      .department-card h3 {
+        margin-bottom: 6px;
+        font-size: 17px;
+      }
+
+      .department-card p {
+        margin-bottom: 0;
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      .department-card a {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        margin-top: 18px;
+        color: var(--green-dark);
+        font-size: 12px;
+        font-weight: 900;
+      }
+
+      .encyclopedia-section {
+        position: relative;
+        overflow: hidden;
+        color: #fff;
+        background: #0d3b35;
+      }
+
+      .encyclopedia-section::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background:
+          linear-gradient(90deg, rgba(13, 59, 53, 0.98), rgba(13, 59, 53, 0.9) 58%, rgba(13, 59, 53, 0.38)),
+          url("assets/images/medicure-medicine-shelf.jpg") center right / cover;
+      }
+
+      .encyclopedia-grid {
+        position: relative;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(300px, 0.52fr);
+        gap: 54px;
+        align-items: center;
+      }
+
+      .encyclopedia-section h2 {
+        max-width: 760px;
+        margin-bottom: 16px;
+        font-family: "Instrument Serif", Georgia, serif;
+        font-size: clamp(42px, 6vw, 68px);
+        font-weight: 400;
+        line-height: 1;
+      }
+
+      .encyclopedia-section p {
+        max-width: 700px;
+        color: rgba(255, 255, 255, 0.76);
+      }
+
+      .catalog-metrics {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        border: 1px solid rgba(255, 255, 255, 0.17);
+        border-radius: var(--radius);
+        background: rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(12px);
+      }
+
+      .catalog-metrics div {
+        min-height: 112px;
+        display: grid;
+        align-content: center;
+        padding: 18px;
+      }
+
+      .catalog-metrics div:nth-child(2n) {
+        border-left: 1px solid rgba(255, 255, 255, 0.13);
+      }
+
+      .catalog-metrics div:nth-child(n + 3) {
+        border-top: 1px solid rgba(255, 255, 255, 0.13);
+      }
+
+      .catalog-metrics strong,
+      .catalog-metrics span {
+        display: block;
+      }
+
+      .catalog-metrics strong {
+        font-size: 27px;
+      }
+
+      .catalog-metrics span {
+        margin-top: 4px;
+        color: rgba(255, 255, 255, 0.66);
+        font-size: 11px;
+        font-weight: 700;
+      }
+
       .visual-panel {
         align-self: stretch;
-        min-height: 580px;
+        min-height: 520px;
         display: grid;
         align-content: end;
         gap: 14px;
@@ -578,7 +864,7 @@
       }
 
       .photo-main {
-        height: 370px;
+        height: 330px;
       }
 
       .photo-row {
@@ -588,7 +874,7 @@
       }
 
       .photo-small {
-        height: 174px;
+        height: 160px;
       }
 
       .label-chip {
@@ -662,6 +948,10 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+      }
+
+      .matrix-panel:nth-child(2) img {
+        object-position: center 22%;
       }
 
       .matrix-content {
@@ -1253,8 +1543,8 @@
         position: absolute;
         inset: 0;
         background:
-          linear-gradient(90deg, rgba(16, 47, 42, 0.92), rgba(16, 47, 42, 0.72)),
-          url("https://images.unsplash.com/photo-1551601651-2a8555f1a136?auto=format&fit=crop&w=1800&q=85") center / cover;
+          linear-gradient(90deg, rgba(16, 47, 42, 0.98), rgba(16, 47, 42, 0.82)),
+          url("assets/images/medicure-storefront-wide.png") center / cover;
         opacity: 0.95;
       }
 
@@ -1423,6 +1713,29 @@
         font-size: 12px;
       }
 
+      @media (min-width: 981px) and (max-height: 760px) {
+        .hero {
+          min-height: 560px;
+          padding-block: 28px 20px;
+        }
+
+        .hero-trust {
+          display: none;
+        }
+
+        .visual-panel {
+          min-height: 460px;
+        }
+
+        .photo-main {
+          height: 290px;
+        }
+
+        .photo-small {
+          height: 140px;
+        }
+      }
+
       @media (max-width: 980px) {
         .nav {
           grid-template-columns: auto auto;
@@ -1446,6 +1759,8 @@
         .section-head,
         .wiki-layout,
         .remedy-feature-card,
+        .manufacturer-layout,
+        .encyclopedia-grid,
         .optin-grid,
         .location-grid,
         .doctor-grid,
@@ -1455,7 +1770,7 @@
         }
 
         .visual-panel {
-          min-height: 0;
+          display: none;
         }
 
         .wiki-panel {
@@ -1463,8 +1778,23 @@
         }
 
         .specialty-grid,
-        .trust-grid {
+        .trust-grid,
+        .department-grid,
+        .proof-grid {
           grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .brand-rail {
+          justify-content: flex-start;
+        }
+
+        .proof-item:nth-child(3) {
+          border-left: 0;
+          border-top: 1px solid var(--line);
+        }
+
+        .proof-item:nth-child(4) {
+          border-top: 1px solid var(--line);
         }
 
         .mobile-menu {
@@ -1514,22 +1844,53 @@
         .hero::before {
           background:
             linear-gradient(180deg, rgba(251, 250, 244, 0.97) 0%, rgba(251, 250, 244, 0.84) 58%, rgba(251, 250, 244, 0.42) 100%),
-            url("https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&w=1400&q=82") center / cover;
+            url("assets/images/medicure-storefront-wide.png") center / cover;
         }
 
         h1 {
           font-size: clamp(45px, 15vw, 66px);
         }
 
+        .hero-trust {
+          display: none;
+        }
+
         .hero-trust,
         .action-matrix,
         .step-grid,
+        .department-grid,
+        .proof-grid,
         .remedy-grid,
         .faq-grid,
         .local-intent-grid,
         .specialty-grid,
         .trust-grid {
           grid-template-columns: 1fr;
+        }
+
+        .hero-medicine-search {
+          grid-template-columns: 1fr;
+        }
+
+        .hero-medicine-search .btn {
+          width: 100%;
+        }
+
+        .proof-item + .proof-item {
+          border-left: 0;
+          border-top: 1px solid var(--line);
+        }
+
+        .catalog-metrics {
+          grid-template-columns: 1fr;
+        }
+
+        .catalog-metrics div:nth-child(2n) {
+          border-left: 0;
+        }
+
+        .catalog-metrics div + div {
+          border-top: 1px solid rgba(255, 255, 255, 0.13);
         }
 
         .photo-main {
@@ -1573,10 +1934,11 @@
         </a>
         <nav class="nav-links" aria-label="Primary navigation">
           <a href="#home">Home</a>
-          <a href="#doctor">Meet Dr. Som</a>
-          <a href="#order">Order Medicines</a>
-          <a href="#wiki">Remedy Finder</a>
-          <a href="#visit">Locate Shop</a>
+          <a href="medicines.html" title="Medicine Encyclopedia">Medicines</a>
+          <a href="#doctor">Dr. Som</a>
+          <a href="#order">Order</a>
+          <a href="#wiki">Remedy Guide</a>
+          <a href="#visit">Visit</a>
         </nav>
         <div class="nav-actions">
           <button class="language-toggle" type="button" data-language-toggle aria-label="Switch to Bengali">বাংলা</button>
@@ -1591,10 +1953,11 @@
       </div>
       <nav class="mobile-menu" aria-label="Mobile navigation">
         <a href="#home">Home</a>
-        <a href="#doctor">Meet Dr. Som</a>
-        <a href="#order">Order Medicines</a>
-        <a href="#wiki">Remedy Finder</a>
-        <a href="#visit">Locate Shop</a>
+        <a href="medicines.html" title="Medicine Encyclopedia">Medicines</a>
+        <a href="#doctor">Dr. Som</a>
+        <a href="#order">Order</a>
+        <a href="#wiki">Remedy Guide</a>
+        <a href="#visit">Visit</a>
         <button class="language-toggle" type="button" data-language-toggle aria-label="Switch to Bengali">বাংলা</button>
       </nav>
     </header>
@@ -1604,24 +1967,38 @@
         <div class="shell hero-grid">
           <div>
             <p class="eyebrow">Welcome to Medicure Homeopathy</p>
-            <h1 id="hero-title">Genuine remedies and thoughtful clinical care.</h1>
+            <h1 id="hero-title">Medicure Homeopathy, Kolkata</h1>
             <p class="hero-copy">
-              Consult with Dr. Achintya Kumar Som or order authentic, sealed homeopathic medicines from the Medicure store through a quick WhatsApp chat.
+              Search medicines, send a prescription, or consult Dr. Achintya Kumar Som at our Maniktala medicine store and clinic.
             </p>
+            <form class="hero-medicine-search" action="medicines.html" method="get" role="search">
+              <label class="hero-search-field" for="homepage-medicine-search">
+                <i data-lucide="search"></i>
+                <input
+                  id="homepage-medicine-search"
+                  name="q"
+                  type="search"
+                  placeholder="Search 2,000+ Indian medicines, ingredients, and manufacturers"
+                  aria-label="Search the homeopathic medicine encyclopedia"
+                />
+              </label>
+              <button class="btn btn-dark" type="submit">Search Medicines</button>
+            </form>
+            <p class="hero-search-note">India-focused medicine profiles from official manufacturer catalogs. Medicure confirms local stock separately.</p>
             <div class="hero-actions">
               <a class="btn btn-primary" data-whatsapp="order" href="#">
                 <i data-lucide="message-circle"></i>
                 Tap to Order on WhatsApp
               </a>
-              <a class="btn btn-secondary" href="#wiki">
-                <i data-lucide="search"></i>
-                Explore Remedy Finder
+              <a class="btn btn-secondary" data-whatsapp="appointment" href="#">
+                <i data-lucide="calendar-check"></i>
+                Book a Consultation
               </a>
             </div>
             <div class="hero-trust" aria-label="Practice highlights">
               <div class="mini-stat"><strong>35+</strong><span>Years of clinical practice</span></div>
               <div class="mini-stat"><strong>100%</strong><span>Sealed authentic medicines</span></div>
-              <div class="mini-stat"><strong>Chat</strong><span>Order and appointment support</span></div>
+              <div class="mini-stat"><strong>2K+</strong><span>Canonical medicine profiles</span></div>
             </div>
           </div>
           <div class="visual-panel" aria-label="Medicure clinic and medicine store imagery">
@@ -1630,7 +2007,7 @@
                 src="assets/images/medicure-storefront-wide.png"
                 alt="Medicure storefront on Maniktala Main Road"
               />
-              <span class="label-chip"><i data-lucide="shield-check"></i> Authentic sealed medicines</span>
+              <span class="label-chip"><i data-lucide="map-pin"></i> Medicure, Maniktala</span>
             </div>
             <div class="photo-row">
               <div class="photo-card photo-small">
@@ -1644,9 +2021,48 @@
                   src="assets/images/medicure-medicine-shelf.jpg"
                   alt="Homeopathic medicine bottles on Medicure shelves"
                 />
-                <span class="label-chip"><i data-lucide="stethoscope"></i> Clinic consultations</span>
+                <span class="label-chip"><i data-lucide="package-check"></i> Medicine shelves</span>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="pharmacy-proof-bar" aria-label="Medicure pharmacy services">
+        <div class="shell proof-grid">
+          <div class="proof-item">
+            <i data-lucide="badge-check"></i>
+            <div><strong>Brand and potency checked</strong><span>Confirmed before billing</span></div>
+          </div>
+          <div class="proof-item">
+            <i data-lucide="calendar-clock"></i>
+            <div><strong>Open seven days</strong><span>Sunday service until 2 PM</span></div>
+          </div>
+          <div class="proof-item">
+            <i data-lucide="camera"></i>
+            <div><strong>Prescription photo ordering</strong><span>Send the full prescription on WhatsApp</span></div>
+          </div>
+          <div class="proof-item">
+            <i data-lucide="map-pin"></i>
+            <div><strong>Maniktala, Kolkata</strong><span>45, Maniktala Main Road</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="manufacturer-band" aria-labelledby="manufacturer-title">
+        <div class="shell manufacturer-layout">
+          <div>
+            <h2 id="manufacturer-title">Leading manufacturers, one local counter.</h2>
+            <p>Brand and pack availability varies. Ask the store for an exact match or equivalent.</p>
+          </div>
+          <div class="brand-rail" aria-label="Homeopathic medicine manufacturers available through Medicure">
+            <span>Dr. Reckeweg</span>
+            <span>Schwabe</span>
+            <span>SBL</span>
+            <span>Bakson's</span>
+            <span>Mahesh</span>
+            <span>Hapco</span>
+            <span>King &amp; Co.</span>
           </div>
         </div>
       </section>
@@ -1660,8 +2076,8 @@
           <div class="action-matrix">
             <article class="matrix-panel">
               <img
-                src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=1100&q=84"
-                alt="Medicine bottles and pharmacy supplies"
+                src="assets/images/medicure-medicine-shelf.jpg"
+                alt="Homeopathic medicines stocked on Medicure shelves"
               />
               <div class="matrix-content">
                 <h3>Medicine Store</h3>
@@ -1671,8 +2087,8 @@
             </article>
             <article class="matrix-panel">
               <img
-                src="https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?auto=format&fit=crop&w=1100&q=84"
-                alt="Doctor consultation in a calm clinical setting"
+                src="assets/images/dr-Som.jpg"
+                alt="Dr. Achintya Kumar Som at the Medicure consultation clinic"
               />
               <div class="matrix-content">
                 <h3>Clinic Consultation</h3>
@@ -1692,6 +2108,65 @@
             </div>
             <p>Useful for handwritten prescriptions, complex medicine names, dilutions, and potency combinations that are easier to photograph than type.</p>
             <a class="btn btn-dark" data-whatsapp="prescription" href="#"><i data-lucide="paperclip"></i> Attach via WhatsApp</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="department-section" aria-labelledby="departments-title">
+        <div class="shell">
+          <div class="section-head">
+            <h2 id="departments-title">Find the format written on your prescription.</h2>
+            <p>Search the encyclopedia to identify a product, then send the exact name, potency, and pack to Medicure for availability.</p>
+          </div>
+          <div class="department-grid">
+            <article class="department-card">
+              <div>
+                <span class="department-icon"><i data-lucide="droplets"></i></span>
+                <h3>Mother tinctures</h3>
+                <p>Identify tinctures by source ingredient, manufacturer, and bottle format.</p>
+              </div>
+              <a href="medicines.html?q=mother+tincture">Search tinctures <i data-lucide="arrow-right"></i></a>
+            </article>
+            <article class="department-card">
+              <div>
+                <span class="department-icon"><i data-lucide="flask-conical"></i></span>
+                <h3>Dilutions and potencies</h3>
+                <p>Check medicine names and potency notations such as X, C, LM, and Q.</p>
+              </div>
+              <a href="medicines.html?q=30C">Search by potency <i data-lucide="arrow-right"></i></a>
+            </article>
+            <article class="department-card">
+              <div>
+                <span class="department-icon"><i data-lucide="circle-dot"></i></span>
+                <h3>Globules and pellets</h3>
+                <p>Explore oral pellet and globule listings, ingredients, and pack descriptions.</p>
+              </div>
+              <a href="medicines.html?q=pellet">Search pellets <i data-lucide="arrow-right"></i></a>
+            </article>
+            <article class="department-card">
+              <div>
+                <span class="department-icon"><i data-lucide="tablets"></i></span>
+                <h3>Tablets and tissue salts</h3>
+                <p>Find tablet formats, biochemic names, and multi-ingredient records.</p>
+              </div>
+              <a href="medicines.html?q=tablet">Search tablets <i data-lucide="arrow-right"></i></a>
+            </article>
+            <article class="department-card">
+              <div>
+                <span class="department-icon"><i data-lucide="pipette"></i></span>
+                <h3>Drops and combinations</h3>
+                <p>Compare listed combination ingredients, routes, and dosage forms.</p>
+              </div>
+              <a href="medicines.html?q=drops">Search drops <i data-lucide="arrow-right"></i></a>
+            </article>
+            <article class="department-card">
+              <div>
+                <span class="department-icon"><i data-lucide="scan-search"></i></span>
+                <h3>Can't read the prescription?</h3>
+                <p>Send a clear photo. The store team will help identify the written product before confirming stock.</p>
+              </div>
+              <a data-whatsapp="prescription" href="#">Send prescription photo <i data-lucide="message-circle"></i></a>
+            </article>
           </div>
         </div>
       </section>
@@ -1718,6 +2193,31 @@
               <h3>Pickup or Delivery</h3>
               <p>Collect your sealed order from the store or coordinate local courier dispatch where available.</p>
             </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="encyclopedia-section" id="encyclopedia" aria-labelledby="encyclopedia-title">
+        <div class="shell encyclopedia-grid">
+          <div>
+            <p class="eyebrow">Medicine Encyclopedia</p>
+            <h2 id="encyclopedia-title">India's medicine catalogs, organized around the remedy.</h2>
+            <p>
+              Search canonical medicines by name, synonym, ingredient, Indian manufacturer, form or potency. Each profile keeps official product variants, manufacturer-stated indications and labelled directions connected to their sources.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="medicines.html"><i data-lucide="search"></i> Open Medicine Encyclopedia</a>
+              <button class="btn btn-secondary" type="button" data-remedy-modal-open><i data-lucide="book-open"></i> Open Educational Remedy Guide</button>
+            </div>
+            <div class="safety-note">
+              Educational product information is not a prescription or evidence of effectiveness. Medicine selection, potency, repetition and dose require qualified clinical advice.
+            </div>
+          </div>
+          <div class="catalog-metrics" aria-label="Medicine encyclopedia coverage">
+            <div><strong>2,030</strong><span>Canonical medicine profiles</span></div>
+            <div><strong>7</strong><span>Priority Indian manufacturers</span></div>
+            <div><strong>2,993</strong><span>Nested product records</span></div>
+            <div><strong>4</strong><span>Selected Indian retailers</span></div>
           </div>
         </div>
       </section>
@@ -2052,12 +2552,70 @@
       const uiText = {
         bn: {
           "Home": "হোম",
+          "Medicines": "ওষুধের তথ্য",
+          "Dr. Som": "ডাঃ সোম",
+          "Order": "ওষুধ অর্ডার",
+          "Visit": "দোকানের ঠিকানা",
+          "Medicine Encyclopedia": "ওষুধের এনসাইক্লোপিডিয়া",
+          "Remedy Guide": "রেমেডি গাইড",
           "Meet Dr. Som": "ডাঃ সোম",
           "Order Medicines": "ওষুধ অর্ডার",
           "Remedy Finder": "রেমেডি ফাইন্ডার",
           "Locate Shop": "দোকানের ঠিকানা",
           "Order via WhatsApp": "WhatsApp-এ অর্ডার",
           "Welcome to Medicure Homeopathy": "Medicure Homeopathy-তে স্বাগতম",
+          "Medicure Homeopathy, Kolkata": "মেডিকিওর- কলকাতায় হোমিওপ্যাথি চিকিৎসার বিশ্বস্ত ঠিকানা",
+          "Search medicines, send a prescription, or consult Dr. Achintya Kumar Som at our Maniktala medicine store and clinic.": "ওষুধ খুঁজুন, প্রেসক্রিপশন পাঠান অথবা মানিকতলার Medicure মেডিসিন স্টোর ও ক্লিনিকে Dr. Achintya Kumar Som-এর সঙ্গে কনসাল্ট করুন।",
+          "Search 2,000+ Indian medicines, ingredients, and manufacturers": "২,০০০+ ভারতীয় ওষুধ, উপাদান ও প্রস্তুতকারক খুঁজুন",
+          "Search the homeopathic medicine encyclopedia": "হোমিওপ্যাথিক ওষুধের এনসাইক্লোপিডিয়া খুঁজুন",
+          "Search Medicines": "ওষুধ খুঁজুন",
+          "India-focused medicine profiles from official manufacturer catalogs. Medicure confirms local stock separately.": "অফিসিয়াল প্রস্তুতকারক ক্যাটালগ থেকে ভারত-কেন্দ্রিক ওষুধের প্রোফাইল। স্থানীয় স্টক Medicure আলাদাভাবে নিশ্চিত করবে।",
+          "Book a Consultation": "কনসাল্টেশন বুক করুন",
+          "Canonical medicine profiles": "মূল ওষুধের প্রোফাইল",
+          "Medicure, Maniktala": "Medicure, মানিকতলা",
+          "Medicine shelves": "ওষুধের তাক",
+          "Medicure pharmacy services": "Medicure ফার্মেসি পরিষেবা",
+          "Brand and potency checked": "ব্র্যান্ড ও পোটেন্সি যাচাই",
+          "Confirmed before billing": "বিলিংয়ের আগে নিশ্চিত করা হয়",
+          "Open seven days": "সপ্তাহের সাত দিন খোলা",
+          "Sunday service until 2 PM": "রবিবার দুপুর ২টা পর্যন্ত",
+          "Prescription photo ordering": "প্রেসক্রিপশনের ছবি দিয়ে অর্ডার",
+          "Send the full prescription on WhatsApp": "সম্পূর্ণ প্রেসক্রিপশন WhatsApp-এ পাঠান",
+          "Maniktala, Kolkata": "মানিকতলা, কলকাতা",
+          "Leading manufacturers, one local counter.": "নামী প্রস্তুতকারকদের ওষুধ, একটি স্থানীয় কাউন্টারে।",
+          "Brand and pack availability varies. Ask the store for an exact match or equivalent.": "ব্র্যান্ড ও প্যাকের স্টক বদলাতে পারে। একই ওষুধ বা সমতুল্য ব্র্যান্ডের জন্য স্টোরে জিজ্ঞেস করুন।",
+          "Homeopathic medicine manufacturers available through Medicure": "Medicure-এ পাওয়া হোমিওপ্যাথিক ওষুধ প্রস্তুতকারক",
+          "Find the format written on your prescription.": "প্রেসক্রিপশনে লেখা ওষুধের ধরন খুঁজুন।",
+          "Search the encyclopedia to identify a product, then send the exact name, potency, and pack to Medicure for availability.": "প্রোডাক্ট শনাক্ত করতে এনসাইক্লোপিডিয়ায় খুঁজুন, তারপর সঠিক নাম, পোটেন্সি ও প্যাক লিখে Medicure-এ স্টক জিজ্ঞেস করুন।",
+          "Mother tinctures": "মাদার টিংচার",
+          "Identify tinctures by source ingredient, manufacturer, and bottle format.": "উৎস উপাদান, প্রস্তুতকারক ও বোতলের ধরন দিয়ে টিংচার শনাক্ত করুন।",
+          "Search tinctures": "টিংচার খুঁজুন",
+          "Dilutions and potencies": "ডাইলিউশন ও পোটেন্সি",
+          "Check medicine names and potency notations such as X, C, LM, and Q.": "ওষুধের নাম এবং X, C, LM ও Q-এর মতো পোটেন্সি নোটেশন দেখুন।",
+          "Search by potency": "পোটেন্সি দিয়ে খুঁজুন",
+          "Globules and pellets": "গ্লোবিউল ও পেলেট",
+          "Explore oral pellet and globule listings, ingredients, and pack descriptions.": "ওরাল পেলেট ও গ্লোবিউল লিস্টিং, উপাদান এবং প্যাকের বিবরণ দেখুন।",
+          "Search pellets": "পেলেট খুঁজুন",
+          "Tablets and tissue salts": "ট্যাবলেট ও টিস্যু সল্ট",
+          "Find tablet formats, biochemic names, and multi-ingredient records.": "ট্যাবলেটের ধরন, বায়োকেমিক নাম ও বহু-উপাদানের রেকর্ড খুঁজুন।",
+          "Search tablets": "ট্যাবলেট খুঁজুন",
+          "Drops and combinations": "ড্রপ ও কম্বিনেশন",
+          "Compare listed combination ingredients, routes, and dosage forms.": "তালিকাভুক্ত কম্বিনেশন উপাদান, ব্যবহারের পথ ও ডোজ ফর্ম দেখুন।",
+          "Search drops": "ড্রপ খুঁজুন",
+          "Can't read the prescription?": "প্রেসক্রিপশন পড়তে পারছেন না?",
+          "Send a clear photo. The store team will help identify the written product before confirming stock.": "পরিষ্কার ছবি পাঠান। স্টক নিশ্চিত করার আগে স্টোর টিম লেখা প্রোডাক্ট শনাক্ত করতে সাহায্য করবে।",
+          "Send prescription photo": "প্রেসক্রিপশনের ছবি পাঠান",
+          "India's medicine catalogs, organized around the remedy.": "ভারতের ওষুধ ক্যাটালগ, প্রতিটি রেমেডিকে কেন্দ্র করে সাজানো।",
+          "Search canonical medicines by name, synonym, ingredient, Indian manufacturer, form or potency. Each profile keeps official product variants, manufacturer-stated indications and labelled directions connected to their sources.": "নাম, সমার্থক নাম, উপাদান, ভারতীয় প্রস্তুতকারক, ফর্ম বা পোটেন্সি দিয়ে মূল ওষুধ খুঁজুন। প্রতিটি প্রোফাইলে অফিসিয়াল প্রোডাক্ট ভ্যারিয়েন্ট, প্রস্তুতকারকের ইন্ডিকেশন ও লেবেলের নির্দেশনা উৎসসহ থাকে।",
+          "Open Medicine Encyclopedia": "ওষুধের এনসাইক্লোপিডিয়া খুলুন",
+          "Open Educational Remedy Guide": "শিক্ষামূলক রেমেডি গাইড খুলুন",
+          "Educational product information is not a prescription or evidence of effectiveness. Medicine selection, potency, repetition and dose require qualified clinical advice.": "শিক্ষামূলক প্রোডাক্ট তথ্য প্রেসক্রিপশন বা কার্যকারিতার প্রমাণ নয়। ওষুধ নির্বাচন, পোটেন্সি, পুনরাবৃত্তি ও ডোজের জন্য যোগ্য চিকিৎসকের পরামর্শ নিন।",
+          "Medicine encyclopedia coverage": "ওষুধের এনসাইক্লোপিডিয়ার পরিধি",
+          "Priority Indian manufacturers": "প্রধান ভারতীয় প্রস্তুতকারক",
+          "Nested product records": "সংযুক্ত প্রোডাক্ট রেকর্ড",
+          "Selected Indian retailers": "নির্বাচিত ভারতীয় বিক্রেতা",
+          "Homeopathic medicines stocked on Medicure shelves": "Medicure-এর তাকে রাখা হোমিওপ্যাথিক ওষুধ",
+          "Dr. Achintya Kumar Som at the Medicure consultation clinic": "Medicure কনসালটেশন ক্লিনিকে Dr. Achintya Kumar Som",
           "Genuine remedies and thoughtful clinical care.": "মেডিকিওর- কলকাতায় হোমিওপ্যাথি চিকিৎসার বিশ্বস্ত ঠিকানা",
           "Consult with Dr. Achintya Kumar Som or order authentic, sealed homeopathic medicines from the Medicure store through a quick WhatsApp chat.": "Dr. Achintya Kumar Som-এর সঙ্গে কনসাল্ট করুন অথবা একটি দ্রুত WhatsApp চ্যাটের মাধ্যমে Medicure থেকে সিল করা আসল হোমিওপ্যাথিক ওষুধ অর্ডার করুন।",
           "Tap to Order on WhatsApp": "WhatsApp-এ অর্ডার করুন",
@@ -2882,13 +3440,15 @@
         renderRemedies();
       });
 
-      document.querySelector("[data-remedy-modal-open]").addEventListener("click", () => {
-        const modal = document.getElementById("remedy-modal");
-        modal.hidden = false;
-        document.body.classList.add("modal-open");
-        modalRemedyPage = 0;
-        renderRemedies();
-        lucide.createIcons({ attrs: { "stroke-width": 2 } });
+      document.querySelectorAll("[data-remedy-modal-open]").forEach((button) => {
+        button.addEventListener("click", () => {
+          const modal = document.getElementById("remedy-modal");
+          modal.hidden = false;
+          document.body.classList.add("modal-open");
+          modalRemedyPage = 0;
+          renderRemedies();
+          lucide.createIcons({ attrs: { "stroke-width": 2 } });
+        });
       });
 
       document.querySelectorAll("[data-remedy-modal-close]").forEach((button) => {

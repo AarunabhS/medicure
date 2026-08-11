@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "id": "076f63d6a58bd056",
+  "slug": "sbl-fp-tabs-and-fp-ointment-2981e032",
+  "type": "combination",
+  "canonicalName": "SBL FP-Tabs & FP-Ointment",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Tablets Ratanhia",
+      "potency": "3X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Hamamelis Virginica",
+      "potency": "3X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Aesculus Hippocastanum",
+      "potency": "3X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Aloe Socotrina",
+      "potency": "3X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Calcarea Fluorica",
+      "potency": "3X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Ointment Hamamelis Virginica",
+      "potency": "Q",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Hydrastic Candensis",
+      "potency": "Q",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Aesculus Hippocastanum",
+      "potency": "Q",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Ratanhia",
+      "potency": "Q",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Paeonia Officinalis",
+      "potency": "Q",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Viburnum Prunifolium",
+      "potency": "Q",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "For Fissures & Engorged rectal veins Put simply, 'piles' are the swollen blood",
+      "attribution": "SBL",
+      "productId": "38b9009423e2c06b",
+      "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Tablets & Ointment"
+  ],
+  "manufacturers": [
+    {
+      "id": "sbl",
+      "name": "SBL Pvt. Ltd.",
+      "shortName": "SBL",
+      "url": "https://sblglobal.com/"
+    }
+  ],
+  "products": [
+    {
+      "manufacturerId": "sbl",
+      "canonicalName": "SBL FP-Tabs & FP-Ointment",
+      "productName": "FP-Tabs & FP-Ointment",
+      "type": "combination",
+      "form": "Tablets & Ointment",
+      "ingredients": [
+        {
+          "name": "Tablets Ratanhia",
+          "potency": "3X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Hamamelis Virginica",
+          "potency": "3X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Aesculus Hippocastanum",
+          "potency": "3X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Aloe Socotrina",
+          "potency": "3X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Calcarea Fluorica",
+          "potency": "3X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Ointment Hamamelis Virginica",
+          "potency": "Q",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Hydrastic Candensis",
+          "potency": "Q",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Aesculus Hippocastanum",
+          "potency": "Q",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Ratanhia",
+          "potency": "Q",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Paeonia Officinalis",
+          "potency": "Q",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Viburnum Prunifolium",
+          "potency": "Q",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [],
+      "labelDirections": "Tablets-Adults 2 Tablets taken orally, every 3 hours daily for 1-2 weeks Ointment Apply locally twice daily before and after stool, for 1-2 weeks, using the applicator if internal administration is required. Or, as prescribed by the physician.",
+      "indication": "For Fissures & Engorged rectal veins Put simply, 'piles' are the swollen blood",
+      "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+      "sourceType": "official product booklet, page 23",
+      "reviewedAt": "2026-08-12",
+      "reviewStatus": "composition-and-identity-reviewed",
+      "id": "38b9009423e2c06b"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=SBL%20FP-Tabs%20%26%20FP-Ointment",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=SBL%20FP-Tabs%20%26%20FP-Ointment",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=SBL%20FP-Tabs%20%26%20FP-Ointment",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=SBL%20FP-Tabs%20%26%20FP-Ointment",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-38b9009423e2c06b",
+      "name": "SBL product source",
+      "publisher": "SBL Pvt. Ltd.",
+      "url": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+      "role": "official product booklet, page 23"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

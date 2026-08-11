@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "id": "6bef128a469b2744",
+  "slug": "cephalandra-indica",
+  "type": "single",
+  "canonicalName": "Cephalandra Indica",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "Cephalandra Indica",
+  "hpiReferences": [
+    {
+      "title": "PCIM&H Homoeopathic Pharmacopoeia of India monograph index",
+      "url": "https://www.portal.pcimh.gov.in/products?categories=97e857d1-7288-4f31-b142-bf55adeb7d14&page=1",
+      "verificationStatus": "index-linked"
+    }
+  ],
+  "ingredients": [
+    {
+      "name": "Cephalandra Indica",
+      "role": "source substance",
+      "sourceIdentity": ""
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [
+    "Q",
+    "6X",
+    "6CH",
+    "30CH",
+    "200CH",
+    "1M",
+    "10M",
+    "50M",
+    "CM"
+  ],
+  "forms": [
+    "Mother tincture / dilution",
+    "Mother tincture"
+  ],
+  "manufacturers": [
+    {
+      "id": "bakson",
+      "name": "Bakson Drugs & Pharmaceuticals",
+      "shortName": "Bakson",
+      "url": "https://www.buybakson.com/pages/download-catalogue"
+    },
+    {
+      "id": "hapco",
+      "name": "Hahnemann Publishing Co. Pvt. Ltd.",
+      "shortName": "HAPCO",
+      "url": "https://www.hapco.co.in/products.html"
+    },
+    {
+      "id": "mahesh",
+      "name": "Mahesh Laboratories Pvt. Ltd.",
+      "shortName": "Mahesh",
+      "url": "https://www.maheshlab.com/catalogue.html"
+    }
+  ],
+  "products": [
+    {
+      "id": "6fa2393cc41a9d4a",
+      "manufacturerId": "bakson",
+      "canonicalName": "Cephalandra Indica",
+      "productName": "Bakson Cephalandra Indica",
+      "type": "single",
+      "form": "Mother tincture / dilution",
+      "ingredients": [
+        {
+          "name": "Cephalandra Indica",
+          "role": "source substance",
+          "sourceIdentity": ""
+        }
+      ],
+      "potencies": [
+        "Q",
+        "6X",
+        "6CH",
+        "30CH",
+        "200CH",
+        "1M",
+        "10M",
+        "50M",
+        "CM"
+      ],
+      "packSizes": [],
+      "labelDirections": "",
+      "indication": "",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0743/0904/2417/files/MT_Dilution_Catalogue_14-05-24_1.pdf?v=1754394718",
+      "sourceType": "official catalog"
+    },
+    {
+      "id": "d836dfa57b7c40ae",
+      "manufacturerId": "hapco",
+      "canonicalName": "Cephalandra Indica",
+      "productName": "HAPCO Cephalandra Indica",
+      "type": "single",
+      "form": "Mother tincture",
+      "ingredients": [
+        {
+          "name": "Cephalandra Indica",
+          "role": "source substance"
+        }
+      ],
+      "potencies": [
+        "Q"
+      ],
+      "packSizes": [],
+      "labelDirections": "",
+      "indication": "",
+      "sourceUrl": "https://www.hapco.co.in/c.html",
+      "sourceType": "official catalog"
+    },
+    {
+      "id": "5b4dd671a77b0524",
+      "manufacturerId": "mahesh",
+      "canonicalName": "Cephalandra Indica",
+      "productName": "Mahesh Cephalandra Indica",
+      "type": "single",
+      "form": "Mother tincture / dilution",
+      "ingredients": [
+        {
+          "name": "Cephalandra Indica",
+          "role": "source substance"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [],
+      "labelDirections": "",
+      "indication": "",
+      "sourceUrl": "https://www.maheshlab.com/catalogue.html",
+      "sourceType": "official catalog"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Cephalandra%20Indica",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Cephalandra%20Indica",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Cephalandra%20Indica",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Cephalandra%20Indica",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "pcimh-hpi",
+      "name": "Homoeopathic Pharmacopoeia of India",
+      "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of AYUSH",
+      "url": "https://www.portal.pcimh.gov.in/products?categories=97e857d1-7288-4f31-b142-bf55adeb7d14&page=1",
+      "role": "Canonical medicine names, synonyms, identity and pharmacopoeial reference"
+    },
+    {
+      "id": "product-6fa2393cc41a9d4a",
+      "name": "Bakson product source",
+      "publisher": "Bakson Drugs & Pharmaceuticals",
+      "url": "https://cdn.shopify.com/s/files/1/0743/0904/2417/files/MT_Dilution_Catalogue_14-05-24_1.pdf?v=1754394718",
+      "role": "official catalog"
+    },
+    {
+      "id": "product-d836dfa57b7c40ae",
+      "name": "HAPCO product source",
+      "publisher": "Hahnemann Publishing Co. Pvt. Ltd.",
+      "url": "https://www.hapco.co.in/c.html",
+      "role": "official catalog"
+    },
+    {
+      "id": "product-5b4dd671a77b0524",
+      "name": "Mahesh product source",
+      "publisher": "Mahesh Laboratories Pvt. Ltd.",
+      "url": "https://www.maheshlab.com/catalogue.html",
+      "role": "official catalog"
+    }
+  ],
+  "category": "single-remedy",
+  "tags": [],
+  "dataQuality": {
+    "identity": "pharmacopoeia-index-linked",
+    "composition": "structured",
+    "indications": "not-published",
+    "dosage": "not-published"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

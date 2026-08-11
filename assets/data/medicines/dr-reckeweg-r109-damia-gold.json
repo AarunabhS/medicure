@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "f6ba9eef90b9a701",
+  "slug": "dr-reckeweg-r109-damia-gold",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R109-DAMIA Gold",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "of The Formula as under: Acid Phos : General weakness with impotency specially in diabetic patients. Agnus Castus : Lack of sexual desire, forgetful & mental depression. Caladium : Impotency with no desire, Spermatorrhoea, no erection on effort. Damiana : Sexual neurasthenia, useful in old cases, revitalization of sexual organs....",
+      "attribution": "Dr. Reckeweg",
+      "productId": "b3e4a63549afc70d",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/damia-gold-new-768.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "b3e4a63549afc70d",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R109-DAMIA Gold",
+      "productName": "Dr. Reckeweg R109-Damia Gold",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [],
+      "potencies": [],
+      "packSizes": [
+        "22ml"
+      ],
+      "labelDirections": ": 3 times daily, 10-15 drops in some water. Composition : Acidum Phosphoricum D6, Agnus Castus D2, Caladium Seguinum D1, Damiana D1, Muira Puama D1, Nuphar Luteum D2, Panax Ginseng D1 Info for Registered medical practitioners only.",
+      "indication": "of The Formula as under: Acid Phos : General weakness with impotency specially in diabetic patients. Agnus Castus : Lack of sexual desire, forgetful & mental depression. Caladium : Impotency with no desire, Spermatorrhoea, no erection on effort. Damiana : Sexual neurasthenia, useful in old cases, revitalization of sexual organs....",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/damia-gold-new-768.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R109-DAMIA%20Gold",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R109-DAMIA%20Gold",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R109-DAMIA%20Gold",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R109-DAMIA%20Gold",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-b3e4a63549afc70d",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/damia-gold-new-768.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "source-link-only",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

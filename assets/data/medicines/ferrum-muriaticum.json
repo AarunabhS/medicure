@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "id": "b0a52e85abf0dc37",
+  "slug": "ferrum-muriaticum",
+  "type": "single",
+  "canonicalName": "Ferrum Muriaticum",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "Ferric chloride",
+  "sourceMaterial": "Ferric chloride",
+  "hpiReferences": [
+    {
+      "title": "PCIM&H Homoeopathic Pharmacopoeia of India monograph index",
+      "url": "https://www.portal.pcimh.gov.in/products?categories=97e857d1-7288-4f31-b142-bf55adeb7d14&page=1",
+      "verificationStatus": "index-linked"
+    }
+  ],
+  "ingredients": [
+    {
+      "name": "Ferrum Muriaticum",
+      "role": "source substance",
+      "sourceIdentity": "Ferric chloride"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [
+    "6X",
+    "200CH",
+    "1M",
+    "10M",
+    "50M"
+  ],
+  "forms": [
+    "Dilution",
+    "Trituration / dilution",
+    "Mother tincture / dilution"
+  ],
+  "manufacturers": [
+    {
+      "id": "bakson",
+      "name": "Bakson Drugs & Pharmaceuticals",
+      "shortName": "Bakson",
+      "url": "https://www.buybakson.com/pages/download-catalogue"
+    },
+    {
+      "id": "hapco",
+      "name": "Hahnemann Publishing Co. Pvt. Ltd.",
+      "shortName": "HAPCO",
+      "url": "https://www.hapco.co.in/products.html"
+    },
+    {
+      "id": "mahesh",
+      "name": "Mahesh Laboratories Pvt. Ltd.",
+      "shortName": "Mahesh",
+      "url": "https://www.maheshlab.com/catalogue.html"
+    }
+  ],
+  "products": [
+    {
+      "id": "76477c6315dd909b",
+      "manufacturerId": "bakson",
+      "canonicalName": "Ferrum Muriaticum",
+      "productName": "Bakson Ferrum Muriaticum",
+      "type": "single",
+      "form": "Dilution",
+      "ingredients": [
+        {
+          "name": "Ferrum Muriaticum",
+          "role": "source substance",
+          "sourceIdentity": "Ferric chloride"
+        }
+      ],
+      "potencies": [
+        "200CH",
+        "1M",
+        "10M",
+        "50M"
+      ],
+      "packSizes": [],
+      "labelDirections": "",
+      "indication": "",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0743/0904/2417/files/MT_Dilution_Catalogue_14-05-24_1.pdf?v=1754394718",
+      "sourceType": "official catalog"
+    },
+    {
+      "id": "70bf8aff84bf12e6",
+      "manufacturerId": "hapco",
+      "canonicalName": "Ferrum Muriaticum",
+      "productName": "HAPCO Ferrum Muriaticum",
+      "type": "single",
+      "form": "Trituration / dilution",
+      "ingredients": [
+        {
+          "name": "Ferrum Muriaticum",
+          "role": "source substance"
+        }
+      ],
+      "potencies": [
+        "6X"
+      ],
+      "packSizes": [],
+      "labelDirections": "",
+      "indication": "",
+      "sourceUrl": "https://www.hapco.co.in/f.html",
+      "sourceType": "official catalog"
+    },
+    {
+      "id": "2be7767b176bbf55",
+      "manufacturerId": "mahesh",
+      "canonicalName": "Ferrum Muriaticum",
+      "productName": "Mahesh Ferrum Muriaticum",
+      "type": "single",
+      "form": "Mother tincture / dilution",
+      "ingredients": [
+        {
+          "name": "Ferrum Muriaticum",
+          "role": "source substance"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [],
+      "labelDirections": "",
+      "indication": "",
+      "sourceUrl": "https://www.maheshlab.com/catalogue.html",
+      "sourceType": "official catalog"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Ferrum%20Muriaticum",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Ferrum%20Muriaticum",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Ferrum%20Muriaticum",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Ferrum%20Muriaticum",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "pcimh-hpi",
+      "name": "Homoeopathic Pharmacopoeia of India",
+      "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of AYUSH",
+      "url": "https://www.portal.pcimh.gov.in/products?categories=97e857d1-7288-4f31-b142-bf55adeb7d14&page=1",
+      "role": "Canonical medicine names, synonyms, identity and pharmacopoeial reference"
+    },
+    {
+      "id": "product-76477c6315dd909b",
+      "name": "Bakson product source",
+      "publisher": "Bakson Drugs & Pharmaceuticals",
+      "url": "https://cdn.shopify.com/s/files/1/0743/0904/2417/files/MT_Dilution_Catalogue_14-05-24_1.pdf?v=1754394718",
+      "role": "official catalog"
+    },
+    {
+      "id": "product-70bf8aff84bf12e6",
+      "name": "HAPCO product source",
+      "publisher": "Hahnemann Publishing Co. Pvt. Ltd.",
+      "url": "https://www.hapco.co.in/f.html",
+      "role": "official catalog"
+    },
+    {
+      "id": "product-2be7767b176bbf55",
+      "name": "Mahesh product source",
+      "publisher": "Mahesh Laboratories Pvt. Ltd.",
+      "url": "https://www.maheshlab.com/catalogue.html",
+      "role": "official catalog"
+    }
+  ],
+  "category": "single-remedy",
+  "tags": [],
+  "dataQuality": {
+    "identity": "pharmacopoeia-index-linked",
+    "composition": "structured",
+    "indications": "not-published",
+    "dosage": "not-published"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

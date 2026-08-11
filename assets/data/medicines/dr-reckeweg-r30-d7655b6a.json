@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "id": "9d05148c0cae6b36",
+  "slug": "dr-reckeweg-r30-d7655b6a",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R30",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Belladonna",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Calendula",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Echinacea angustifolia",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Hamamelis",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "General pain and pain in the limb. Millefolium",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "An ointment for the rheumatism of muscles and joints, neuralgias and sciatica. Degenerative processes of the intervertebral discs, osteoarthritis, amputation neuralgias. Paralysis due to stroke, facial paralysis, osteochondritis. Contusions, aching of muscles, sprains. Boils and carbuncles.Do not apply ointment to face except incase of facial paralysis.",
+      "attribution": "Dr. Reckeweg",
+      "productId": "bde7cd8eef0675b2",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r30-29.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Ointment"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "bde7cd8eef0675b2",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R30",
+      "productName": "Dr. Reckeweg R30",
+      "type": "combination",
+      "form": "Ointment",
+      "ingredients": [
+        {
+          "name": "Belladonna",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Calendula",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Echinacea angustifolia",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Hamamelis",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "General pain and pain in the limb. Millefolium",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "85g"
+      ],
+      "labelDirections": "- Topical application in the morning and evening is usually sufficient. In acute cases of pain and aching several applications may be necessary. - In cases of wounds and boils etc. only the tissue around the affected side should be covered with the ointment.",
+      "indication": "An ointment for the rheumatism of muscles and joints, neuralgias and sciatica. Degenerative processes of the intervertebral discs, osteoarthritis, amputation neuralgias. Paralysis due to stroke, facial paralysis, osteochondritis. Contusions, aching of muscles, sprains. Boils and carbuncles.Do not apply ointment to face except incase of facial paralysis.",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r30-29.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R30",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R30",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R30",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R30",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-bde7cd8eef0675b2",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r30-29.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "id": "63632a2a640edd8c",
+  "slug": "dr-reckeweg-r26-c447a754",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R26",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Acid. nitric.",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Acid. phosphor.",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Calc. jod.",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Ferrum jod.",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Stimulates the defensive mechanism of the enfeebled organism. Increased resistance obtained through the effectiveness of the following elements:",
+      "attribution": "Dr. Reckeweg",
+      "productId": "031331ddb4a38595",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r26-25.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "031331ddb4a38595",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R26",
+      "productName": "Dr. Reckeweg R26",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Acid. nitric.",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Acid. phosphor.",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Calc. jod.",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Ferrum jod.",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "22ml"
+      ],
+      "labelDirections": "- Give the remedy once daily only in addition to other complexes: 10-15 drops in some water. - Failing a response upon administration of this remedy (R 26) repeat it 2-3 times daily, 10-15 drops, for a few days.",
+      "indication": "Stimulates the defensive mechanism of the enfeebled organism. Increased resistance obtained through the effectiveness of the following elements:",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r26-25.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R26",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R26",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R26",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R26",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-031331ddb4a38595",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r26-25.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

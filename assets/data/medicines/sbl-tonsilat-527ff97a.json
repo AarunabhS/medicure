@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "605366aa086ae4be",
+  "slug": "sbl-tonsilat-527ff97a",
+  "type": "combination",
+  "canonicalName": "SBL Tonsilat",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Baryta Carbonicum",
+      "potency": "3X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Kali Muriaticum",
+      "potency": "1X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Belladonna",
+      "potency": "3X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Mercurius Bin-iodatus",
+      "potency": "3X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Ferrum Phosphoricum",
+      "potency": "3X",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "* Tonsillitis * Sore throat * Pharyngitis",
+      "attribution": "SBL",
+      "productId": "c018c18dfe1bf409",
+      "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Tablets"
+  ],
+  "manufacturers": [
+    {
+      "id": "sbl",
+      "name": "SBL Pvt. Ltd.",
+      "shortName": "SBL",
+      "url": "https://sblglobal.com/"
+    }
+  ],
+  "products": [
+    {
+      "manufacturerId": "sbl",
+      "canonicalName": "SBL Tonsilat",
+      "productName": "Tonsilat",
+      "type": "combination",
+      "form": "Tablets",
+      "ingredients": [
+        {
+          "name": "Baryta Carbonicum",
+          "potency": "3X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Kali Muriaticum",
+          "potency": "1X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Belladonna",
+          "potency": "3X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Mercurius Bin-iodatus",
+          "potency": "3X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Ferrum Phosphoricum",
+          "potency": "3X",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "25 gm",
+        "450 gm"
+      ],
+      "labelDirections": "Adults 2 tablets every 3 hours Children 1 tablet every 3 hours Or, as prescribed by the physician.",
+      "indication": "* Tonsillitis * Sore throat * Pharyngitis",
+      "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+      "sourceType": "official product booklet, page 51",
+      "reviewedAt": "2026-08-12",
+      "reviewStatus": "composition-and-identity-reviewed",
+      "id": "c018c18dfe1bf409"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=SBL%20Tonsilat",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=SBL%20Tonsilat",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=SBL%20Tonsilat",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=SBL%20Tonsilat",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-c018c18dfe1bf409",
+      "name": "SBL product source",
+      "publisher": "SBL Pvt. Ltd.",
+      "url": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+      "role": "official product booklet, page 51"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

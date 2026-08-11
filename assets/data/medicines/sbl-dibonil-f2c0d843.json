@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "id": "c1721dd4487df94a",
+  "slug": "sbl-dibonil-f2c0d843",
+  "type": "combination",
+  "canonicalName": "SBL Dibonil",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Crataegus Oxyacantha",
+      "potency": "Q",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Gymnema Sylvestre",
+      "potency": "Q",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Acidum Phosphoricum",
+      "potency": "Q",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Abroma Augusta",
+      "potency": "Q",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Syzygium Jambolanum",
+      "potency": "Q",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Helonias Dioica",
+      "potency": "Q",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Cephalandra Indica",
+      "potency": "Q",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Increased frequency of urination, increased thirst, weakness and muscular pain.",
+      "attribution": "SBL",
+      "productId": "a8f16eb516a2fb2d",
+      "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "sbl",
+      "name": "SBL Pvt. Ltd.",
+      "shortName": "SBL",
+      "url": "https://sblglobal.com/"
+    }
+  ],
+  "products": [
+    {
+      "manufacturerId": "sbl",
+      "canonicalName": "SBL Dibonil",
+      "productName": "Dibonil",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Crataegus Oxyacantha",
+          "potency": "Q",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Gymnema Sylvestre",
+          "potency": "Q",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Acidum Phosphoricum",
+          "potency": "Q",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Abroma Augusta",
+          "potency": "Q",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Syzygium Jambolanum",
+          "potency": "Q",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Helonias Dioica",
+          "potency": "Q",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Cephalandra Indica",
+          "potency": "Q",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "30ml"
+      ],
+      "labelDirections": "th 10 drops in 1/4 cup of water, half an hour before meals, three times daily or as prescribed by the physician",
+      "indication": "Increased frequency of urination, increased thirst, weakness and muscular pain.",
+      "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+      "sourceType": "official product booklet, page 16",
+      "reviewedAt": "2026-08-12",
+      "reviewStatus": "composition-and-identity-reviewed",
+      "id": "a8f16eb516a2fb2d"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=SBL%20Dibonil",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=SBL%20Dibonil",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=SBL%20Dibonil",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=SBL%20Dibonil",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-a8f16eb516a2fb2d",
+      "name": "SBL product source",
+      "publisher": "SBL Pvt. Ltd.",
+      "url": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+      "role": "official product booklet, page 16"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "id": "940c9c160f6bd7d9",
+  "slug": "sbl-arnica-act-676ca9ee",
+  "type": "combination",
+  "canonicalName": "SBL Arnica Act",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Arnica Montana",
+      "potency": "3X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Calendula Officinalis",
+      "potency": "3X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Hypericum Perforatum",
+      "potency": "3X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Symphtum Officinalis",
+      "potency": "3X",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Quick acting pain reliever SBL's Arnica Act Spray is formulated",
+      "attribution": "SBL",
+      "productId": "ea32816df59d3754",
+      "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Spray"
+  ],
+  "manufacturers": [
+    {
+      "id": "sbl",
+      "name": "SBL Pvt. Ltd.",
+      "shortName": "SBL",
+      "url": "https://sblglobal.com/"
+    }
+  ],
+  "products": [
+    {
+      "manufacturerId": "sbl",
+      "canonicalName": "SBL Arnica Act",
+      "productName": "Arnica Act",
+      "type": "combination",
+      "form": "Spray",
+      "ingredients": [
+        {
+          "name": "Arnica Montana",
+          "potency": "3X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Calendula Officinalis",
+          "potency": "3X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Hypericum Perforatum",
+          "potency": "3X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Symphtum Officinalis",
+          "potency": "3X",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "50 ml"
+      ],
+      "labelDirections": "Adult and Children above 2 yrs of age: Spray on the injured part of the body 2-3 times a day, or use as a compress. Saturate a clean cloth or gauze compress, place on wound and secure with a bandage. Change dressing 2-3 times a day.",
+      "indication": "Quick acting pain reliever SBL's Arnica Act Spray is formulated",
+      "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+      "sourceType": "official product booklet, page 47",
+      "reviewedAt": "2026-08-12",
+      "reviewStatus": "composition-and-identity-reviewed",
+      "id": "ea32816df59d3754"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=SBL%20Arnica%20Act",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=SBL%20Arnica%20Act",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=SBL%20Arnica%20Act",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=SBL%20Arnica%20Act",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-ea32816df59d3754",
+      "name": "SBL product source",
+      "publisher": "SBL Pvt. Ltd.",
+      "url": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+      "role": "official product booklet, page 47"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

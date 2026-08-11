@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "id": "719ce9d3a46c9167",
+  "slug": "sbl-relaxhed-7c2ec429",
+  "type": "combination",
+  "canonicalName": "SBL Relaxhed",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Cedron",
+      "potency": "3X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Spigelia Anthelmia",
+      "potency": "3X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Ignatia Amara",
+      "potency": "3X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Usnea Barbata",
+      "potency": "3X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Iris Versicolor",
+      "potency": "3X",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "For Headache Headache is a common complaint and can be caused due to various reasons",
+      "attribution": "SBL",
+      "productId": "e5ef71aaa7bb44da",
+      "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops / Tablets"
+  ],
+  "manufacturers": [
+    {
+      "id": "sbl",
+      "name": "SBL Pvt. Ltd.",
+      "shortName": "SBL",
+      "url": "https://sblglobal.com/"
+    }
+  ],
+  "products": [
+    {
+      "manufacturerId": "sbl",
+      "canonicalName": "SBL Relaxhed",
+      "productName": "Relaxhed",
+      "type": "combination",
+      "form": "Drops / Tablets",
+      "ingredients": [
+        {
+          "name": "Cedron",
+          "potency": "3X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Spigelia Anthelmia",
+          "potency": "3X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Ignatia Amara",
+          "potency": "3X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Usnea Barbata",
+          "potency": "3X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Iris Versicolor",
+          "potency": "3X",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "30 ml",
+        "25 g",
+        "450 g"
+      ],
+      "labelDirections": "Drops: Adult 10-15 drops in ¼th cup of water, 3-4 times a day or hourly during severe headache. Drops: Children Half of the adult dose. Tablets : Adult 2 tablets, 4 times a day or hourly during severe headache. Tablets : Children Half of the adult dose. Or, as prescribed by the physician.",
+      "indication": "For Headache Headache is a common complaint and can be caused due to various reasons",
+      "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+      "sourceType": "official product booklet, page 30",
+      "reviewedAt": "2026-08-12",
+      "reviewStatus": "composition-and-identity-reviewed",
+      "id": "e5ef71aaa7bb44da"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=SBL%20Relaxhed",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=SBL%20Relaxhed",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=SBL%20Relaxhed",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=SBL%20Relaxhed",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-e5ef71aaa7bb44da",
+      "name": "SBL product source",
+      "publisher": "SBL Pvt. Ltd.",
+      "url": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+      "role": "official product booklet, page 30"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

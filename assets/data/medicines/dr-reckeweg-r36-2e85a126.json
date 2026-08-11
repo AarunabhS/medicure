@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "e72a91b9dd5c24f7",
+  "slug": "dr-reckeweg-r36-2e85a126",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R36",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Agaricus",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Ignatia",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Lachesis",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Magnesium phosphoricum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Phosphorus",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Zincum valerianicum",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Over-sensitivity in the nervous system of children in respect of happenings due to varying causation; nervous diseases, as well as St. Vitus'dance, are all cases to be treated by detoxicant medication with a mode rate action and a homoeopathic basis like R36.",
+      "attribution": "Dr. Reckeweg",
+      "productId": "79de3e54d7fe5062",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r36-35.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "79de3e54d7fe5062",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R36",
+      "productName": "Dr. Reckeweg R36",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Agaricus",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Ignatia",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Lachesis",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Magnesium phosphoricum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Phosphorus",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Zincum valerianicum",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "22ml"
+      ],
+      "labelDirections": "- According to the degree of gravity 2-3 times daily 5-8-10-15 drops in a little water. In acute cases, with frequent fits and continual convulsions, every 1-2 hours, eventually in alternation with the remedies below. In acute cases of fits the medicine can be taken every five minutes (possibly in alternation) with other products. - Stimulants of all kinds are to be avoided, especially alcohol and tea.",
+      "indication": "Over-sensitivity in the nervous system of children in respect of happenings due to varying causation; nervous diseases, as well as St. Vitus'dance, are all cases to be treated by detoxicant medication with a mode rate action and a homoeopathic basis like R36.",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r36-35.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R36",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R36",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R36",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R36",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-79de3e54d7fe5062",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r36-35.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

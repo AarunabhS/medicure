@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "id": "3f9ad5f9a0ccda15",
+  "slug": "sbl-alfalfa-speciality-e3a221db",
+  "type": "combination",
+  "canonicalName": "SBL Alfalfa Speciality",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Alfalfa",
+      "potency": "Q",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Avena Sativa",
+      "potency": "Q",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Ginseng",
+      "potency": "Q",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Cinchona Officinalis",
+      "potency": "2X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Hydrastis Canadensis",
+      "potency": "2X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Kalium Phosphoricum",
+      "potency": "3X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Kalium Arsenicosum",
+      "potency": "4X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Ferrum Aceticum",
+      "potency": "3X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Calcarea Phosphorica",
+      "potency": "3X",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Speciality Formulation"
+  ],
+  "manufacturers": [
+    {
+      "id": "sbl",
+      "name": "SBL Pvt. Ltd.",
+      "shortName": "SBL",
+      "url": "https://sblglobal.com/"
+    }
+  ],
+  "products": [
+    {
+      "manufacturerId": "sbl",
+      "canonicalName": "SBL Alfalfa Speciality",
+      "productName": "Alfalfa Speciality",
+      "type": "combination",
+      "form": "Speciality Formulation",
+      "ingredients": [
+        {
+          "name": "Alfalfa",
+          "potency": "Q",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Avena Sativa",
+          "potency": "Q",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Ginseng",
+          "potency": "Q",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Cinchona Officinalis",
+          "potency": "2X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Hydrastis Canadensis",
+          "potency": "2X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Kalium Phosphoricum",
+          "potency": "3X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Kalium Arsenicosum",
+          "potency": "4X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Ferrum Aceticum",
+          "potency": "3X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Calcarea Phosphorica",
+          "potency": "3X",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [],
+      "labelDirections": "For convalescing individuals 1 tablespoonful, 2 times daily For pregnant and lactating women 1 tablespoonful, 3 times daily Children 1-2 teaspoonful, 2-3 times daily",
+      "indication": "",
+      "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+      "sourceType": "official product booklet, page 22",
+      "reviewedAt": "2026-08-12",
+      "reviewStatus": "composition-and-identity-reviewed",
+      "id": "7e574ca22bdb7ca6"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=SBL%20Alfalfa%20Speciality",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=SBL%20Alfalfa%20Speciality",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=SBL%20Alfalfa%20Speciality",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=SBL%20Alfalfa%20Speciality",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-7e574ca22bdb7ca6",
+      "name": "SBL product source",
+      "publisher": "SBL Pvt. Ltd.",
+      "url": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+      "role": "official product booklet, page 22"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "not-published",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

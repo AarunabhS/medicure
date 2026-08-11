@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "id": "b23da283a89cad8f",
+  "slug": "dr-reckeweg-vita-c-15-forte-16cac13b",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg Vita-c 15 Forte",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Acid phosphor",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Citrus medica Iimonum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Cocculus",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Ginseng",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Helonias",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Sepia",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Zincum met",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Nervous exhaustion, nervous headache, insomnia, general neurasthenia, stimulative of endogenous resistance, overexertion, depressions, inability to concentrate, lack of energy, impotency, spring fatigue, convalescence.",
+      "attribution": "Dr. Reckeweg",
+      "productId": "3c1500f75a345d6f",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/vita-c-15-forte-87.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Tonic"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "3c1500f75a345d6f",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg Vita-c 15 Forte",
+      "productName": "Dr. Reckeweg Vita-C 15 forte",
+      "type": "combination",
+      "form": "Tonic",
+      "ingredients": [
+        {
+          "name": "Acid phosphor",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Citrus medica Iimonum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Cocculus",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Ginseng",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Helonias",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Sepia",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Zincum met",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "12x10ml"
+      ],
+      "labelDirections": "- We recommend VITA-C 15 FORTE every time prior to expected stress-situations. to achieve a remarkable invigoration of the nervous system, we advise to follow a treatment with two daily supplies (morning and evening) for 6 days and continue with one daily dose for about three weeks.",
+      "indication": "Nervous exhaustion, nervous headache, insomnia, general neurasthenia, stimulative of endogenous resistance, overexertion, depressions, inability to concentrate, lack of energy, impotency, spring fatigue, convalescence.",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/vita-c-15-forte-87.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20Vita-c%2015%20Forte",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20Vita-c%2015%20Forte",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20Vita-c%2015%20Forte",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20Vita-c%2015%20Forte",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-3c1500f75a345d6f",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/vita-c-15-forte-87.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

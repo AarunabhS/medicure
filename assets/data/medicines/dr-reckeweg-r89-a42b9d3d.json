@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "id": "d036d96c2effb05a",
+  "slug": "dr-reckeweg-r89-a42b9d3d",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R89",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Hypophysis",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Juglans",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Kalium phosphoricum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Polysorbatum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Testes",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Hair care drops and useful for alopecia, baldness, premature hair loss, premature gray hair, weakness, too much cooked food, headaches.",
+      "attribution": "Dr. Reckeweg",
+      "productId": "d5ecff1d33f5d682",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r89-85.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "d5ecff1d33f5d682",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R89",
+      "productName": "Dr. Reckeweg R89",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Hypophysis",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Juglans",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Kalium phosphoricum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Polysorbatum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Testes",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "22ml"
+      ],
+      "labelDirections": "- 3 times daily 20-30 drops after meals;once a day massage into bald area vigorously for 5 minutes",
+      "indication": "Hair care drops and useful for alopecia, baldness, premature hair loss, premature gray hair, weakness, too much cooked food, headaches.",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r89-85.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R89",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R89",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R89",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R89",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-d5ecff1d33f5d682",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r89-85.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

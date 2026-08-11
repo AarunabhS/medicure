@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "id": "d31dccf5e93b196d",
+  "slug": "dr-reckeweg-r2-6d591304",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R2",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Arnica",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Nervous heart trouble. Aurum chloratum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Cactus",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Stenocardia and angina pectoris. Crataegus",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Myocardial weakness and hypotonia. Digitalis",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Ignatia",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Kalium phosphoricum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Conduction disturbances. Laurocerasus",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Pressure and pain in the chest. Spigelia",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Pain extending down left arm. Valeriana",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Organic and functional affections of the heart, mainly cardiac neurosis. Nervous perturbations. Arrhythmia, tachycardia, extrasystoles, constrictions, angina pectoris, coronary insufficiencies. Strong pulse, palpitations, excitations, anguish and oppression of the heart, vegetative dystonia.",
+      "attribution": "Dr. Reckeweg",
+      "productId": "cb505f3127ffe955",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r2-2.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "cb505f3127ffe955",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R2",
+      "productName": "Dr. Reckeweg R2",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Arnica",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Nervous heart trouble. Aurum chloratum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Cactus",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Stenocardia and angina pectoris. Crataegus",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Myocardial weakness and hypotonia. Digitalis",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Ignatia",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Kalium phosphoricum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Conduction disturbances. Laurocerasus",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Pressure and pain in the chest. Spigelia",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Pain extending down left arm. Valeriana",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "22ml"
+      ],
+      "labelDirections": "- According to graveness, in the beginning 3-6 times a day 10-15 drops in some water. - In acute cardiac affections, every ¼ - ½ hour 10-15 drops until improvement sets in.",
+      "indication": "Organic and functional affections of the heart, mainly cardiac neurosis. Nervous perturbations. Arrhythmia, tachycardia, extrasystoles, constrictions, angina pectoris, coronary insufficiencies. Strong pulse, palpitations, excitations, anguish and oppression of the heart, vegetative dystonia.",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r2-2.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R2",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R2",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R2",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R2",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-cb505f3127ffe955",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r2-2.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

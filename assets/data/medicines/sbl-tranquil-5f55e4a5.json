@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "f4d1ac01b840b7f0",
+  "slug": "sbl-tranquil-5f55e4a5",
+  "type": "combination",
+  "canonicalName": "SBL Tranquil",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Abrus Precatorius",
+      "potency": "3X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Kalium Phosphoricum",
+      "potency": "3X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Aconitum Napellus",
+      "potency": "3X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Calendula Officinalis",
+      "potency": "3X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Viburnum Opulus",
+      "potency": "3X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Zincum Picricum",
+      "potency": "3X",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "For Anxity, tension, melancholy and distrubed sleep.",
+      "attribution": "SBL",
+      "productId": "d5105ff5778748d6",
+      "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Tablets"
+  ],
+  "manufacturers": [
+    {
+      "id": "sbl",
+      "name": "SBL Pvt. Ltd.",
+      "shortName": "SBL",
+      "url": "https://sblglobal.com/"
+    }
+  ],
+  "products": [
+    {
+      "manufacturerId": "sbl",
+      "canonicalName": "SBL Tranquil",
+      "productName": "Tranquil",
+      "type": "combination",
+      "form": "Tablets",
+      "ingredients": [
+        {
+          "name": "Abrus Precatorius",
+          "potency": "3X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Kalium Phosphoricum",
+          "potency": "3X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Aconitum Napellus",
+          "potency": "3X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Calendula Officinalis",
+          "potency": "3X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Viburnum Opulus",
+          "potency": "3X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Zincum Picricum",
+          "potency": "3X",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "25 gm",
+        "450 gm"
+      ],
+      "labelDirections": "Adults 2 tablets, 4-6 times daily Children Half of adult’s dose Or, as prescribed by the physician.",
+      "indication": "For Anxity, tension, melancholy and distrubed sleep.",
+      "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+      "sourceType": "official product booklet, page 10",
+      "reviewedAt": "2026-08-12",
+      "reviewStatus": "composition-and-identity-reviewed",
+      "id": "d5105ff5778748d6"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=SBL%20Tranquil",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=SBL%20Tranquil",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=SBL%20Tranquil",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=SBL%20Tranquil",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-d5105ff5778748d6",
+      "name": "SBL product source",
+      "publisher": "SBL Pvt. Ltd.",
+      "url": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+      "role": "official product booklet, page 10"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

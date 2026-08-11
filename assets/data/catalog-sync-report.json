@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "startedAt": "2026-08-11T20:59:49.595Z",
+  "completedAt": "2026-08-11T21:00:10.679Z",
+  "status": "review-required",
+  "products": 2940,
+  "sources": [
+    {
+      "id": "bakson",
+      "status": "parsed",
+      "products": 868,
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0743/0904/2417/files/MT_Dilution_Catalogue_14-05-24_1.pdf?v=1754394718"
+    },
+    {
+      "id": "hapco",
+      "status": "parsed",
+      "products": 1466,
+      "sourceUrl": "https://www.hapco.co.in/products.html"
+    },
+    {
+      "id": "mahesh",
+      "status": "parsed",
+      "products": 518,
+      "sourceUrl": "https://www.maheshlab.com/catalogue.html"
+    },
+    {
+      "id": "reckeweg",
+      "status": "parsed",
+      "products": 88,
+      "sourceUrl": "https://www.reckeweg-india.com/homoeopathy-products/world-famous-specialities-r1-to-r89-1.html"
+    },
+    {
+      "id": "sbl",
+      "status": "manual-review",
+      "products": 0,
+      "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+      "note": "The official booklet is maintained as a reviewed snapshot because the publisher's robots policy does not permit automated catalog retrieval."
+    },
+    {
+      "id": "schwabe-india",
+      "status": "manual-review",
+      "products": 0,
+      "sourceUrl": "https://www.schwabeindia.com/download/",
+      "note": "Official product pages and downloadable catalog are reviewed manually when automated access is unavailable."
+    },
+    {
+      "id": "mb-king",
+      "status": "manual-review",
+      "products": 0,
+      "sourceUrl": "https://mbhomeo.in/wp-content/uploads/2023/03/englishcatalogue_2023_a5_digital.pdf",
+      "note": "The official scan is image-based; normalized records require human review after OCR."
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "efa8cc12e9125951",
+  "slug": "dr-reckeweg-r22-27bb0bdb",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R22",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Naja trip",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Grindelia rob.",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Lachesis",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Nervous disturbances, oppression and suffocation, also following flatulence. Anginous condition of the heart.",
+      "attribution": "Dr. Reckeweg",
+      "productId": "386365d85f7c296c",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r22-21.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "386365d85f7c296c",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R22",
+      "productName": "Dr. Reckeweg R22",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Naja trip",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Grindelia rob.",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Lachesis",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "22ml"
+      ],
+      "labelDirections": "- Generally 3 times daily 10-15 drops in some water before meals, for a longer period of time.",
+      "indication": "Nervous disturbances, oppression and suffocation, also following flatulence. Anginous condition of the heart.",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r22-21.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R22",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R22",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R22",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R22",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-386365d85f7c296c",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r22-21.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

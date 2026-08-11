@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "0870ccf94f78b0d0",
+  "slug": "sbl-dysmin-160dd744",
+  "type": "combination",
+  "canonicalName": "SBL Dysmin",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Cactus Grandiflorus",
+      "potency": "3X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Magnesia Phosphoria",
+      "potency": "3X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Caulophyllum Thalictroides",
+      "potency": "3X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Viburnum Opulus",
+      "potency": "3X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Cimicifuga Racemosa",
+      "potency": "3X",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Pain-free month Painful menstruation termed as Dysmenorrhea is a condition in which",
+      "attribution": "SBL",
+      "productId": "666f9fec7cceb3c1",
+      "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Tablets"
+  ],
+  "manufacturers": [
+    {
+      "id": "sbl",
+      "name": "SBL Pvt. Ltd.",
+      "shortName": "SBL",
+      "url": "https://sblglobal.com/"
+    }
+  ],
+  "products": [
+    {
+      "manufacturerId": "sbl",
+      "canonicalName": "SBL Dysmin",
+      "productName": "Dysmin",
+      "type": "combination",
+      "form": "Tablets",
+      "ingredients": [
+        {
+          "name": "Cactus Grandiflorus",
+          "potency": "3X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Magnesia Phosphoria",
+          "potency": "3X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Caulophyllum Thalictroides",
+          "potency": "3X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Viburnum Opulus",
+          "potency": "3X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Cimicifuga Racemosa",
+          "potency": "3X",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "25 gm",
+        "450 gm"
+      ],
+      "labelDirections": "2 tablets 4 times daily, 2 days prior to onset of periods followed by 2 tablets every hour during pain. With reduction of pain frequency of dosage may be reduced. Or, as prescribed by the physician.",
+      "indication": "Pain-free month Painful menstruation termed as Dysmenorrhea is a condition in which",
+      "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+      "sourceType": "official product booklet, page 42",
+      "reviewedAt": "2026-08-12",
+      "reviewStatus": "composition-and-identity-reviewed",
+      "id": "666f9fec7cceb3c1"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=SBL%20Dysmin",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=SBL%20Dysmin",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=SBL%20Dysmin",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=SBL%20Dysmin",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-666f9fec7cceb3c1",
+      "name": "SBL product source",
+      "publisher": "SBL Pvt. Ltd.",
+      "url": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+      "role": "official product booklet, page 42"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

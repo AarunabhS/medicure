@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "id": "d8bcef353a6b4780",
+  "slug": "carbo-vegetabilis",
+  "type": "single",
+  "canonicalName": "Carbo Vegetabilis",
+  "banglaName": "কার্বো ভেজ",
+  "synonyms": [
+    "কার্বো ভেজ",
+    "carbo veg"
+  ],
+  "scientificIdentity": "Vegetable charcoal",
+  "sourceMaterial": "Vegetable charcoal",
+  "hpiReferences": [
+    {
+      "title": "PCIM&H Homoeopathic Pharmacopoeia of India monograph index",
+      "url": "https://www.portal.pcimh.gov.in/products?categories=97e857d1-7288-4f31-b142-bf55adeb7d14&page=1",
+      "verificationStatus": "index-linked"
+    }
+  ],
+  "ingredients": [
+    {
+      "name": "Carbo Vegetabilis",
+      "role": "source substance",
+      "sourceIdentity": "Vegetable charcoal"
+    }
+  ],
+  "traditionalContext": {
+    "summary": "Commonly referenced for heavy, gassy digestive patterns with tiredness or a need for fresh air.",
+    "bangla": "গ্যাস, ভারীভাব, ঢেকুর এবং দুর্বলতার সঙ্গে যুক্ত হজমের প্যাটার্নে কার্বো ভেজ নিয়ে আলোচনা হয়।",
+    "sourceBasis": "Classical materia medica references"
+  },
+  "manufacturerIndications": [],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [
+    "30CH",
+    "200CH",
+    "1M",
+    "10M",
+    "50M",
+    "CM"
+  ],
+  "forms": [
+    "Dilution"
+  ],
+  "manufacturers": [
+    {
+      "id": "bakson",
+      "name": "Bakson Drugs & Pharmaceuticals",
+      "shortName": "Bakson",
+      "url": "https://www.buybakson.com/pages/download-catalogue"
+    }
+  ],
+  "products": [
+    {
+      "id": "54c4799921d40b49",
+      "manufacturerId": "bakson",
+      "canonicalName": "Carbo Vegetabilis",
+      "productName": "Bakson Carbo Vegetabilis",
+      "type": "single",
+      "form": "Dilution",
+      "ingredients": [
+        {
+          "name": "Carbo Vegetabilis",
+          "role": "source substance",
+          "sourceIdentity": "Vegetable charcoal"
+        }
+      ],
+      "potencies": [
+        "30CH",
+        "200CH",
+        "1M",
+        "10M",
+        "50M",
+        "CM"
+      ],
+      "packSizes": [],
+      "labelDirections": "",
+      "indication": "",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0743/0904/2417/files/MT_Dilution_Catalogue_14-05-24_1.pdf?v=1754394718",
+      "sourceType": "official catalog"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Carbo%20Vegetabilis",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Carbo%20Vegetabilis",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Carbo%20Vegetabilis",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Carbo%20Vegetabilis",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "pcimh-hpi",
+      "name": "Homoeopathic Pharmacopoeia of India",
+      "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of AYUSH",
+      "url": "https://www.portal.pcimh.gov.in/products?categories=97e857d1-7288-4f31-b142-bf55adeb7d14&page=1",
+      "role": "Canonical medicine names, synonyms, identity and pharmacopoeial reference"
+    },
+    {
+      "id": "product-54c4799921d40b49",
+      "name": "Bakson product source",
+      "publisher": "Bakson Drugs & Pharmaceuticals",
+      "url": "https://cdn.shopify.com/s/files/1/0743/0904/2417/files/MT_Dilution_Catalogue_14-05-24_1.pdf?v=1754394718",
+      "role": "official catalog"
+    }
+  ],
+  "category": "gastric",
+  "tags": [
+    "gas",
+    "heaviness",
+    "belching",
+    "weak feeling",
+    "গ্যাস",
+    "ঢেকুর",
+    "food",
+    "weakness"
+  ],
+  "dataQuality": {
+    "identity": "pharmacopoeia-index-linked",
+    "composition": "structured",
+    "indications": "traditional-context-only",
+    "dosage": "not-published"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

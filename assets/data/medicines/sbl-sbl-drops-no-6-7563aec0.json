@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "id": "8f8ad98695841485",
+  "slug": "sbl-sbl-drops-no-6-7563aec0",
+  "type": "combination",
+  "canonicalName": "SBL SBL Drops No. 6",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Berberis Vulgaris",
+      "potency": "3X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Rhododendron Ferrugineum",
+      "potency": "3X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Dulcamara",
+      "potency": "3X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Rhus Toxicodendron",
+      "potency": "6X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Nux Vomica",
+      "potency": "4X",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Arthritis, swelling, joint and muscle pain.",
+      "attribution": "SBL",
+      "productId": "b57987e145d8f22e",
+      "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "sbl",
+      "name": "SBL Pvt. Ltd.",
+      "shortName": "SBL",
+      "url": "https://sblglobal.com/"
+    }
+  ],
+  "products": [
+    {
+      "manufacturerId": "sbl",
+      "canonicalName": "SBL SBL Drops No. 6",
+      "productName": "SBL Drops No. 6",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Berberis Vulgaris",
+          "potency": "3X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Rhododendron Ferrugineum",
+          "potency": "3X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Dulcamara",
+          "potency": "3X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Rhus Toxicodendron",
+          "potency": "6X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Nux Vomica",
+          "potency": "4X",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [],
+      "labelDirections": "th 10-15 drops in 1/4 cup of water, 3-4 times a day or as prescribed by the physician.",
+      "indication": "Arthritis, swelling, joint and muscle pain.",
+      "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+      "sourceType": "official product booklet, page 33",
+      "reviewedAt": "2026-08-12",
+      "reviewStatus": "composition-and-identity-reviewed",
+      "id": "b57987e145d8f22e"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=SBL%20SBL%20Drops%20No.%206",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=SBL%20SBL%20Drops%20No.%206",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=SBL%20SBL%20Drops%20No.%206",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=SBL%20SBL%20Drops%20No.%206",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-b57987e145d8f22e",
+      "name": "SBL product source",
+      "publisher": "SBL Pvt. Ltd.",
+      "url": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+      "role": "official product booklet, page 33"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

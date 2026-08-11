@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "id": "92c2f955809caeb5",
+  "slug": "dr-reckeweg-r74-c810d8a4",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R74",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Calcium phosphoricum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Pulsatilla",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Ferrum phosphoricum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Kalium phosphoricum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "General debility and weakness. Sepia",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Nocturnal enuresis, bladder weakness.",
+      "attribution": "Dr. Reckeweg",
+      "productId": "a26eaa148cc94a0b",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r74-72.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "a26eaa148cc94a0b",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R74",
+      "productName": "Dr. Reckeweg R74",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Calcium phosphoricum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Pulsatilla",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Ferrum phosphoricum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Kalium phosphoricum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "General debility and weakness. Sepia",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "22ml"
+      ],
+      "labelDirections": "- Nocturnal enuresis in small children: 8-10 drops in some water 3 times daily - Reduce dosage after 2-3 weeks to twice daily - The same regimen applies to older children, however increase the dosage to 10-15 drops - Adults should be given 10-15 drops 3 times a day over a longer period of time",
+      "indication": "Nocturnal enuresis, bladder weakness.",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r74-72.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R74",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R74",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R74",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R74",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-a26eaa148cc94a0b",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r74-72.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

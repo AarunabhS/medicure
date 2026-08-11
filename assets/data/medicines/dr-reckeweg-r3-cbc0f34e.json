@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "id": "93725e6cbf66fc4b",
+  "slug": "dr-reckeweg-r3-cbc0f34e",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R3",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Cactus",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Crataegus",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Digitalis",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Kalium carbonicum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Sharp pain in the heart. Kalmia",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Phosphorus",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Scilla",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Decompensation phenomenon. Spigelia",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Strophanthus",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Heart insufficiencies of a light to medium degree, with a tendency towards oedema. Myocardial weakness in cases of valvular heart diseases. Dilatations. Post-infectious myocardial weakness. Degenerative processes of the myocardium, coronary insufficiencies, cardiac infarction, functional irregularities, myo- and endocarditis, hypotonia.",
+      "attribution": "Dr. Reckeweg",
+      "productId": "741289da8f4d50e4",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r3-3.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "741289da8f4d50e4",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R3",
+      "productName": "Dr. Reckeweg R3",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Cactus",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Crataegus",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Digitalis",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Kalium carbonicum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Sharp pain in the heart. Kalmia",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Phosphorus",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Scilla",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Decompensation phenomenon. Spigelia",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Strophanthus",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "22ml"
+      ],
+      "labelDirections": "- According to the weakness of the heart, 3 times daily 10-20-30 drops in some water, in the beginning of the treatment even 4-6 times daily. - In case of strong tendency towards hydropsy, to be taken undiluted. Improvement should follow after several days only. If not, the dose should be increased, and reduced again after improvement to 20 drops, 3 times a day....",
+      "indication": "Heart insufficiencies of a light to medium degree, with a tendency towards oedema. Myocardial weakness in cases of valvular heart diseases. Dilatations. Post-infectious myocardial weakness. Degenerative processes of the myocardium, coronary insufficiencies, cardiac infarction, functional irregularities, myo- and endocarditis, hypotonia.",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r3-3.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R3",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R3",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R3",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R3",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-741289da8f4d50e4",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r3-3.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

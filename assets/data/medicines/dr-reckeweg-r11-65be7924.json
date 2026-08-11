@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "id": "fb16c8973373c8c9",
+  "slug": "dr-reckeweg-r11-65be7924",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R11",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Berberis",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Calcium phosphoricum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Acts on the constitution. Causticum Hahnemanni",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Rhododendron",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Rhus toxicodendron",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Acute and chronic myalgia, lumbago, rheumatic diathesis aftereffects of drenchings, sprains, overstraining. Back pains of unknown genesis. Growing pains in muscles and bones. Sciatica from getting wet, from sitting on cold seat and suppressed perspirations. Chronic articular rheumatism with deformations. Spondylarthritis, spondylosis, sacroiliac arthritis....",
+      "attribution": "Dr. Reckeweg",
+      "productId": "507a26b2e154bbf1",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r11-11.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "507a26b2e154bbf1",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R11",
+      "productName": "Dr. Reckeweg R11",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Berberis",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Calcium phosphoricum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Acts on the constitution. Causticum Hahnemanni",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Rhododendron",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Rhus toxicodendron",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "22ml"
+      ],
+      "labelDirections": "- In acute pains (lumbago, sciatica), every 1/2 - 1-2 hours 10 drops in some water. Improvement generally sets in after 1-2 days. Then take 10 drops every 1-2 hours and until complete recovery 3 times daily 10-15 drops for some time, in order to prevent a relaps. - In chronic muscular and articular rheumatism, spondylo arthritis and spondylosis, 2-3 times a day 10-15 drops in some water until improvement....",
+      "indication": "Acute and chronic myalgia, lumbago, rheumatic diathesis aftereffects of drenchings, sprains, overstraining. Back pains of unknown genesis. Growing pains in muscles and bones. Sciatica from getting wet, from sitting on cold seat and suppressed perspirations. Chronic articular rheumatism with deformations. Spondylarthritis, spondylosis, sacroiliac arthritis....",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r11-11.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R11",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R11",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R11",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R11",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-507a26b2e154bbf1",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r11-11.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

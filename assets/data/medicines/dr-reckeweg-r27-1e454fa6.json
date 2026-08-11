@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "id": "02ea55a12840a308",
+  "slug": "dr-reckeweg-r27-1e454fa6",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R27",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Acid. nitric.",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Berberis",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Lycopodium",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Rubia tinctor.",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Pains from kidneys to urethra. Sarsaparilla",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Renal calculi, sharp pains in the kidneys, pains across the small of the back, prickings, reddish and glairy urine with epithelial cells and amor- phous waste matter. Oxalic acid in the urine, gravel.",
+      "attribution": "Dr. Reckeweg",
+      "productId": "9ca77ceb83c979f3",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r27-26.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "9ca77ceb83c979f3",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R27",
+      "productName": "Dr. Reckeweg R27",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Acid. nitric.",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Berberis",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Lycopodium",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Rubia tinctor.",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Pains from kidneys to urethra. Sarsaparilla",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "22ml"
+      ],
+      "labelDirections": "- Generally 3 times daily 10-15 drops in some water. After one weak of treatment it will suffice to take 5-18 drops, 2-3 times daily for a longer period of time",
+      "indication": "Renal calculi, sharp pains in the kidneys, pains across the small of the back, prickings, reddish and glairy urine with epithelial cells and amor- phous waste matter. Oxalic acid in the urine, gravel.",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r27-26.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R27",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R27",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R27",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R27",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-9ca77ceb83c979f3",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r27-26.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

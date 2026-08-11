@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "id": "c32d69686b3bab12",
+  "slug": "aconitum-napellus",
+  "type": "single",
+  "canonicalName": "Aconitum Napellus",
+  "banglaName": "অ্যাকোনাইট",
+  "synonyms": [
+    "অ্যাকোনাইট",
+    "aconite"
+  ],
+  "scientificIdentity": "Monk's hood",
+  "sourceMaterial": "Monk's hood",
+  "hpiReferences": [
+    {
+      "title": "PCIM&H Homoeopathic Pharmacopoeia of India monograph index",
+      "url": "https://www.portal.pcimh.gov.in/products?categories=97e857d1-7288-4f31-b142-bf55adeb7d14&page=1",
+      "verificationStatus": "index-linked"
+    }
+  ],
+  "ingredients": [
+    {
+      "name": "Aconitum Napellus",
+      "role": "source substance",
+      "sourceIdentity": "Monk's hood"
+    }
+  ],
+  "traditionalContext": {
+    "summary": "Traditionally referenced for sudden early-stage cold or cough patterns, especially when the onset feels abrupt.",
+    "bangla": "হঠাৎ শুরু হওয়া সর্দি-কাশি বা অস্বস্তির প্রথম দিকের প্যাটার্নে এই রেমেডির নাম ঐতিহ্যগতভাবে আলোচিত হয়।",
+    "sourceBasis": "Classical materia medica references"
+  },
+  "manufacturerIndications": [],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [
+    "Q",
+    "6X",
+    "6CH",
+    "30CH",
+    "200CH",
+    "1M",
+    "10M",
+    "50M",
+    "CM"
+  ],
+  "forms": [
+    "Mother tincture / dilution",
+    "External preparation",
+    "Mother tincture"
+  ],
+  "manufacturers": [
+    {
+      "id": "bakson",
+      "name": "Bakson Drugs & Pharmaceuticals",
+      "shortName": "Bakson",
+      "url": "https://www.buybakson.com/pages/download-catalogue"
+    },
+    {
+      "id": "hapco",
+      "name": "Hahnemann Publishing Co. Pvt. Ltd.",
+      "shortName": "HAPCO",
+      "url": "https://www.hapco.co.in/products.html"
+    },
+    {
+      "id": "mahesh",
+      "name": "Mahesh Laboratories Pvt. Ltd.",
+      "shortName": "Mahesh",
+      "url": "https://www.maheshlab.com/catalogue.html"
+    }
+  ],
+  "products": [
+    {
+      "id": "d9f977a3b4f37b7a",
+      "manufacturerId": "bakson",
+      "canonicalName": "Aconitum Napellus",
+      "productName": "Bakson Aconitum Napellus",
+      "type": "single",
+      "form": "Mother tincture / dilution",
+      "ingredients": [
+        {
+          "name": "Aconitum Napellus",
+          "role": "source substance",
+          "sourceIdentity": "Monk's hood"
+        }
+      ],
+      "potencies": [
+        "Q",
+        "6X",
+        "6CH",
+        "30CH",
+        "200CH",
+        "1M",
+        "10M",
+        "50M",
+        "CM"
+      ],
+      "packSizes": [],
+      "labelDirections": "",
+      "indication": "",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0743/0904/2417/files/MT_Dilution_Catalogue_14-05-24_1.pdf?v=1754394718",
+      "sourceType": "official catalog"
+    },
+    {
+      "id": "36e5479d54ef8902",
+      "manufacturerId": "bakson",
+      "canonicalName": "Aconitum Napellus",
+      "productName": "Bakson Aconitum Napellus",
+      "type": "single",
+      "form": "External preparation",
+      "ingredients": [
+        {
+          "name": "Aconitum Napellus",
+          "role": "source substance",
+          "sourceIdentity": ""
+        }
+      ],
+      "potencies": [
+        "Q"
+      ],
+      "packSizes": [],
+      "labelDirections": "",
+      "indication": "",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0743/0904/2417/files/MT_Dilution_Catalogue_14-05-24_1.pdf?v=1754394718",
+      "sourceType": "official catalog"
+    },
+    {
+      "id": "d4b35c48a1afcc70",
+      "manufacturerId": "hapco",
+      "canonicalName": "Aconitum Napellus",
+      "productName": "HAPCO Aconitum Napellus",
+      "type": "single",
+      "form": "Mother tincture",
+      "ingredients": [
+        {
+          "name": "Aconitum Napellus",
+          "role": "source substance"
+        }
+      ],
+      "potencies": [
+        "Q"
+      ],
+      "packSizes": [],
+      "labelDirections": "",
+      "indication": "",
+      "sourceUrl": "https://www.hapco.co.in/a.html",
+      "sourceType": "official catalog"
+    },
+    {
+      "id": "43abf7c40e0c205b",
+      "manufacturerId": "mahesh",
+      "canonicalName": "Aconitum Napellus",
+      "productName": "Mahesh Aconitum Napellus",
+      "type": "single",
+      "form": "Mother tincture / dilution",
+      "ingredients": [
+        {
+          "name": "Aconitum Napellus",
+          "role": "source substance"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [],
+      "labelDirections": "",
+      "indication": "",
+      "sourceUrl": "https://www.maheshlab.com/catalogue.html",
+      "sourceType": "official catalog"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Aconitum%20Napellus",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Aconitum%20Napellus",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Aconitum%20Napellus",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Aconitum%20Napellus",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "pcimh-hpi",
+      "name": "Homoeopathic Pharmacopoeia of India",
+      "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of AYUSH",
+      "url": "https://www.portal.pcimh.gov.in/products?categories=97e857d1-7288-4f31-b142-bf55adeb7d14&page=1",
+      "role": "Canonical medicine names, synonyms, identity and pharmacopoeial reference"
+    },
+    {
+      "id": "product-d9f977a3b4f37b7a",
+      "name": "Bakson product source",
+      "publisher": "Bakson Drugs & Pharmaceuticals",
+      "url": "https://cdn.shopify.com/s/files/1/0743/0904/2417/files/MT_Dilution_Catalogue_14-05-24_1.pdf?v=1754394718",
+      "role": "official catalog"
+    },
+    {
+      "id": "product-d4b35c48a1afcc70",
+      "name": "HAPCO product source",
+      "publisher": "Hahnemann Publishing Co. Pvt. Ltd.",
+      "url": "https://www.hapco.co.in/a.html",
+      "role": "official catalog"
+    },
+    {
+      "id": "product-43abf7c40e0c205b",
+      "name": "Mahesh product source",
+      "publisher": "Mahesh Laboratories Pvt. Ltd.",
+      "url": "https://www.maheshlab.com/catalogue.html",
+      "role": "official catalog"
+    }
+  ],
+  "category": "respiratory",
+  "tags": [
+    "sudden cold",
+    "dry cough",
+    "feverish onset",
+    "কাশি",
+    "সর্দি",
+    "sudden",
+    "dry"
+  ],
+  "dataQuality": {
+    "identity": "pharmacopoeia-index-linked",
+    "composition": "structured",
+    "indications": "traditional-context-only",
+    "dosage": "not-published"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

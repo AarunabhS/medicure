@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "9de3cd1cc3cd810a",
+  "slug": "dr-reckeweg-r56-9eec8a20",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R56",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "The symptomatology of the individual remedies is",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Spasms in children having worms. Cina",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Active against ascarides. Filix mas",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Graphites",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Mercurius sublimate. Corrosives",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Sticky nocturnal perspirations. Tanacetum vulgare",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Worms of all types, ascarides and oxyures. Subventional remedy in specific mortification processes (i.e. of a taenia).",
+      "attribution": "Dr. Reckeweg",
+      "productId": "b82f1ee30a8d4055",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r56-55.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "b82f1ee30a8d4055",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R56",
+      "productName": "Dr. Reckeweg R56",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "The symptomatology of the individual remedies is",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Spasms in children having worms. Cina",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Active against ascarides. Filix mas",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Graphites",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Mercurius sublimate. Corrosives",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Sticky nocturnal perspirations. Tanacetum vulgare",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "22ml"
+      ],
+      "labelDirections": "- 10-15 Drops in some water before meals 2-3 times a day. To prevent relapses R 56 should be taken 4-6 weeks after the intensive treatment in the same dosage as mentioned above.",
+      "indication": "Worms of all types, ascarides and oxyures. Subventional remedy in specific mortification processes (i.e. of a taenia).",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r56-55.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R56",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R56",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R56",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R56",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-b82f1ee30a8d4055",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r56-55.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

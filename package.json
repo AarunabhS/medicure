@@ -1,0 +1,22 @@
+{
+  "name": "medicure-homeopathy",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Static Medicure Homeopathy website and Indian medicine encyclopedia",
+  "scripts": {
+    "catalog:sync": "node scripts/sync-indian-catalog.mjs",
+    "catalog:build": "node scripts/build-indian-catalog.mjs",
+    "catalog:validate": "node scripts/validate-indian-catalog.mjs",
+    "catalog:test": "node --test scripts/catalog/*.test.mjs",
+    "catalog:report": "node scripts/report-indian-catalog.mjs",
+    "catalog:all": "npm run catalog:build && npm run catalog:validate && npm run catalog:test && npm run catalog:report",
+    "catalog:refresh": "npm run catalog:sync -- --force && npm run catalog:all"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "dependencies": {
+    "pdfjs-dist": "^6.2.108"
+  }
+}

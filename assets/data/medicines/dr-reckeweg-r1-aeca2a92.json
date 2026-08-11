@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "id": "cf6d9ec9809274e2",
+  "slug": "dr-reckeweg-r1-aeca2a92",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R1",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Apis mellifica",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Barium chloratum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Belladonna",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Calcium jodatum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Hepar sulfuris",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Kalium bichromicum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Mucosae ulcer. Marum verum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Mercurius sublimatus corrosivus",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Phytolacca",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Local inflammations, acute and chronic, of catarrhal and purulent nature, with swelling of the glands. Sudden infections and high fever, with irritations of the meninges, conjunctivas and pharynx. In particular: Inflammations and suppurations of the Iymphatics of the pharynx, mainly all forms of tonsillary angina, tonsillitis, scarlet fever, otitis media, co...",
+      "attribution": "Dr. Reckeweg",
+      "productId": "e687fc40552d2890",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r1-1.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "e687fc40552d2890",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R1",
+      "productName": "Dr. Reckeweg R1",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Apis mellifica",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Barium chloratum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Belladonna",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Calcium jodatum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Hepar sulfuris",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Kalium bichromicum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Mucosae ulcer. Marum verum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Mercurius sublimatus corrosivus",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Phytolacca",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "22ml"
+      ],
+      "labelDirections": "- In case of acute infections with high fever, in the beginning 10-15 drops in some water every ½ hour for ½ - 1 day. - Same treatment to be followed in case of purulent inflammations (e.g.: inflammations of the tonsils or furuncles). After improvement, take same dose every 1-2 hour. After recovery it is advisable to take 10-15 drops 2-3 times a day for about a week. - Chronic inflammations: 2-3 times a day 10-15 drops....",
+      "indication": "Local inflammations, acute and chronic, of catarrhal and purulent nature, with swelling of the glands. Sudden infections and high fever, with irritations of the meninges, conjunctivas and pharynx. In particular: Inflammations and suppurations of the Iymphatics of the pharynx, mainly all forms of tonsillary angina, tonsillitis, scarlet fever, otitis media, co...",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r1-1.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R1",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R1",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R1",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R1",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-e687fc40552d2890",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r1-1.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "id": "04b112875585ce5e",
+  "slug": "rhus-toxicodendron",
+  "type": "single",
+  "canonicalName": "Rhus Toxicodendron",
+  "banglaName": "রাস টক্স",
+  "synonyms": [
+    "রাস টক্স",
+    "rhus tox"
+  ],
+  "scientificIdentity": "",
+  "sourceMaterial": "Rhus Toxicodendron",
+  "hpiReferences": [
+    {
+      "title": "PCIM&H Homoeopathic Pharmacopoeia of India monograph index",
+      "url": "https://www.portal.pcimh.gov.in/products?categories=97e857d1-7288-4f31-b142-bf55adeb7d14&page=1",
+      "verificationStatus": "index-linked"
+    }
+  ],
+  "ingredients": [
+    {
+      "name": "Rhus Toxicodendron",
+      "role": "source substance",
+      "sourceIdentity": ""
+    }
+  ],
+  "traditionalContext": {
+    "summary": "Frequently associated in materia medica discussions with stiffness patterns that may feel different after gentle movement.",
+    "bangla": "জয়েন্ট বা পেশীর কাঠিন্য, বিশেষ করে নড়াচড়ার সঙ্গে বদলায় এমন প্যাটার্নে এই নামটি পাওয়া যায়।",
+    "sourceBasis": "Classical materia medica references"
+  },
+  "manufacturerIndications": [],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [
+    "Q",
+    "6X",
+    "3CH",
+    "6CH",
+    "30CH",
+    "200CH",
+    "1M",
+    "10M",
+    "50M",
+    "CM"
+  ],
+  "forms": [
+    "External preparation",
+    "Mother tincture / dilution",
+    "Dilution"
+  ],
+  "manufacturers": [
+    {
+      "id": "bakson",
+      "name": "Bakson Drugs & Pharmaceuticals",
+      "shortName": "Bakson",
+      "url": "https://www.buybakson.com/pages/download-catalogue"
+    },
+    {
+      "id": "hapco",
+      "name": "Hahnemann Publishing Co. Pvt. Ltd.",
+      "shortName": "HAPCO",
+      "url": "https://www.hapco.co.in/products.html"
+    },
+    {
+      "id": "mahesh",
+      "name": "Mahesh Laboratories Pvt. Ltd.",
+      "shortName": "Mahesh",
+      "url": "https://www.maheshlab.com/catalogue.html"
+    }
+  ],
+  "products": [
+    {
+      "id": "31e1936a9d51bea8",
+      "manufacturerId": "bakson",
+      "canonicalName": "Rhus Toxicodendron",
+      "productName": "Bakson Rhus Toxicodendron",
+      "type": "single",
+      "form": "External preparation",
+      "ingredients": [
+        {
+          "name": "Rhus Toxicodendron",
+          "role": "source substance",
+          "sourceIdentity": ""
+        }
+      ],
+      "potencies": [
+        "Q"
+      ],
+      "packSizes": [],
+      "labelDirections": "",
+      "indication": "",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0743/0904/2417/files/MT_Dilution_Catalogue_14-05-24_1.pdf?v=1754394718",
+      "sourceType": "official catalog"
+    },
+    {
+      "id": "41c80325df1892aa",
+      "manufacturerId": "bakson",
+      "canonicalName": "Rhus Toxicodendron",
+      "productName": "Bakson Rhus Toxicodendron",
+      "type": "single",
+      "form": "Mother tincture / dilution",
+      "ingredients": [
+        {
+          "name": "Rhus Toxicodendron",
+          "role": "source substance",
+          "sourceIdentity": "Poison ivy"
+        }
+      ],
+      "potencies": [
+        "Q",
+        "6X",
+        "6CH",
+        "30CH",
+        "200CH",
+        "1M",
+        "10M",
+        "50M",
+        "CM"
+      ],
+      "packSizes": [],
+      "labelDirections": "",
+      "indication": "",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0743/0904/2417/files/MT_Dilution_Catalogue_14-05-24_1.pdf?v=1754394718",
+      "sourceType": "official catalog"
+    },
+    {
+      "id": "c4e805edfd22e7fc",
+      "manufacturerId": "hapco",
+      "canonicalName": "Rhus Toxicodendron",
+      "productName": "HAPCO Rhus Toxicodendron",
+      "type": "single",
+      "form": "Dilution",
+      "ingredients": [
+        {
+          "name": "Rhus Toxicodendron",
+          "role": "source substance"
+        }
+      ],
+      "potencies": [
+        "3CH"
+      ],
+      "packSizes": [],
+      "labelDirections": "",
+      "indication": "",
+      "sourceUrl": "https://www.hapco.co.in/r.html",
+      "sourceType": "official catalog"
+    },
+    {
+      "id": "3aac2cb75e6540fa",
+      "manufacturerId": "mahesh",
+      "canonicalName": "Rhus Toxicodendron",
+      "productName": "Mahesh Rhus Toxicodendron",
+      "type": "single",
+      "form": "Mother tincture / dilution",
+      "ingredients": [
+        {
+          "name": "Rhus Toxicodendron",
+          "role": "source substance"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [],
+      "labelDirections": "",
+      "indication": "",
+      "sourceUrl": "https://www.maheshlab.com/catalogue.html",
+      "sourceType": "official catalog"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Rhus%20Toxicodendron",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Rhus%20Toxicodendron",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Rhus%20Toxicodendron",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Rhus%20Toxicodendron",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "pcimh-hpi",
+      "name": "Homoeopathic Pharmacopoeia of India",
+      "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of AYUSH",
+      "url": "https://www.portal.pcimh.gov.in/products?categories=97e857d1-7288-4f31-b142-bf55adeb7d14&page=1",
+      "role": "Canonical medicine names, synonyms, identity and pharmacopoeial reference"
+    },
+    {
+      "id": "product-31e1936a9d51bea8",
+      "name": "Bakson product source",
+      "publisher": "Bakson Drugs & Pharmaceuticals",
+      "url": "https://cdn.shopify.com/s/files/1/0743/0904/2417/files/MT_Dilution_Catalogue_14-05-24_1.pdf?v=1754394718",
+      "role": "official catalog"
+    },
+    {
+      "id": "product-c4e805edfd22e7fc",
+      "name": "HAPCO product source",
+      "publisher": "Hahnemann Publishing Co. Pvt. Ltd.",
+      "url": "https://www.hapco.co.in/r.html",
+      "role": "official catalog"
+    },
+    {
+      "id": "product-3aac2cb75e6540fa",
+      "name": "Mahesh product source",
+      "publisher": "Mahesh Laboratories Pvt. Ltd.",
+      "url": "https://www.maheshlab.com/catalogue.html",
+      "role": "official catalog"
+    }
+  ],
+  "category": "joints",
+  "tags": [
+    "stiffness",
+    "joint discomfort",
+    "back stiffness",
+    "জয়েন্ট",
+    "কাঠিন্য",
+    "motion"
+  ],
+  "dataQuality": {
+    "identity": "pharmacopoeia-index-linked",
+    "composition": "structured",
+    "indications": "traditional-context-only",
+    "dosage": "not-published"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

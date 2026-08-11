@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "085a8a8ed07d2a28",
+  "slug": "dr-reckeweg-r58-4f84b47f",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R58",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Adonis vernalis",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Convallaria",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Crataegus",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Digitalis",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Helleborus",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Scilla",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Muscular weakness of the heart and appearance of hydropsy and oedema of the legs. Hydropsy in the abdomen frequently due to the muscular weakness of the heart. May also be effective in renal oedema.",
+      "attribution": "Dr. Reckeweg",
+      "productId": "e61f9bdd82102335",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r58-57.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "e61f9bdd82102335",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R58",
+      "productName": "Dr. Reckeweg R58",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Adonis vernalis",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Convallaria",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Crataegus",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Digitalis",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Helleborus",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Scilla",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "22ml"
+      ],
+      "labelDirections": "- Three times daily 15-20 drops before or after meals. In acute conditions, 6 times daily 20-30 drops in a little water. After improvement, reduce the dose 2-3 times daily 10-15 drops.",
+      "indication": "Muscular weakness of the heart and appearance of hydropsy and oedema of the legs. Hydropsy in the abdomen frequently due to the muscular weakness of the heart. May also be effective in renal oedema.",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r58-57.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R58",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R58",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R58",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R58",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-e61f9bdd82102335",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r58-57.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

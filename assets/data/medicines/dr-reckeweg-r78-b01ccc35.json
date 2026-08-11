@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "id": "3c6405ecdf12eabf",
+  "slug": "dr-reckeweg-r78-b01ccc35",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R78",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Aconitum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Apis mellifica",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Belladonna",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Euphorbia cyparissias",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Euphorbium",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Euphrasia",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Hamamelis",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Kalium carbonicum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Mercurius bijodatus",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Rhus toxicodendron",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Ruta",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Scrophularia nodosa",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Spigelia",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Staphisagria",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Sulfur",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Chronic conjunctivitis, blepharitis, hordeolum, catarrhal conjunctivitis, eyestrain, opacity of vitreum, diplopia, incipient cataract.",
+      "attribution": "Dr. Reckeweg",
+      "productId": "ce514d3ab1293626",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r78-76.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "ce514d3ab1293626",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R78",
+      "productName": "Dr. Reckeweg R78",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Aconitum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Apis mellifica",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Belladonna",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Euphorbia cyparissias",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Euphorbium",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Euphrasia",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Hamamelis",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Kalium carbonicum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Mercurius bijodatus",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Rhus toxicodendron",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Ruta",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Scrophularia nodosa",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Spigelia",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Staphisagria",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Sulfur",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "22ml"
+      ],
+      "labelDirections": "- 3 times daily 20 drops in some water",
+      "indication": "Chronic conjunctivitis, blepharitis, hordeolum, catarrhal conjunctivitis, eyestrain, opacity of vitreum, diplopia, incipient cataract.",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r78-76.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R78",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R78",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R78",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R78",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-ce514d3ab1293626",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r78-76.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

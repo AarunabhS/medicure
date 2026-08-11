@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "b5c025d0a54e9a17",
+  "slug": "dr-reckeweg-r44-6965b8b6",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R44",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Crataegus",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Laurocerasus",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Oleander",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Weakness of the conduction and hypotony. Exhaustion of the heart and lassitude ensue.",
+      "attribution": "Dr. Reckeweg",
+      "productId": "cd2c264f55e40ebc",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r44-43.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "cd2c264f55e40ebc",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R44",
+      "productName": "Dr. Reckeweg R44",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Crataegus",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Laurocerasus",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Oleander",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "22ml"
+      ],
+      "labelDirections": "- As prolonged cure: 3 times daily 10-15-20 drops in some water before or after meals. - In acute cases every 1-2 hours 10-15 drops.",
+      "indication": "Weakness of the conduction and hypotony. Exhaustion of the heart and lassitude ensue.",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r44-43.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R44",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R44",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R44",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R44",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-cd2c264f55e40ebc",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r44-43.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

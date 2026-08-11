@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "id": "d4eea2e4420c40cb",
+  "slug": "bryonia-alba",
+  "type": "single",
+  "canonicalName": "Bryonia Alba",
+  "banglaName": "ব্রায়োনিয়া",
+  "synonyms": [
+    "ব্রায়োনিয়া"
+  ],
+  "scientificIdentity": "Wild hops",
+  "sourceMaterial": "Wild hops",
+  "hpiReferences": [
+    {
+      "title": "PCIM&H Homoeopathic Pharmacopoeia of India monograph index",
+      "url": "https://www.portal.pcimh.gov.in/products?categories=97e857d1-7288-4f31-b142-bf55adeb7d14&page=1",
+      "verificationStatus": "index-linked"
+    }
+  ],
+  "ingredients": [
+    {
+      "name": "Bryonia Alba",
+      "role": "source substance",
+      "sourceIdentity": "Wild hops"
+    }
+  ],
+  "traditionalContext": {
+    "summary": "Often discussed for dry cough or body discomfort patterns where movement appears to aggravate the complaint.",
+    "bangla": "শুকনো কাশি বা শরীরের অস্বস্তি নড়াচড়ায় বাড়ে বলে মনে হলে ব্রায়োনিয়া নিয়ে আলোচনা দেখা যায়।",
+    "sourceBasis": "Boericke/Kent-style materia medica references"
+  },
+  "manufacturerIndications": [],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [
+    "Q",
+    "6X",
+    "6CH",
+    "30CH",
+    "200CH",
+    "1M",
+    "10M",
+    "50M",
+    "CM"
+  ],
+  "forms": [
+    "Mother tincture / dilution",
+    "Mother tincture"
+  ],
+  "manufacturers": [
+    {
+      "id": "bakson",
+      "name": "Bakson Drugs & Pharmaceuticals",
+      "shortName": "Bakson",
+      "url": "https://www.buybakson.com/pages/download-catalogue"
+    },
+    {
+      "id": "hapco",
+      "name": "Hahnemann Publishing Co. Pvt. Ltd.",
+      "shortName": "HAPCO",
+      "url": "https://www.hapco.co.in/products.html"
+    },
+    {
+      "id": "mahesh",
+      "name": "Mahesh Laboratories Pvt. Ltd.",
+      "shortName": "Mahesh",
+      "url": "https://www.maheshlab.com/catalogue.html"
+    }
+  ],
+  "products": [
+    {
+      "id": "c098aa4c167f31c4",
+      "manufacturerId": "bakson",
+      "canonicalName": "Bryonia Alba",
+      "productName": "Bakson Bryonia Alba",
+      "type": "single",
+      "form": "Mother tincture / dilution",
+      "ingredients": [
+        {
+          "name": "Bryonia Alba",
+          "role": "source substance",
+          "sourceIdentity": "Wild hops"
+        }
+      ],
+      "potencies": [
+        "Q",
+        "6X",
+        "6CH",
+        "30CH",
+        "200CH",
+        "1M",
+        "10M",
+        "50M",
+        "CM"
+      ],
+      "packSizes": [],
+      "labelDirections": "",
+      "indication": "",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0743/0904/2417/files/MT_Dilution_Catalogue_14-05-24_1.pdf?v=1754394718",
+      "sourceType": "official catalog"
+    },
+    {
+      "id": "c1564d2b53878766",
+      "manufacturerId": "hapco",
+      "canonicalName": "Bryonia Alba",
+      "productName": "HAPCO Bryonia Alba",
+      "type": "single",
+      "form": "Mother tincture",
+      "ingredients": [
+        {
+          "name": "Bryonia Alba",
+          "role": "source substance"
+        }
+      ],
+      "potencies": [
+        "Q"
+      ],
+      "packSizes": [],
+      "labelDirections": "",
+      "indication": "",
+      "sourceUrl": "https://www.hapco.co.in/b.html",
+      "sourceType": "official catalog"
+    },
+    {
+      "id": "3e84840488130041",
+      "manufacturerId": "mahesh",
+      "canonicalName": "Bryonia Alba",
+      "productName": "Mahesh Bryonia Alba",
+      "type": "single",
+      "form": "Mother tincture / dilution",
+      "ingredients": [
+        {
+          "name": "Bryonia Alba",
+          "role": "source substance"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [],
+      "labelDirections": "",
+      "indication": "",
+      "sourceUrl": "https://www.maheshlab.com/catalogue.html",
+      "sourceType": "official catalog"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Bryonia%20Alba",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Bryonia%20Alba",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Bryonia%20Alba",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Bryonia%20Alba",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "pcimh-hpi",
+      "name": "Homoeopathic Pharmacopoeia of India",
+      "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of AYUSH",
+      "url": "https://www.portal.pcimh.gov.in/products?categories=97e857d1-7288-4f31-b142-bf55adeb7d14&page=1",
+      "role": "Canonical medicine names, synonyms, identity and pharmacopoeial reference"
+    },
+    {
+      "id": "product-c098aa4c167f31c4",
+      "name": "Bakson product source",
+      "publisher": "Bakson Drugs & Pharmaceuticals",
+      "url": "https://cdn.shopify.com/s/files/1/0743/0904/2417/files/MT_Dilution_Catalogue_14-05-24_1.pdf?v=1754394718",
+      "role": "official catalog"
+    },
+    {
+      "id": "product-c1564d2b53878766",
+      "name": "HAPCO product source",
+      "publisher": "Hahnemann Publishing Co. Pvt. Ltd.",
+      "url": "https://www.hapco.co.in/b.html",
+      "role": "official catalog"
+    },
+    {
+      "id": "product-3e84840488130041",
+      "name": "Mahesh product source",
+      "publisher": "Mahesh Laboratories Pvt. Ltd.",
+      "url": "https://www.maheshlab.com/catalogue.html",
+      "role": "official catalog"
+    }
+  ],
+  "category": "respiratory",
+  "tags": [
+    "dry cough",
+    "chest discomfort",
+    "worse motion",
+    "শুকনো কাশি",
+    "dry",
+    "motion"
+  ],
+  "dataQuality": {
+    "identity": "pharmacopoeia-index-linked",
+    "composition": "structured",
+    "indications": "traditional-context-only",
+    "dosage": "not-published"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "id": "ab4321ed4b54452e",
+  "slug": "antimonium-tartaricum",
+  "type": "single",
+  "canonicalName": "Antimonium Tartaricum",
+  "banglaName": "অ্যান্টিম টার্ট",
+  "synonyms": [
+    "অ্যান্টিম টার্ট",
+    "ant tart",
+    "antimonium tart"
+  ],
+  "scientificIdentity": "Tartar Emetic",
+  "sourceMaterial": "Tartar Emetic",
+  "hpiReferences": [
+    {
+      "title": "PCIM&H Homoeopathic Pharmacopoeia of India monograph index",
+      "url": "https://www.portal.pcimh.gov.in/products?categories=97e857d1-7288-4f31-b142-bf55adeb7d14&page=1",
+      "verificationStatus": "index-linked"
+    }
+  ],
+  "ingredients": [
+    {
+      "name": "Antimonium Tartaricum",
+      "role": "source substance",
+      "sourceIdentity": "Tartar Emetic"
+    }
+  ],
+  "traditionalContext": {
+    "summary": "Traditionally discussed for chest congestion patterns with weakness. Breathing difficulty requires urgent care.",
+    "bangla": "বুক ভারী লাগা ও দুর্বলতার প্যাটার্নে অ্যান্টিম টার্টের নাম আসে। শ্বাসকষ্ট হলে জরুরি চিকিৎসা দরকার।",
+    "sourceBasis": "Classical materia medica references"
+  },
+  "manufacturerIndications": [],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [
+    "30CH",
+    "200CH",
+    "1M",
+    "10M",
+    "50M",
+    "CM"
+  ],
+  "forms": [
+    "Dilution"
+  ],
+  "manufacturers": [
+    {
+      "id": "bakson",
+      "name": "Bakson Drugs & Pharmaceuticals",
+      "shortName": "Bakson",
+      "url": "https://www.buybakson.com/pages/download-catalogue"
+    }
+  ],
+  "products": [
+    {
+      "id": "364fa5da63cdf378",
+      "manufacturerId": "bakson",
+      "canonicalName": "Antimonium Tartaricum",
+      "productName": "Bakson Antimonium Tartaricum",
+      "type": "single",
+      "form": "Dilution",
+      "ingredients": [
+        {
+          "name": "Antimonium Tartaricum",
+          "role": "source substance",
+          "sourceIdentity": "Tartar Emetic"
+        }
+      ],
+      "potencies": [
+        "30CH",
+        "200CH",
+        "1M",
+        "10M",
+        "50M",
+        "CM"
+      ],
+      "packSizes": [],
+      "labelDirections": "",
+      "indication": "",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0743/0904/2417/files/MT_Dilution_Catalogue_14-05-24_1.pdf?v=1754394718",
+      "sourceType": "official catalog"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Antimonium%20Tartaricum",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Antimonium%20Tartaricum",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Antimonium%20Tartaricum",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Antimonium%20Tartaricum",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "pcimh-hpi",
+      "name": "Homoeopathic Pharmacopoeia of India",
+      "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of AYUSH",
+      "url": "https://www.portal.pcimh.gov.in/products?categories=97e857d1-7288-4f31-b142-bf55adeb7d14&page=1",
+      "role": "Canonical medicine names, synonyms, identity and pharmacopoeial reference"
+    },
+    {
+      "id": "product-364fa5da63cdf378",
+      "name": "Bakson product source",
+      "publisher": "Bakson Drugs & Pharmaceuticals",
+      "url": "https://cdn.shopify.com/s/files/1/0743/0904/2417/files/MT_Dilution_Catalogue_14-05-24_1.pdf?v=1754394718",
+      "role": "official catalog"
+    }
+  ],
+  "category": "respiratory",
+  "tags": [
+    "chest congestion",
+    "weak cough",
+    "rattling",
+    "বুক ভারী",
+    "দুর্বল কাশি",
+    "weakness"
+  ],
+  "dataQuality": {
+    "identity": "pharmacopoeia-index-linked",
+    "composition": "structured",
+    "indications": "traditional-context-only",
+    "dosage": "not-published"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

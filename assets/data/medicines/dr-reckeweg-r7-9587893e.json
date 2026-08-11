@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "89d72f55db13631a",
+  "slug": "dr-reckeweg-r7-9587893e",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R7",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Carduus marianus",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Chelidonium",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Cholesterinum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Colocynthis",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Lycopodium",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Nux vomica",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Organic and functional complaints of liver and gallbladder, hepatopathy, cholecystophathy, calculi, disturbances of the biliary secretion, hepatitis, swelling of the abdomen, premature satiety, lack of appetite, bitter taste in mouth, flatulence, constipation, weariness after meals, irritation, hypochondria.",
+      "attribution": "Dr. Reckeweg",
+      "productId": "55eb99653bbf476f",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r7-7.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "55eb99653bbf476f",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R7",
+      "productName": "Dr. Reckeweg R7",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Carduus marianus",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Chelidonium",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Cholesterinum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Colocynthis",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Lycopodium",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Nux vomica",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "22ml"
+      ],
+      "labelDirections": "- Generally 3 times a day 10-15 drops in some water before meals. - If no improvement occurs within 8-14 days take 10-15 drops 4-6 times a day and reduce the dose when improving. Even after complete disappearance of the complaints, take 10-15 drops - 1-3 times a day for a longer period of time, watching diet rigorously.",
+      "indication": "Organic and functional complaints of liver and gallbladder, hepatopathy, cholecystophathy, calculi, disturbances of the biliary secretion, hepatitis, swelling of the abdomen, premature satiety, lack of appetite, bitter taste in mouth, flatulence, constipation, weariness after meals, irritation, hypochondria.",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r7-7.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R7",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R7",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R7",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R7",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-55eb99653bbf476f",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r7-7.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

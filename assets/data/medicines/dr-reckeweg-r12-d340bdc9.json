@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "id": "d4923083a5d138de",
+  "slug": "dr-reckeweg-r12-d340bdc9",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R12",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Arnica",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Aurum chloratum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Palpitation. Barium chloratum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Conium",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Iodates",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Glonoinum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Plumbum aceticum",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "General arteriosclerosis and hypertonia. Cerebral arteriosclerosis, aortic and coronary sclerosis, nephrosclerosis, dysbasia, abdominal dyspragia. Senility, weak memory, congestion of blood, vertigo, forgetfulness, tendency towards apoplexy and its consequences, predisposition to goitre, thyreotoxicosis.",
+      "attribution": "Dr. Reckeweg",
+      "productId": "c117a41ef61057e9",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r12-12.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "c117a41ef61057e9",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R12",
+      "productName": "Dr. Reckeweg R12",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Arnica",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Aurum chloratum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Palpitation. Barium chloratum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Conium",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Iodates",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Glonoinum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Plumbum aceticum",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "22ml"
+      ],
+      "labelDirections": "- Generally 10-15 drops three times daily, in some water. In acute cases, in the beginning of the treatment, 4-6 times daily. After improvement (taking 2-3 weeks) continue the treatment for a longer period of time once or twice a day. During the treatment the use of salt should be forbidden and only be allowed in small quantities after improvement has set in....",
+      "indication": "General arteriosclerosis and hypertonia. Cerebral arteriosclerosis, aortic and coronary sclerosis, nephrosclerosis, dysbasia, abdominal dyspragia. Senility, weak memory, congestion of blood, vertigo, forgetfulness, tendency towards apoplexy and its consequences, predisposition to goitre, thyreotoxicosis.",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r12-12.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R12",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R12",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R12",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R12",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-c117a41ef61057e9",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r12-12.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "id": "201800d64d618417",
+  "slug": "sbl-diaboherb-e50a2a93",
+  "type": "combination",
+  "canonicalName": "SBL Diaboherb",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Abroma Augusta",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Gymnema Sylvestre",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Cephalandra Indica",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Syzygium Jambolanum",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Crataegus Oxyacantha",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Frequent urination, increased thirst and increased appetite, as stated in the SBL product booklet.",
+      "attribution": "SBL",
+      "productId": "5f24b6e3c0c451df",
+      "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Syrup"
+  ],
+  "manufacturers": [
+    {
+      "id": "sbl",
+      "name": "SBL Pvt. Ltd.",
+      "shortName": "SBL",
+      "url": "https://sblglobal.com/"
+    }
+  ],
+  "products": [
+    {
+      "manufacturerId": "sbl",
+      "canonicalName": "SBL Diaboherb",
+      "productName": "Diaboherb",
+      "type": "combination",
+      "form": "Syrup",
+      "ingredients": [
+        {
+          "name": "Abroma Augusta",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Gymnema Sylvestre",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Cephalandra Indica",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Syzygium Jambolanum",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Crataegus Oxyacantha",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "180 ml",
+        "500 ml"
+      ],
+      "labelDirections": "One teaspoonful three times daily, half an hour before meals, or as prescribed by the physician.",
+      "indication": "Frequent urination, increased thirst and increased appetite, as stated in the SBL product booklet.",
+      "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+      "sourceType": "official product booklet, reviewed page 15",
+      "reviewedAt": "2026-08-12",
+      "reviewStatus": "composition-and-identity-reviewed",
+      "id": "5f24b6e3c0c451df"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=SBL%20Diaboherb",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=SBL%20Diaboherb",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=SBL%20Diaboherb",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=SBL%20Diaboherb",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-5f24b6e3c0c451df",
+      "name": "SBL product source",
+      "publisher": "SBL Pvt. Ltd.",
+      "url": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+      "role": "official product booklet, reviewed page 15"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

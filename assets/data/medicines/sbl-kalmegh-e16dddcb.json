@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "id": "daff06371ca65cd7",
+  "slug": "sbl-kalmegh-e16dddcb",
+  "type": "combination",
+  "canonicalName": "SBL Kalmegh",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Andrographic Paniculata",
+      "potency": "2X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Chelidonium Majus",
+      "potency": "1X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Carduus Marianus",
+      "potency": "2X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Chionanthus Virginica",
+      "potency": "1X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Carica Papaya",
+      "potency": "2X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Myrica Cerifera",
+      "potency": "1X",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "PAEDIATRIC DROPS Indigestion & Flatulence",
+      "attribution": "SBL",
+      "productId": "4d9a3735de634870",
+      "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Syrup and paediatric drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "sbl",
+      "name": "SBL Pvt. Ltd.",
+      "shortName": "SBL",
+      "url": "https://sblglobal.com/"
+    }
+  ],
+  "products": [
+    {
+      "manufacturerId": "sbl",
+      "canonicalName": "SBL Kalmegh",
+      "productName": "Kalmegh",
+      "type": "combination",
+      "form": "Syrup and paediatric drops",
+      "ingredients": [
+        {
+          "name": "Andrographic Paniculata",
+          "potency": "2X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Chelidonium Majus",
+          "potency": "1X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Carduus Marianus",
+          "potency": "2X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Chionanthus Virginica",
+          "potency": "1X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Carica Papaya",
+          "potency": "2X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Myrica Cerifera",
+          "potency": "1X",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "30ml",
+        "115ml",
+        "180ml"
+      ],
+      "labelDirections": "Kalmegh Paediatric Drops Children: 5-10 drops three times daily or as prescribed by the physician. Kalmegh Syrup Adults: 1 teaspoonful Children: ½ teaspoonful Three times daily or as prescribed by the physician",
+      "indication": "PAEDIATRIC DROPS Indigestion & Flatulence",
+      "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+      "sourceType": "official product booklet, page 32",
+      "reviewedAt": "2026-08-12",
+      "reviewStatus": "composition-and-identity-reviewed",
+      "id": "4d9a3735de634870"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=SBL%20Kalmegh",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=SBL%20Kalmegh",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=SBL%20Kalmegh",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=SBL%20Kalmegh",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-4d9a3735de634870",
+      "name": "SBL product source",
+      "publisher": "SBL Pvt. Ltd.",
+      "url": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+      "role": "official product booklet, page 32"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

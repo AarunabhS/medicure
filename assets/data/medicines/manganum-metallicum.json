@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "id": "40c5c5a5092a84d8",
+  "slug": "manganum-metallicum",
+  "type": "single",
+  "canonicalName": "Manganum Metallicum",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "Manganese",
+  "sourceMaterial": "Manganese",
+  "hpiReferences": [
+    {
+      "title": "PCIM&H Homoeopathic Pharmacopoeia of India monograph index",
+      "url": "https://www.portal.pcimh.gov.in/products?categories=97e857d1-7288-4f31-b142-bf55adeb7d14&page=1",
+      "verificationStatus": "index-linked"
+    }
+  ],
+  "ingredients": [
+    {
+      "name": "Manganum Metallicum",
+      "role": "source substance",
+      "sourceIdentity": "Manganese"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [
+    "3X",
+    "6X",
+    "6CH",
+    "200CH",
+    "1M",
+    "10M",
+    "50M"
+  ],
+  "forms": [
+    "Dilution",
+    "Trituration / dilution"
+  ],
+  "manufacturers": [
+    {
+      "id": "bakson",
+      "name": "Bakson Drugs & Pharmaceuticals",
+      "shortName": "Bakson",
+      "url": "https://www.buybakson.com/pages/download-catalogue"
+    },
+    {
+      "id": "hapco",
+      "name": "Hahnemann Publishing Co. Pvt. Ltd.",
+      "shortName": "HAPCO",
+      "url": "https://www.hapco.co.in/products.html"
+    }
+  ],
+  "products": [
+    {
+      "id": "c5b860da9a4408f1",
+      "manufacturerId": "bakson",
+      "canonicalName": "Manganum Metallicum",
+      "productName": "Bakson Manganum Metallicum",
+      "type": "single",
+      "form": "Dilution",
+      "ingredients": [
+        {
+          "name": "Manganum Metallicum",
+          "role": "source substance",
+          "sourceIdentity": "Manganese"
+        }
+      ],
+      "potencies": [
+        "6X",
+        "6CH",
+        "200CH",
+        "1M",
+        "10M",
+        "50M"
+      ],
+      "packSizes": [],
+      "labelDirections": "",
+      "indication": "",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0743/0904/2417/files/MT_Dilution_Catalogue_14-05-24_1.pdf?v=1754394718",
+      "sourceType": "official catalog"
+    },
+    {
+      "id": "46762fa51d94cfe7",
+      "manufacturerId": "hapco",
+      "canonicalName": "Manganum Metallicum",
+      "productName": "HAPCO Manganum Metallicum",
+      "type": "single",
+      "form": "Trituration / dilution",
+      "ingredients": [
+        {
+          "name": "Manganum Metallicum",
+          "role": "source substance"
+        }
+      ],
+      "potencies": [
+        "3X"
+      ],
+      "packSizes": [],
+      "labelDirections": "",
+      "indication": "",
+      "sourceUrl": "https://www.hapco.co.in/m.html",
+      "sourceType": "official catalog"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Manganum%20Metallicum",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Manganum%20Metallicum",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Manganum%20Metallicum",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Manganum%20Metallicum",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "pcimh-hpi",
+      "name": "Homoeopathic Pharmacopoeia of India",
+      "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of AYUSH",
+      "url": "https://www.portal.pcimh.gov.in/products?categories=97e857d1-7288-4f31-b142-bf55adeb7d14&page=1",
+      "role": "Canonical medicine names, synonyms, identity and pharmacopoeial reference"
+    },
+    {
+      "id": "product-c5b860da9a4408f1",
+      "name": "Bakson product source",
+      "publisher": "Bakson Drugs & Pharmaceuticals",
+      "url": "https://cdn.shopify.com/s/files/1/0743/0904/2417/files/MT_Dilution_Catalogue_14-05-24_1.pdf?v=1754394718",
+      "role": "official catalog"
+    },
+    {
+      "id": "product-46762fa51d94cfe7",
+      "name": "HAPCO product source",
+      "publisher": "Hahnemann Publishing Co. Pvt. Ltd.",
+      "url": "https://www.hapco.co.in/m.html",
+      "role": "official catalog"
+    }
+  ],
+  "category": "single-remedy",
+  "tags": [],
+  "dataQuality": {
+    "identity": "pharmacopoeia-index-linked",
+    "composition": "structured",
+    "indications": "not-published",
+    "dosage": "not-published"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

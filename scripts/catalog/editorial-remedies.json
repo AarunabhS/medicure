@@ -1,0 +1,784 @@
+[
+  {
+    "name": "Nux Vomica",
+    "bangla": "নাক্স ভমিকা",
+    "category": "gastric",
+    "patterns": [
+      "food",
+      "night"
+    ],
+    "tags": [
+      "acidity",
+      "indigestion",
+      "irregular routine",
+      "অম্বল",
+      "হজম"
+    ],
+    "summary": "Commonly discussed for digestive discomfort patterns linked with irregular meals, rich food, late nights, or overwork.",
+    "banglaText": "অনিয়মিত খাওয়া, ভারী খাবার, রাত জাগা বা অতিরিক্ত কাজের সঙ্গে যুক্ত অম্বল ও হজমের অস্বস্তির আলোচনায় এই নামটি আসে।",
+    "source": "Boericke/Kent-style materia medica references"
+  },
+  {
+    "name": "Aconitum Napellus",
+    "bangla": "অ্যাকোনাইট",
+    "category": "respiratory",
+    "patterns": [
+      "sudden",
+      "dry"
+    ],
+    "tags": [
+      "sudden cold",
+      "dry cough",
+      "feverish onset",
+      "কাশি",
+      "সর্দি"
+    ],
+    "summary": "Traditionally referenced for sudden early-stage cold or cough patterns, especially when the onset feels abrupt.",
+    "banglaText": "হঠাৎ শুরু হওয়া সর্দি-কাশি বা অস্বস্তির প্রথম দিকের প্যাটার্নে এই রেমেডির নাম ঐতিহ্যগতভাবে আলোচিত হয়।",
+    "source": "Classical materia medica references"
+  },
+  {
+    "name": "Bryonia Alba",
+    "bangla": "ব্রায়োনিয়া",
+    "category": "respiratory",
+    "patterns": [
+      "dry",
+      "motion"
+    ],
+    "tags": [
+      "dry cough",
+      "chest discomfort",
+      "worse motion",
+      "শুকনো কাশি"
+    ],
+    "summary": "Often discussed for dry cough or body discomfort patterns where movement appears to aggravate the complaint.",
+    "banglaText": "শুকনো কাশি বা শরীরের অস্বস্তি নড়াচড়ায় বাড়ে বলে মনে হলে ব্রায়োনিয়া নিয়ে আলোচনা দেখা যায়।",
+    "source": "Boericke/Kent-style materia medica references"
+  },
+  {
+    "name": "Rhus Toxicodendron",
+    "bangla": "রাস টক্স",
+    "category": "joints",
+    "patterns": [
+      "motion"
+    ],
+    "tags": [
+      "stiffness",
+      "joint discomfort",
+      "back stiffness",
+      "জয়েন্ট",
+      "কাঠিন্য"
+    ],
+    "summary": "Frequently associated in materia medica discussions with stiffness patterns that may feel different after gentle movement.",
+    "banglaText": "জয়েন্ট বা পেশীর কাঠিন্য, বিশেষ করে নড়াচড়ার সঙ্গে বদলায় এমন প্যাটার্নে এই নামটি পাওয়া যায়।",
+    "source": "Classical materia medica references"
+  },
+  {
+    "name": "Calcarea Phosphorica",
+    "bangla": "ক্যালকেরিয়া ফস",
+    "category": "joints",
+    "patterns": [
+      "weakness"
+    ],
+    "tags": [
+      "growth",
+      "bones",
+      "weakness",
+      "children",
+      "শিশু",
+      "হাড়"
+    ],
+    "summary": "Often considered in constitutional discussions around growth, bones, general weakness, and children's developmental complaints.",
+    "banglaText": "বৃদ্ধি, হাড়, দুর্বলতা এবং শিশুদের কিছু দীর্ঘমেয়াদি প্যাটার্নের আলোচনায় এই রেমেডির নাম আসে।",
+    "source": "Boericke-style materia medica references"
+  },
+  {
+    "name": "Pulsatilla",
+    "bangla": "পালসাটিলা",
+    "category": "children",
+    "patterns": [
+      "food",
+      "night"
+    ],
+    "tags": [
+      "changeable symptoms",
+      "digestion",
+      "children",
+      "ঠান্ডা",
+      "শিশু"
+    ],
+    "summary": "Commonly referenced for changeable complaint patterns and sensitivity around food, weather, or routine changes.",
+    "banglaText": "খাবার, আবহাওয়া বা রুটিন বদলের সঙ্গে উপসর্গ বদলালে পালসাটিলা নিয়ে আলোচনা করা হয়।",
+    "source": "Classical materia medica references"
+  },
+  {
+    "name": "Belladonna",
+    "bangla": "বেলাডোনা",
+    "category": "children",
+    "patterns": [
+      "sudden"
+    ],
+    "tags": [
+      "sudden heat",
+      "throbbing",
+      "feverish",
+      "শিশু",
+      "জ্বর"
+    ],
+    "summary": "Traditionally discussed for sudden, intense patterns with heat or throbbing sensations. High fever should be assessed by a doctor.",
+    "banglaText": "হঠাৎ তীব্র অস্বস্তি, গরম ভাব বা ধুকপুক অনুভূতির প্যাটার্নে এই নামটি আসে। বেশি জ্বর হলে ডাক্তার দেখানো জরুরি।",
+    "source": "Boericke/Kent-style materia medica references"
+  },
+  {
+    "name": "Arnica Montana",
+    "bangla": "আর্নিকা",
+    "category": "joints",
+    "patterns": [
+      "motion"
+    ],
+    "tags": [
+      "soreness",
+      "strain",
+      "bruised feeling",
+      "ব্যথা",
+      "চোট"
+    ],
+    "summary": "Often discussed for soreness or bruised-feeling patterns after strain. Injuries with severe pain or swelling need medical evaluation.",
+    "banglaText": "চোট বা চাপের পর ব্যথা বা থেঁতলানো অনুভূতির আলোচনায় আর্নিকার নাম পাওয়া যায়। গুরুতর ব্যথা বা ফোলা হলে চিকিৎসা দরকার।",
+    "source": "Classical materia medica references"
+  },
+  {
+    "name": "Sulphur",
+    "bangla": "সালফার",
+    "category": "skin",
+    "patterns": [
+      "night"
+    ],
+    "tags": [
+      "itching",
+      "skin irritation",
+      "heat",
+      "চুলকানি",
+      "ত্বক"
+    ],
+    "summary": "A deeply studied constitutional remedy name often discussed around recurring skin irritation and heat-related patterns.",
+    "banglaText": "বারবার হওয়া ত্বকের অস্বস্তি, চুলকানি বা গরমভাবের প্যাটার্নে সালফার নিয়ে আলোচনা দেখা যায়।",
+    "source": "Boericke/Kent-style materia medica references"
+  },
+  {
+    "name": "Calendula",
+    "bangla": "ক্যালেন্ডুলা",
+    "category": "skin",
+    "patterns": [
+      "sudden"
+    ],
+    "tags": [
+      "skin care",
+      "minor cuts",
+      "irritation",
+      "ত্বক"
+    ],
+    "summary": "Commonly known in homeopathic practice discussions around minor skin care contexts. Open wounds or infection signs need medical care.",
+    "banglaText": "ছোটখাটো ত্বকের যত্নের প্রসঙ্গে ক্যালেন্ডুলার নাম শোনা যায়। কাটা, সংক্রমণ বা পুঁজ হলে চিকিৎসকের পরামর্শ জরুরি।",
+    "source": "Classical materia medica references"
+  },
+  {
+    "name": "Arsenicum Album",
+    "bangla": "আর্সেনিকাম অ্যালবাম",
+    "category": "immunity",
+    "patterns": [
+      "weakness",
+      "night"
+    ],
+    "tags": [
+      "weakness",
+      "restlessness",
+      "sensitivity",
+      "anxiety",
+      "দুর্বলতা",
+      "উদ্বেগ"
+    ],
+    "summary": "A deeply studied remedy name connected in classical texts with weakness, restlessness, and recurring sensitivity patterns.",
+    "banglaText": "দুর্বলতা, অস্থিরতা এবং সংবেদনশীলতার পুনরাবৃত্ত প্যাটার্নে ক্লাসিক্যাল বইয়ে এই রেমেডির নাম পাওয়া যায়।",
+    "source": "Boericke/Kent-style materia medica references"
+  },
+  {
+    "name": "Gelsemium",
+    "bangla": "জেলসেমিয়াম",
+    "category": "immunity",
+    "patterns": [
+      "weakness"
+    ],
+    "tags": [
+      "dullness",
+      "weakness",
+      "anticipation",
+      "fatigue",
+      "দুর্বলতা"
+    ],
+    "summary": "Often discussed for dull, heavy, weak-feeling patterns, including sensitivity before stressful events.",
+    "banglaText": "ঝিমুনি, ভারীভাব, দুর্বলতা বা চাপের আগে অস্বস্তির প্যাটার্নে জেলসেমিয়ামের নাম আলোচিত হয়।",
+    "source": "Classical materia medica references"
+  },
+  {
+    "name": "Lycopodium",
+    "bangla": "লাইকোপোডিয়াম",
+    "category": "gastric",
+    "patterns": [
+      "food",
+      "night"
+    ],
+    "tags": [
+      "bloating",
+      "gas",
+      "evening",
+      "confidence",
+      "পেট ফাঁপা",
+      "গ্যাস"
+    ],
+    "summary": "Often discussed for bloating, gas, and digestive patterns that may feel worse later in the day.",
+    "banglaText": "পেট ফাঁপা, গ্যাস বা দিনের শেষদিকে হজমের অস্বস্তি বাড়ে এমন প্যাটার্নে লাইকোপোডিয়ামের নাম আসে।",
+    "source": "Boericke/Kent-style materia medica references"
+  },
+  {
+    "name": "Carbo Vegetabilis",
+    "bangla": "কার্বো ভেজ",
+    "category": "gastric",
+    "patterns": [
+      "food",
+      "weakness"
+    ],
+    "tags": [
+      "gas",
+      "heaviness",
+      "belching",
+      "weak feeling",
+      "গ্যাস",
+      "ঢেকুর"
+    ],
+    "summary": "Commonly referenced for heavy, gassy digestive patterns with tiredness or a need for fresh air.",
+    "banglaText": "গ্যাস, ভারীভাব, ঢেকুর এবং দুর্বলতার সঙ্গে যুক্ত হজমের প্যাটার্নে কার্বো ভেজ নিয়ে আলোচনা হয়।",
+    "source": "Classical materia medica references"
+  },
+  {
+    "name": "China Officinalis",
+    "bangla": "চায়না",
+    "category": "gastric",
+    "patterns": [
+      "weakness",
+      "food"
+    ],
+    "tags": [
+      "bloating",
+      "weakness",
+      "fluid loss",
+      "gas",
+      "দুর্বলতা"
+    ],
+    "summary": "Traditionally discussed for bloating and weakness patterns, especially after exhausting episodes.",
+    "banglaText": "অতিরিক্ত ক্লান্তিকর পরিস্থিতির পরে পেট ফাঁপা ও দুর্বলতার প্যাটার্নে চায়নার নাম পাওয়া যায়।",
+    "source": "Classical materia medica references"
+  },
+  {
+    "name": "Magnesia Phosphorica",
+    "bangla": "ম্যাগ ফস",
+    "category": "gastric",
+    "patterns": [
+      "motion",
+      "heat"
+    ],
+    "tags": [
+      "crampy discomfort",
+      "warmth",
+      "spasm pattern",
+      "পেট ব্যথা",
+      "গরমে আরাম"
+    ],
+    "summary": "Often mentioned for crampy discomfort patterns where warmth or pressure is part of the classical picture.",
+    "banglaText": "ক্র্যাম্পের মতো অস্বস্তি, গরমে বা চাপ দিলে আরামের প্যাটার্নে ম্যাগ ফস নিয়ে আলোচনা হয়।",
+    "source": "Boericke-style materia medica references"
+  },
+  {
+    "name": "Antimonium Crudum",
+    "bangla": "অ্যান্টিম ক্রুড",
+    "category": "gastric",
+    "patterns": [
+      "food",
+      "heat"
+    ],
+    "tags": [
+      "overeating",
+      "coated tongue",
+      "indigestion",
+      "অতিরিক্ত খাওয়া",
+      "হজম"
+    ],
+    "summary": "Commonly discussed for indigestion patterns after overeating or dietary excess.",
+    "banglaText": "অতিরিক্ত খাওয়া বা খাবারের অনিয়মের পরে হজমের অস্বস্তির আলোচনায় অ্যান্টিম ক্রুডের নাম আসে।",
+    "source": "Classical materia medica references"
+  },
+  {
+    "name": "Allium Cepa",
+    "bangla": "অ্যালিয়াম সেপা",
+    "category": "respiratory",
+    "patterns": [
+      "sudden"
+    ],
+    "tags": [
+      "runny nose",
+      "watery discharge",
+      "sneezing",
+      "নাক দিয়ে জল",
+      "হাঁচি"
+    ],
+    "summary": "Often referenced for cold patterns with watery nasal discharge and sneezing.",
+    "banglaText": "নাক দিয়ে জল পড়া ও হাঁচির সঙ্গে সর্দির প্যাটার্নে অ্যালিয়াম সেপার নাম শোনা যায়।",
+    "source": "Boericke-style materia medica references"
+  },
+  {
+    "name": "Euphrasia",
+    "bangla": "ইউফ্রেশিয়া",
+    "category": "respiratory",
+    "patterns": [
+      "sudden"
+    ],
+    "tags": [
+      "watery eyes",
+      "cold",
+      "eye irritation",
+      "চোখে জল",
+      "সর্দি"
+    ],
+    "summary": "Traditionally discussed when cold patterns include eye watering or eye irritation.",
+    "banglaText": "সর্দির সঙ্গে চোখে জল বা চোখে অস্বস্তি থাকলে ইউফ্রেশিয়া নিয়ে আলোচনা দেখা যায়।",
+    "source": "Classical materia medica references"
+  },
+  {
+    "name": "Drosera",
+    "bangla": "ড্রোসেরা",
+    "category": "respiratory",
+    "patterns": [
+      "dry",
+      "night"
+    ],
+    "tags": [
+      "spasmodic cough",
+      "night cough",
+      "dry cough",
+      "রাতের কাশি",
+      "শুকনো কাশি"
+    ],
+    "summary": "Often discussed for dry, spasmodic cough patterns that may be more troublesome at night.",
+    "banglaText": "রাতে বাড়ে এমন শুকনো বা খিঁচুনির মতো কাশির প্যাটার্নে ড্রোসেরার নাম পাওয়া যায়।",
+    "source": "Boericke/Kent-style materia medica references"
+  },
+  {
+    "name": "Spongia Tosta",
+    "bangla": "স্পঞ্জিয়া",
+    "category": "respiratory",
+    "patterns": [
+      "dry",
+      "night"
+    ],
+    "tags": [
+      "dry barking cough",
+      "throat dryness",
+      "night",
+      "শুকনো কাশি"
+    ],
+    "summary": "Commonly referenced for dry, barking-type cough patterns in classical remedy discussions.",
+    "banglaText": "শুকনো, কর্কশ ধরনের কাশির প্যাটার্নে স্পঞ্জিয়ার নাম ঐতিহ্যগতভাবে আলোচিত হয়।",
+    "source": "Classical materia medica references"
+  },
+  {
+    "name": "Hepar Sulphuris",
+    "bangla": "হেপার সালফ",
+    "category": "respiratory",
+    "patterns": [
+      "cold",
+      "sudden"
+    ],
+    "tags": [
+      "cold sensitivity",
+      "throat",
+      "sensitivity",
+      "ঠান্ডা লাগা",
+      "গলা"
+    ],
+    "summary": "Often discussed for sensitive cold-weather patterns involving throat or respiratory discomfort.",
+    "banglaText": "ঠান্ডায় সংবেদনশীলতা, গলা বা শ্বাসনালীর অস্বস্তির প্যাটার্নে হেপার সালফের নাম আসে।",
+    "source": "Boericke-style materia medica references"
+  },
+  {
+    "name": "Antimonium Tartaricum",
+    "bangla": "অ্যান্টিম টার্ট",
+    "category": "respiratory",
+    "patterns": [
+      "weakness"
+    ],
+    "tags": [
+      "chest congestion",
+      "weak cough",
+      "rattling",
+      "বুক ভারী",
+      "দুর্বল কাশি"
+    ],
+    "summary": "Traditionally discussed for chest congestion patterns with weakness. Breathing difficulty requires urgent care.",
+    "banglaText": "বুক ভারী লাগা ও দুর্বলতার প্যাটার্নে অ্যান্টিম টার্টের নাম আসে। শ্বাসকষ্ট হলে জরুরি চিকিৎসা দরকার।",
+    "source": "Classical materia medica references"
+  },
+  {
+    "name": "Kali Bichromicum",
+    "bangla": "ক্যালি বাইক্রোম",
+    "category": "respiratory",
+    "patterns": [
+      "dry"
+    ],
+    "tags": [
+      "sinus",
+      "thick discharge",
+      "localized pain",
+      "সাইনাস",
+      "নাক"
+    ],
+    "summary": "Commonly referenced around sinus or thick-discharge patterns in classical materia medica.",
+    "banglaText": "সাইনাস বা ঘন স্রাবের প্যাটার্নে ক্যালি বাইক্রোমের নাম ক্লাসিক্যাল আলোচনায় দেখা যায়।",
+    "source": "Boericke-style materia medica references"
+  },
+  {
+    "name": "Ferrum Phosphoricum",
+    "bangla": "ফেরাম ফস",
+    "category": "immunity",
+    "patterns": [
+      "sudden",
+      "weakness"
+    ],
+    "tags": [
+      "early feverish state",
+      "tiredness",
+      "inflammation pattern",
+      "জ্বরের শুরু",
+      "দুর্বলতা"
+    ],
+    "summary": "Often discussed in early feverish or inflammatory patterns. Persistent or high fever should be medically assessed.",
+    "banglaText": "জ্বরের শুরু বা প্রদাহজাত প্যাটার্নে ফেরাম ফসের নাম আসে। বেশি বা দীর্ঘস্থায়ী জ্বর হলে চিকিৎসকের পরামর্শ জরুরি।",
+    "source": "Classical materia medica references"
+  },
+  {
+    "name": "Phosphorus",
+    "bangla": "ফসফরাস",
+    "category": "immunity",
+    "patterns": [
+      "weakness",
+      "dry"
+    ],
+    "tags": [
+      "sensitivity",
+      "weakness",
+      "respiratory",
+      "সংবেদনশীলতা",
+      "দুর্বলতা"
+    ],
+    "summary": "A major constitutional remedy name often discussed around sensitivity, weakness, and respiratory tendency patterns.",
+    "banglaText": "সংবেদনশীলতা, দুর্বলতা ও শ্বাস-প্রশ্বাসের পুনরাবৃত্ত প্যাটার্নে ফসফরাসের নাম আলোচিত হয়।",
+    "source": "Boericke/Kent-style materia medica references"
+  },
+  {
+    "name": "Natrum Muriaticum",
+    "bangla": "ন্যাট্রাম মিউর",
+    "category": "stress",
+    "patterns": [
+      "heat",
+      "weakness"
+    ],
+    "tags": [
+      "headache pattern",
+      "grief",
+      "sensitivity",
+      "মাথাব্যথা",
+      "মানসিক চাপ"
+    ],
+    "summary": "Often discussed in constitutional contexts involving sensitivity, headaches, grief, or reserved emotional patterns.",
+    "banglaText": "সংবেদনশীলতা, মাথাব্যথা, মানসিক চাপ বা আবেগ চেপে রাখার প্যাটার্নে ন্যাট্রাম মিউরের নাম আসে।",
+    "source": "Kent/Boericke-style materia medica references"
+  },
+  {
+    "name": "Ignatia Amara",
+    "bangla": "ইগ্নেশিয়া",
+    "category": "stress",
+    "patterns": [
+      "sudden"
+    ],
+    "tags": [
+      "grief",
+      "mood change",
+      "stress",
+      "sighing",
+      "মনখারাপ",
+      "স্ট্রেস"
+    ],
+    "summary": "Classically discussed for grief, emotional sensitivity, and changeable stress-response patterns.",
+    "banglaText": "দুঃখ, আবেগের ওঠানামা বা স্ট্রেস-রেসপন্সের প্যাটার্নে ইগ্নেশিয়া নিয়ে আলোচনা করা হয়।",
+    "source": "Kent-style materia medica references"
+  },
+  {
+    "name": "Coffea Cruda",
+    "bangla": "কফিয়া",
+    "category": "stress",
+    "patterns": [
+      "night"
+    ],
+    "tags": [
+      "sleeplessness",
+      "overactive mind",
+      "sensitivity",
+      "ঘুম",
+      "অস্থিরতা"
+    ],
+    "summary": "Often mentioned for overactive-mind and sleeplessness patterns in classical remedy discussions.",
+    "banglaText": "মাথা বেশি সক্রিয় থাকা, ঘুমের অসুবিধা বা অস্থিরতার প্যাটার্নে কফিয়ার নাম পাওয়া যায়।",
+    "source": "Classical materia medica references"
+  },
+  {
+    "name": "Kali Phosphoricum",
+    "bangla": "ক্যালি ফস",
+    "category": "stress",
+    "patterns": [
+      "weakness",
+      "night"
+    ],
+    "tags": [
+      "mental fatigue",
+      "study stress",
+      "nervous exhaustion",
+      "ক্লান্তি",
+      "পড়াশোনার চাপ"
+    ],
+    "summary": "Commonly discussed for mental fatigue and nervous-exhaustion patterns, especially during heavy work or study.",
+    "banglaText": "মানসিক ক্লান্তি, পড়াশোনা বা কাজের চাপ, নার্ভাস এক্সহস্টশনের প্যাটার্নে ক্যালি ফসের নাম আসে।",
+    "source": "Boericke-style materia medica references"
+  },
+  {
+    "name": "Chamomilla",
+    "bangla": "ক্যামোমিলা",
+    "category": "children",
+    "patterns": [
+      "night"
+    ],
+    "tags": [
+      "irritability",
+      "teething",
+      "children",
+      "রাগ",
+      "শিশু"
+    ],
+    "summary": "Often referenced for children's irritability patterns, including traditional discussions around teething discomfort.",
+    "banglaText": "শিশুদের অস্থিরতা, রাগ বা দাঁত ওঠার সময় অস্বস্তির আলোচনায় ক্যামোমিলার নাম দেখা যায়।",
+    "source": "Classical materia medica references"
+  },
+  {
+    "name": "Cina",
+    "bangla": "সিনা",
+    "category": "children",
+    "patterns": [
+      "night"
+    ],
+    "tags": [
+      "children",
+      "irritability",
+      "grinding teeth",
+      "শিশু",
+      "দাঁত ঘষা"
+    ],
+    "summary": "Traditionally discussed for certain children's irritability patterns. Persistent digestive or sleep issues need assessment.",
+    "banglaText": "শিশুদের কিছু অস্থিরতার প্যাটার্নে সিনার নাম আসে। দীর্ঘস্থায়ী হজম বা ঘুমের সমস্যা হলে চিকিৎসকের পরামর্শ দরকার।",
+    "source": "Classical materia medica references"
+  },
+  {
+    "name": "Silicea",
+    "bangla": "সিলিসিয়া",
+    "category": "children",
+    "patterns": [
+      "weakness",
+      "cold"
+    ],
+    "tags": [
+      "delicate constitution",
+      "sensitivity",
+      "children",
+      "দুর্বলতা",
+      "ঠান্ডা"
+    ],
+    "summary": "Often discussed around delicate constitutional patterns, cold sensitivity, and slow recurring complaints.",
+    "banglaText": "সংবেদনশীল বা দুর্বল কনস্টিটিউশন, ঠান্ডায় সমস্যা এবং ধীরে ধীরে বারবার হওয়া প্যাটার্নে সিলিসিয়ার নাম আসে।",
+    "source": "Boericke/Kent-style materia medica references"
+  },
+  {
+    "name": "Graphites",
+    "bangla": "গ্রাফাইটিস",
+    "category": "skin",
+    "patterns": [
+      "dry",
+      "cold"
+    ],
+    "tags": [
+      "dry skin",
+      "cracks",
+      "recurring irritation",
+      "শুষ্ক ত্বক",
+      "ফাটল"
+    ],
+    "summary": "Commonly discussed for dry, cracked, recurring skin-irritation patterns.",
+    "banglaText": "শুষ্ক ত্বক, ফাটল বা বারবার হওয়া ত্বকের অস্বস্তির প্যাটার্নে গ্রাফাইটিসের নাম পাওয়া যায়।",
+    "source": "Classical materia medica references"
+  },
+  {
+    "name": "Apis Mellifica",
+    "bangla": "এপিস মেল",
+    "category": "skin",
+    "patterns": [
+      "sudden",
+      "heat"
+    ],
+    "tags": [
+      "swelling pattern",
+      "stinging",
+      "heat",
+      "ফোলা",
+      "জ্বালা"
+    ],
+    "summary": "Often discussed for sudden swelling or stinging-feeling skin patterns. Severe allergy needs urgent medical care.",
+    "banglaText": "হঠাৎ ফোলা বা জ্বালা-ধরনের ত্বকের প্যাটার্নে এপিসের নাম আসে। গুরুতর অ্যালার্জি হলে জরুরি চিকিৎসা দরকার।",
+    "source": "Boericke-style materia medica references"
+  },
+  {
+    "name": "Urtica Urens",
+    "bangla": "আর্টিকা ইউরেন্স",
+    "category": "skin",
+    "patterns": [
+      "sudden",
+      "heat"
+    ],
+    "tags": [
+      "hives pattern",
+      "itching",
+      "stinging",
+      "চুলকানি",
+      "র‍্যাশ"
+    ],
+    "summary": "Traditionally referenced around hives-like itching or stinging skin patterns.",
+    "banglaText": "চুলকানি, জ্বালা বা হাইভসের মতো ত্বকের প্যাটার্নে আর্টিকা ইউরেন্স নিয়ে আলোচনা হয়।",
+    "source": "Classical materia medica references"
+  },
+  {
+    "name": "Ruta Graveolens",
+    "bangla": "রুটা",
+    "category": "joints",
+    "patterns": [
+      "motion"
+    ],
+    "tags": [
+      "strain",
+      "tendons",
+      "eye strain",
+      "চাপ",
+      "টেন্ডন"
+    ],
+    "summary": "Often discussed for strain-type patterns involving tendons, ligaments, or overuse.",
+    "banglaText": "টেন্ডন, লিগামেন্ট বা অতিরিক্ত ব্যবহারের কারণে চাপের প্যাটার্নে রুটার নাম আসে।",
+    "source": "Boericke-style materia medica references"
+  },
+  {
+    "name": "Causticum",
+    "bangla": "কস্টিকাম",
+    "category": "joints",
+    "patterns": [
+      "cold",
+      "weakness"
+    ],
+    "tags": [
+      "stiffness",
+      "weakness",
+      "cold weather",
+      "কাঠিন্য",
+      "দুর্বলতা"
+    ],
+    "summary": "Commonly discussed for stiffness and weakness patterns that may be sensitive to cold weather.",
+    "banglaText": "কাঠিন্য, দুর্বলতা এবং ঠান্ডায় বাড়ে এমন প্যাটার্নে কস্টিকামের নাম আলোচিত হয়।",
+    "source": "Classical materia medica references"
+  },
+  {
+    "name": "Sepia",
+    "bangla": "সেপিয়া",
+    "category": "women",
+    "patterns": [
+      "weakness"
+    ],
+    "tags": [
+      "fatigue",
+      "hormonal pattern",
+      "irritability",
+      "মহিলা",
+      "ক্লান্তি"
+    ],
+    "summary": "A major constitutional remedy name often discussed in women's health pattern contexts involving fatigue and irritability.",
+    "banglaText": "মহিলাদের স্বাস্থ্য প্যাটার্নে ক্লান্তি, বিরক্তি বা কনস্টিটিউশনাল আলোচনায় সেপিয়ার নাম আসে।",
+    "source": "Kent/Boericke-style materia medica references"
+  },
+  {
+    "name": "Lachesis",
+    "bangla": "ল্যাকেসিস",
+    "category": "women",
+    "patterns": [
+      "heat",
+      "night"
+    ],
+    "tags": [
+      "heat sensitivity",
+      "left-sided pattern",
+      "change of life",
+      "গরম",
+      "মহিলা"
+    ],
+    "summary": "Often discussed in constitutional contexts involving heat sensitivity and change-of-life patterns.",
+    "banglaText": "গরমে সংবেদনশীলতা, রাতের অস্বস্তি বা জীবনপর্ব বদলের প্যাটার্নে ল্যাকেসিসের নাম দেখা যায়।",
+    "source": "Classical materia medica references"
+  },
+  {
+    "name": "Calcarea Carbonica",
+    "bangla": "ক্যালকেরিয়া কার্ব",
+    "category": "women",
+    "patterns": [
+      "cold",
+      "weakness"
+    ],
+    "tags": [
+      "cold sensitivity",
+      "fatigue",
+      "constitution",
+      "ঠান্ডা",
+      "দুর্বলতা"
+    ],
+    "summary": "A deeply studied constitutional remedy name connected with cold sensitivity, fatigue, and recurring weakness patterns.",
+    "banglaText": "ঠান্ডায় সংবেদনশীলতা, ক্লান্তি এবং দুর্বলতার পুনরাবৃত্ত প্যাটার্নে ক্যালকেরিয়া কার্বের নাম আলোচিত হয়।",
+    "source": "Boericke/Kent-style materia medica references"
+  },
+  {
+    "name": "Cantharis",
+    "bangla": "ক্যান্থারিস",
+    "category": "immunity",
+    "patterns": [
+      "sudden",
+      "heat"
+    ],
+    "tags": [
+      "burning pattern",
+      "urinary discomfort",
+      "জ্বালা",
+      "প্রস্রাব"
+    ],
+    "summary": "Traditionally discussed for burning-discomfort patterns. Urinary pain, fever, or blood needs medical assessment.",
+    "banglaText": "জ্বালা-ধরনের অস্বস্তির প্যাটার্নে ক্যান্থারিসের নাম আসে। প্রস্রাবে ব্যথা, জ্বর বা রক্ত হলে চিকিৎসকের পরামর্শ দরকার।",
+    "source": "Classical materia medica references"
+  }
+]

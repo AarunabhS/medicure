@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "b13a4beb296035ff",
+  "slug": "sbl-uti-drops-c5a33345",
+  "type": "combination",
+  "canonicalName": "SBL UTI Drops",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Berberis Vulgaris",
+      "potency": "Q",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Pareira Brava",
+      "potency": "Q",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Sarsaparilla Officinalis",
+      "potency": "Q",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Senecio Aureus",
+      "potency": "Q",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Ocimum Cannum",
+      "potency": "Q",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Cantharis Vesicatoria",
+      "potency": "3X",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "* Burning sensatin while urination, * Pain in lower abdomen, * Frequent & unsatisfactory urination, * Blood in urine.",
+      "attribution": "SBL",
+      "productId": "d7b2133a304f9072",
+      "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "sbl",
+      "name": "SBL Pvt. Ltd.",
+      "shortName": "SBL",
+      "url": "https://sblglobal.com/"
+    }
+  ],
+  "products": [
+    {
+      "manufacturerId": "sbl",
+      "canonicalName": "SBL UTI Drops",
+      "productName": "UTI Drops",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Berberis Vulgaris",
+          "potency": "Q",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Pareira Brava",
+          "potency": "Q",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Sarsaparilla Officinalis",
+          "potency": "Q",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Senecio Aureus",
+          "potency": "Q",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Ocimum Cannum",
+          "potency": "Q",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Cantharis Vesicatoria",
+          "potency": "3X",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [],
+      "labelDirections": "",
+      "indication": "* Burning sensatin while urination, * Pain in lower abdomen, * Frequent & unsatisfactory urination, * Blood in urine.",
+      "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+      "sourceType": "official product booklet, page 54",
+      "reviewedAt": "2026-08-12",
+      "reviewStatus": "composition-and-identity-reviewed",
+      "id": "d7b2133a304f9072"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=SBL%20UTI%20Drops",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=SBL%20UTI%20Drops",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=SBL%20UTI%20Drops",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=SBL%20UTI%20Drops",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-d7b2133a304f9072",
+      "name": "SBL product source",
+      "publisher": "SBL Pvt. Ltd.",
+      "url": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+      "role": "official product booklet, page 54"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "not-published"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

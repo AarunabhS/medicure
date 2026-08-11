@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "0e4a90f0ee687282",
+  "slug": "dr-reckeweg-r20-de75d058",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R20",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Glandulae suprarenales",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Hypertonia-Hypotonia. Hypophysis",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Pancreas",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Ovaria",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Glandulae thymi",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Thyreoidinum",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Endocrine dysfunction, growth disturbances, obesity due to pituitary dysfunction, respectively underweight, goitre, Grave's diseases, Addison's disease, myxoedema, etc.",
+      "attribution": "Dr. Reckeweg",
+      "productId": "218de25e9538cc68",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r20-19.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "218de25e9538cc68",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R20",
+      "productName": "Dr. Reckeweg R20",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Glandulae suprarenales",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Hypertonia-Hypotonia. Hypophysis",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Pancreas",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Ovaria",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Glandulae thymi",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Thyreoidinum",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "22ml"
+      ],
+      "labelDirections": "- Generally 3 times daily 10-15 drops in some water.",
+      "indication": "Endocrine dysfunction, growth disturbances, obesity due to pituitary dysfunction, respectively underweight, goitre, Grave's diseases, Addison's disease, myxoedema, etc.",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r20-19.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R20",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R20",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R20",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R20",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-218de25e9538cc68",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r20-19.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

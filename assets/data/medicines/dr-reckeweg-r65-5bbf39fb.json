@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "id": "c41033cd8b96f7b4",
+  "slug": "dr-reckeweg-r65-5bbf39fb",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R65",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Arsenicum Alb",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Calcium carbonicum Hahnemanni",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Graphites",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Hydrocotyle asiatica",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Circular spots with scaly edges. Natrium chloratum",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Psoriasis vulgaris, psoriasis-like eczema.",
+      "attribution": "Dr. Reckeweg",
+      "productId": "5d4af2992a6b94f0",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r65-63.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "5d4af2992a6b94f0",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R65",
+      "productName": "Dr. Reckeweg R65",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Arsenicum Alb",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Calcium carbonicum Hahnemanni",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Graphites",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Hydrocotyle asiatica",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Circular spots with scaly edges. Natrium chloratum",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "22ml"
+      ],
+      "labelDirections": "- 10-15 drops in water, 2 to 3 times daily before meals. Period variable depending on the case",
+      "indication": "Psoriasis vulgaris, psoriasis-like eczema.",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r65-63.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R65",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R65",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R65",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R65",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-5d4af2992a6b94f0",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r65-63.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

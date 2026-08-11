@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "id": "148c05a57b6bceb5",
+  "slug": "dr-reckeweg-r34-8eabb880",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R34",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Calcium fluoratum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Calcium hypophosphorosum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Calcium phosphoricum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Chamomilla",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Hekla Lava",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Mezereum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Mercurius praecipitatus ruber",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Silicea",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Perturbations in calcareous tissues and the growths of bones, pathological characteristics in the osseous system; exostosis, periostitis, fragility of the bones, osteomalacia, rickets, coxitis and arthritis, as well as nucleus pulposus (complementary).",
+      "attribution": "Dr. Reckeweg",
+      "productId": "76da1355fe526818",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r34-33.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "76da1355fe526818",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R34",
+      "productName": "Dr. Reckeweg R34",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Calcium fluoratum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Calcium hypophosphorosum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Calcium phosphoricum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Chamomilla",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Hekla Lava",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Mezereum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Mercurius praecipitatus ruber",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Silicea",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "22ml"
+      ],
+      "labelDirections": "- Sucklings and children at the growing age will be given, regularly once or twice a day 10-15 drops (for sucklings it will be best to mix with the normal milk-supply in the feeding bottle suitably shaken). In case of disorders, like rickets or other diseases of the bones, to the vitamins already taken one will add 4-6 times a day 10-15 drops in a little water before meals. Pains in the bones at night call for frequent doses; 10-15 drops every 1/4 hour....",
+      "indication": "Perturbations in calcareous tissues and the growths of bones, pathological characteristics in the osseous system; exostosis, periostitis, fragility of the bones, osteomalacia, rickets, coxitis and arthritis, as well as nucleus pulposus (complementary).",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r34-33.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R34",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R34",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R34",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R34",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-76da1355fe526818",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r34-33.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

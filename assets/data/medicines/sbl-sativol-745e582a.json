@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "bc966ed7bf03a41a",
+  "slug": "sbl-sativol-745e582a",
+  "type": "combination",
+  "canonicalName": "SBL Sativol",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Avena Sativa",
+      "potency": "Q",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Acidum Phosphoricum",
+      "potency": "2X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Gentiana Lutea",
+      "potency": "Q",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Guarana",
+      "potency": "3X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Helonias Dioica",
+      "potency": "3X",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "A general tonic for tiredness, fatigue, sleeplessness and decreased appetite.",
+      "attribution": "SBL",
+      "productId": "6b29bff4988b665d",
+      "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Speciality Formulation"
+  ],
+  "manufacturers": [
+    {
+      "id": "sbl",
+      "name": "SBL Pvt. Ltd.",
+      "shortName": "SBL",
+      "url": "https://sblglobal.com/"
+    }
+  ],
+  "products": [
+    {
+      "manufacturerId": "sbl",
+      "canonicalName": "SBL Sativol",
+      "productName": "Sativol",
+      "type": "combination",
+      "form": "Speciality Formulation",
+      "ingredients": [
+        {
+          "name": "Avena Sativa",
+          "potency": "Q",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Acidum Phosphoricum",
+          "potency": "2X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Gentiana Lutea",
+          "potency": "Q",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Guarana",
+          "potency": "3X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Helonias Dioica",
+          "potency": "3X",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "100 ml"
+      ],
+      "labelDirections": "1-2 teaspoonful 3 times a day or as prescribed by the physician",
+      "indication": "A general tonic for tiredness, fatigue, sleeplessness and decreased appetite.",
+      "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+      "sourceType": "official product booklet, page 45",
+      "reviewedAt": "2026-08-12",
+      "reviewStatus": "composition-and-identity-reviewed",
+      "id": "6b29bff4988b665d"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=SBL%20Sativol",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=SBL%20Sativol",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=SBL%20Sativol",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=SBL%20Sativol",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-6b29bff4988b665d",
+      "name": "SBL product source",
+      "publisher": "SBL Pvt. Ltd.",
+      "url": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+      "role": "official product booklet, page 45"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

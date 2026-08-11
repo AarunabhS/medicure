@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "c24b0a9afc96c78e",
+  "slug": "sbl-sbl-drops-no-10-839853fe",
+  "type": "combination",
+  "canonicalName": "SBL SBL Drops No. 10",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Arnica Montana",
+      "potency": "3X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Crataegus Oxyacantha",
+      "potency": "Q",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Cimicifuga Racemosa",
+      "potency": "3X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Janosia Ashoka",
+      "potency": "3X",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Sanguinaria Canadensis",
+      "potency": "3X",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "For women having hot flashes with anxiety, palpitation and perspiration during change of life.",
+      "attribution": "SBL",
+      "productId": "5bc4ffedb89917c8",
+      "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "sbl",
+      "name": "SBL Pvt. Ltd.",
+      "shortName": "SBL",
+      "url": "https://sblglobal.com/"
+    }
+  ],
+  "products": [
+    {
+      "manufacturerId": "sbl",
+      "canonicalName": "SBL SBL Drops No. 10",
+      "productName": "SBL Drops No. 10",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Arnica Montana",
+          "potency": "3X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Crataegus Oxyacantha",
+          "potency": "Q",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Cimicifuga Racemosa",
+          "potency": "3X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Janosia Ashoka",
+          "potency": "3X",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Sanguinaria Canadensis",
+          "potency": "3X",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "30 ml"
+      ],
+      "labelDirections": "th 10 drops in 1/4 cup of water 4 times a day or as prescribed by the physician",
+      "indication": "For women having hot flashes with anxiety, palpitation and perspiration during change of life.",
+      "sourceUrl": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+      "sourceType": "official product booklet, page 59",
+      "reviewedAt": "2026-08-12",
+      "reviewStatus": "composition-and-identity-reviewed",
+      "id": "5bc4ffedb89917c8"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=SBL%20SBL%20Drops%20No.%2010",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=SBL%20SBL%20Drops%20No.%2010",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=SBL%20SBL%20Drops%20No.%2010",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=SBL%20SBL%20Drops%20No.%2010",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-5bc4ffedb89917c8",
+      "name": "SBL product source",
+      "publisher": "SBL Pvt. Ltd.",
+      "url": "https://sblglobal.com/admin/public/uploads/catalogs/1658568424.pdf",
+      "role": "official product booklet, page 59"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

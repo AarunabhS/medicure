@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "315d7fef35021282",
+  "slug": "dr-reckeweg-vita-c-15-ab12f741",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg Vita-c 15",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Acid phosphor",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Citrus medica Iimonum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Cocculus",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Helonias",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Sepia",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Zincum met",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Conditions of nervous exhaustion, nervous weakness, weariness, insomnia following mental conflicts, nervous headaches, easily fatigued, general neurasthenia, lack of energy, inability to concentrate",
+      "attribution": "Dr. Reckeweg",
+      "productId": "2e5d1f350329af42",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/vita-c-15-86.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Tonic"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "2e5d1f350329af42",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg Vita-c 15",
+      "productName": "Dr. Reckeweg Vita-C 15",
+      "type": "combination",
+      "form": "Tonic",
+      "ingredients": [
+        {
+          "name": "Acid phosphor",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Citrus medica Iimonum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Cocculus",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Helonias",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Sepia",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Zincum met",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "250ml"
+      ],
+      "labelDirections": "- In the beginning of the treatment three time daily one tablespoonful. - When improvement sets in, the same dose daily, eventually only in the evening.",
+      "indication": "Conditions of nervous exhaustion, nervous weakness, weariness, insomnia following mental conflicts, nervous headaches, easily fatigued, general neurasthenia, lack of energy, inability to concentrate",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/vita-c-15-86.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20Vita-c%2015",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20Vita-c%2015",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20Vita-c%2015",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20Vita-c%2015",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-2e5d1f350329af42",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/vita-c-15-86.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

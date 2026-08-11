@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "id": "affba5d9e3ef67c9",
+  "slug": "dr-reckeweg-r62-37dbab77",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R62",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Arum triphyllum",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Atropinum",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "To reduce all types of inflammation of mucous membranes, especially with inflammations of the eye; measles.",
+      "attribution": "Dr. Reckeweg",
+      "productId": "846a7206b25499f6",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r62-60.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "846a7206b25499f6",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R62",
+      "productName": "Dr. Reckeweg R62",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Arum triphyllum",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Atropinum",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "22ml"
+      ],
+      "labelDirections": "- In the acute stage frequent repetition is necessary - Start with 8 to 10 drops in water to be given in 1/2 to 1 hour intervals - Babies should be given 3 to 5 drops in water - On improvement reduce the frequency of administration to 1 to 2 hourly",
+      "indication": "To reduce all types of inflammation of mucous membranes, especially with inflammations of the eye; measles.",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r62-60.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R62",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R62",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R62",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R62",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-846a7206b25499f6",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r62-60.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}

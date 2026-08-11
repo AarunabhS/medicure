@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "d73db9be8bd34f98",
+  "slug": "dr-reckeweg-r60-bc8a23b1",
+  "type": "combination",
+  "canonicalName": "Dr. Reckeweg R60",
+  "banglaName": "",
+  "synonyms": [],
+  "scientificIdentity": "",
+  "sourceMaterial": "See the manufacturer composition for this formulation.",
+  "hpiReferences": [],
+  "ingredients": [
+    {
+      "name": "Conium",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Galium aparine",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Hepar sulfuris",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Juglans regia",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Sarsaparilla",
+      "potency": "",
+      "role": "active ingredient"
+    },
+    {
+      "name": "Scrophularia nodosa",
+      "potency": "",
+      "role": "active ingredient"
+    }
+  ],
+  "traditionalContext": null,
+  "manufacturerIndications": [
+    {
+      "summary": "Impurities of the blood, unclean skin (e.g. pimples), swelling of Iymph glands, blood purifying remedy. General improvement of the humoral",
+      "attribution": "Dr. Reckeweg",
+      "productId": "49aa230e87265e0e",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r60-59.html"
+    }
+  ],
+  "safetyNotes": [
+    "This profile is educational product information, not a diagnosis or prescription.",
+    "Medicine selection, potency, repetition and dose should be confirmed by a qualified practitioner.",
+    "Do not delay urgent or evidence-based medical care."
+  ],
+  "availablePotencies": [],
+  "forms": [
+    "Drops"
+  ],
+  "manufacturers": [
+    {
+      "id": "reckeweg",
+      "name": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "shortName": "Dr. Reckeweg",
+      "url": "https://www.reckeweg-india.com/"
+    }
+  ],
+  "products": [
+    {
+      "id": "49aa230e87265e0e",
+      "manufacturerId": "reckeweg",
+      "canonicalName": "Dr. Reckeweg R60",
+      "productName": "Dr. Reckeweg R60",
+      "type": "combination",
+      "form": "Drops",
+      "ingredients": [
+        {
+          "name": "Conium",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Galium aparine",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Hepar sulfuris",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Juglans regia",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Sarsaparilla",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Scrophularia nodosa",
+          "potency": "",
+          "role": "active ingredient"
+        }
+      ],
+      "potencies": [],
+      "packSizes": [
+        "22ml"
+      ],
+      "labelDirections": "- 5 to 15 drops taken 2 or 3 times daily in water before meals - Drops given according to age. In chronic cases 1 or 2 times daily",
+      "indication": "Impurities of the blood, unclean skin (e.g. pimples), swelling of Iymph glands, blood purifying remedy. General improvement of the humoral",
+      "sourceUrl": "https://www.reckeweg-india.com/product-details/r60-59.html",
+      "sourceType": "official product detail page"
+    }
+  ],
+  "sellerListings": [],
+  "retailerSearches": [
+    {
+      "id": "tata-1mg",
+      "seller": "Tata 1mg",
+      "url": "https://www.1mg.com/search/all?name=Dr.%20Reckeweg%20R60",
+      "verifiedListing": false
+    },
+    {
+      "id": "netmeds",
+      "seller": "Netmeds",
+      "url": "https://www.netmeds.com/catalogsearch/result?q=Dr.%20Reckeweg%20R60",
+      "verifiedListing": false
+    },
+    {
+      "id": "healthmug",
+      "seller": "Healthmug",
+      "url": "https://www.healthmug.com/search?keyword=Dr.%20Reckeweg%20R60",
+      "verifiedListing": false
+    },
+    {
+      "id": "homeomart",
+      "seller": "Homeomart",
+      "url": "https://homeomart.com/search?q=Dr.%20Reckeweg%20R60",
+      "verifiedListing": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "product-49aa230e87265e0e",
+      "name": "Dr. Reckeweg product source",
+      "publisher": "Dr. Reckeweg & Co. GmbH / Dr. Roshanlal Aggarwal & Sons",
+      "url": "https://www.reckeweg-india.com/product-details/r60-59.html",
+      "role": "official product detail page"
+    }
+  ],
+  "category": "formulation",
+  "tags": [],
+  "dataQuality": {
+    "identity": "manufacturer-defined",
+    "composition": "structured",
+    "indications": "manufacturer-attributed",
+    "dosage": "manufacturer-labelled"
+  },
+  "generatedAt": "2026-08-11T21:27:16.898Z"
+}
