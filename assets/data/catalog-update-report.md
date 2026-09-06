@@ -1,6 +1,6 @@
 # Medicure catalog update report
 
-Generated: 2026-08-12
+Generated: 2026-09-07
 
 ## Coverage
 
