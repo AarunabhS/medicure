@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T21:00:10.679Z",
+  "generatedAt": "2026-09-28T00:11:32.036Z",
   "products": [
     {
       "id": "6f4477b7fd06aea4",
@@ -65807,7 +65807,12 @@
           "role": "active ingredient"
         },
         {
-          "name": "Mucosae ulcer. Marum verum",
+          "name": "Mucosae ulcer. Lachesis",
+          "potency": "",
+          "role": "active ingredient"
+        },
+        {
+          "name": "Marum verum",
           "potency": "",
           "role": "active ingredient"
         },
