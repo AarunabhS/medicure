@@ -1,6 +1,6 @@
 # Medicure catalog update report
 
-Generated: 2026-08-12
+Generated: 2026-10-05
 
 ## Coverage
 
@@ -14,7 +14,7 @@ Generated: 2026-08-12
 | Profiles spanning multiple Indian manufacturers | 665 |
 | Profiles containing merged product variants | 669 |
 | Manually verified retailer listings | 2 |
-| Retailer listings older than 30 days | 0 |
+| Retailer listings older than 30 days | 2 |
 
 ## Source adapters
 
