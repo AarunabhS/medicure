@@ -50,8 +50,23 @@ npm run catalog:all
 - `catalog:report` writes `assets/data/catalog-update-report.md` for human
   review.
 
-The weekly GitHub workflow creates or refreshes a catalog-update pull request.
-No synchronized source change reaches the public site until that pull request
+The weekly GitHub workflow pushes `catalog/weekly-sync`, refreshes an existing
+catalog-update pull request or opens a new draft, and records the branch,
+commit, comparison and report links in the run summary. If GitHub's Actions
+policy blocks PR creation, the run explicitly reports **manual review handoff
+required** with a comparison link for opening the draft manually. Other API,
+authentication and network failures still fail the run. Reports are also saved
+as the `catalog-review-reports` artifact, including after a failed handoff.
+Generated report updates preserve review notes outside the marked report
+section of the PR description.
+
+To recover a blocked handoff, use the run summary's comparison link (or
+`gh pr create --base main --head catalog/weekly-sync --draft`) and review the
+report at the recorded commit. An existing PR can then be refreshed on later
+runs without changing repository policy. Check medicine identities,
+compositions, removals, source counts and old page URLs as well as the automated
+checks. A prepared branch or successful handoff does not publish the catalog:
+no synchronized source change reaches the public site until its pull request
 is reviewed and merged.
 
 ## Archived U.S. snapshot
