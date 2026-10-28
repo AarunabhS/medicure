@@ -1,0 +1,20 @@
+name: Catalog checks
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - name: Build and check the reviewed snapshots without refreshing sources
+        run: npm run catalog:all

@@ -37,9 +37,9 @@ jobs:
       - name: Generate, validate and report
         run: npm run catalog:all
 
-      - name: Create or refresh the review pull request
+      - name: Push the catalog review branch
+        id: review
         env:
-          GH_TOKEN: ${{ github.token }}
           REVIEW_BRANCH: catalog/weekly-sync
         run: |
           git config user.name "medicure-catalog-bot"
@@ -47,14 +47,49 @@ jobs:
           git checkout -B "$REVIEW_BRANCH"
           git add assets/data scripts/catalog/seed-products.json medicines sitemap.xml
           if git diff --cached --quiet; then
-            echo "No catalog changes require review."
+            if git show-ref --verify --quiet "refs/remotes/origin/$REVIEW_BRANCH" &&
+               ! git diff --quiet origin/main "origin/$REVIEW_BRANCH" -- assets/data scripts/catalog/seed-products.json medicines sitemap.xml; then
+              review_sha="$(git rev-parse "origin/$REVIEW_BRANCH")"
+              git show "$review_sha:assets/data/catalog-update-report.md" > "$RUNNER_TEMP/catalog-update-report.md"
+              echo "pending=true" >> "$GITHUB_OUTPUT"
+              echo "sha=$review_sha" >> "$GITHUB_OUTPUT"
+            else
+              echo "pending=false" >> "$GITHUB_OUTPUT"
+              echo "### Catalog review: no pending changes" >> "$GITHUB_STEP_SUMMARY"
+              echo "No newly generated or previously pushed catalog changes require review." >> "$GITHUB_STEP_SUMMARY"
+            fi
             exit 0
           fi
           git commit -m "chore: refresh Indian medicine catalog"
           git push --force-with-lease origin "$REVIEW_BRANCH"
-          existing_pr="$(gh pr list --head "$REVIEW_BRANCH" --base main --state open --json number --jq '.[0].number // empty')"
-          if [ -n "$existing_pr" ]; then
-            gh pr edit "$existing_pr" --title "Review weekly Indian medicine catalog update" --body-file assets/data/catalog-update-report.md
-          else
-            gh pr create --base main --head "$REVIEW_BRANCH" --title "Review weekly Indian medicine catalog update" --body-file assets/data/catalog-update-report.md
-          fi
+          cp assets/data/catalog-update-report.md "$RUNNER_TEMP/catalog-update-report.md"
+          echo "pending=true" >> "$GITHUB_OUTPUT"
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Hand off the catalog for human review
+        if: steps.review.outputs.pending == 'true'
+        uses: actions/github-script@v9
+        env:
+          REVIEW_SHA: ${{ steps.review.outputs.sha }}
+        with:
+          script: |
+            const { pathToFileURL } = await import('node:url');
+            const { readFile } = await import('node:fs/promises');
+            const { handoffCatalogReview } = await import(pathToFileURL(`${process.env.GITHUB_WORKSPACE}/scripts/catalog/review-handoff.mjs`).href);
+            await handoffCatalogReview({
+              github, core, ...context.repo,
+              branch: 'catalog/weekly-sync', base: 'main',
+              sha: process.env.REVIEW_SHA,
+              body: await readFile(`${process.env.RUNNER_TEMP}/catalog-update-report.md`, 'utf8'),
+              serverUrl: process.env.GITHUB_SERVER_URL,
+            });
+
+      - name: Preserve generated review reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: catalog-review-reports
+          path: |
+            assets/data/catalog-sync-report.json
+            assets/data/catalog-update-report.md
+          if-no-files-found: warn
